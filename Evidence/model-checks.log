@@ -1,0 +1,1 @@
+PASS: canonical bundled duel questions and invalid-payload rejection, stable diverse answer permutations, stable two-participant turn payload, friend-cache expiry persistence, content integrity, perfect score, timeout score, revealed-answer persistence, best daily aggregation, duel/daily exclusion, ISO week rollover, streak continuity, missed-day reset, ledger round-trip

@@ -1,0 +1,33 @@
+Exported 6 attachments for: C9t/test01FullRoundAndPersistence():
+File: 185BEA12-FDCD-4151-B002-95D562BF5B1E.png, suggested name: "05-duels_0_623129DA-FE08-40B9-934D-77EC9617B865.png"
+File: 02A660CD-E66F-4106-BD1F-8E4E3DDB6939.png, suggested name: "04-ranking_0_8419A5FD-A8CE-4BA5-B697-DE919926CD79.png"
+File: 36C982D3-23E6-4EFA-93C2-7E2DFA918672.png, suggested name: "03-results_0_EE46BB56-1F55-47B9-8E90-1C39342E90C4.png"
+File: 5FED8661-E4FA-424C-81A7-9D892B3D118C.png, suggested name: "02a-saved-round-home_0_4F2E14FB-4530-4AE3-85B7-1D0B49396188.png"
+File: CAF1CE8C-6D5D-4CE3-8227-947150C34BFA.png, suggested name: "02-round_0_280AAA94-3EE9-4C97-8E50-DB1DF23B91E3.png"
+File: 526A910C-97C7-493E-AA9B-B85DCB6DEB11.png, suggested name: "01-home_0_2974ACEA-B429-4A65-884E-6EF53417170F.png"
+
+Exported 1 attachment for: C9t/test02DailyAndTimeout():
+File: 24B04C4E-FFF1-4036-8104-E19C137CD7A9.png, suggested name: "06-daily-complete_0_516C4556-A4BB-4F83-BDBD-BC99E50084F3.png"
+
+Exported 6 attachments for: C9t/test03LocalizedColdLaunches():
+File: 4E504EB7-44FC-4CA9-96F4-84A58C506941.png, suggested name: "locale-ru_0_6D7F5BA8-90BE-4E05-ADFE-EA6B6885C600.png"
+File: 02190060-690E-48C9-8CEF-7ED36889887E.png, suggested name: "locale-it_0_56478668-4477-4F99-A132-C0B7F6168884.png"
+File: D45B7E25-D838-48E2-93E2-2E88CDB01B1A.png, suggested name: "locale-es_0_42C87D38-28EA-4B7F-A993-597C71953D04.png"
+File: 20554DC5-F2C2-4BBF-A13C-30047E0621AD.png, suggested name: "locale-fr_0_BD646561-AED1-4ED1-B6E0-076514ADF6DF.png"
+File: 2C86548F-266C-4F64-A572-B08D67EDC906.png, suggested name: "locale-pt-BR_0_6FC9A70D-3125-47C3-AF5A-CA18F4816CAF.png"
+File: EEB2848A-5F7C-4DF2-9061-240F30B8A38E.png, suggested name: "locale-de_0_FB04739F-BBA5-46AC-A73F-7C093AAD7C30.png"
+
+Skipped export for C9t/test04ModelInvariants(): no matching attachments
+
+Exported 1 attachment for: C9t/test05NotificationDenied():
+File: 431400FC-886D-48B1-86D7-C30C2B0A081C.png, suggested name: "07-reminders-denied_0_4CF5F74A-50F6-4910-99F2-2F7AB7789500.png"
+
+Exported 6 attachments for: C9t/test06WidgetLayouts():
+File: 9C6B27E6-2ECF-4003-AB56-BD8B6C598025.png, suggested name: "widget-lock-inline_0_835B4C38-3FDB-48B8-9FC2-90F622C4C793.png"
+File: C819C921-C2CD-41F3-86E5-ECE18E908C72.png, suggested name: "widget-lock-circle_0_3D777D4D-4827-4921-A881-237F64CF7421.png"
+File: 859A83A3-31E1-40A5-8659-868148A86A70.png, suggested name: "widget-lock-rectangle_0_F548910C-2FE2-49E2-9AA5-8C12E0A3A2CB.png"
+File: 9F178827-B7D9-4490-8D14-10697808C70D.png, suggested name: "widget-large_0_F63E862A-01E8-4E43-888D-2340A7F14D8D.png"
+File: 3B9751B0-3088-4F8B-9C29-D18AAE35ECB3.png, suggested name: "widget-medium_0_88D1AA9A-C709-4E58-B1B0-C4BD8B0CC3C6.png"
+File: 8AE2DFD8-4763-4D0E-BFD4-9FD163F78A9A.png, suggested name: "widget-small_0_54D9EFA2-2FB5-4C14-B6DC-8346E37C2CBE.png"
+
+Generated manifest file with attachment details: /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Evidence/phone-attachments/manifest.json

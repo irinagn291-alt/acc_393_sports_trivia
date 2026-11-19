@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'FieldArena' in project 'SportsTrivia'
+➜ Explicit dependency on target 'TriviaGlance' in project 'SportsTrivia'
+Target 'TriviaGlance' in project 'SportsTrivia' (no dependencies)

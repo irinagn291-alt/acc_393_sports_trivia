@@ -1,0 +1,56 @@
+Sports Trivia — content and service notes
+Verified: 15 November 2026
+
+The 52 bundled questions were authored for this product in EN, DE, PT-BR,
+FR, ES, IT and RU. They cover stable sporting rules and historical facts;
+they are not represented as live sports information. Each question includes
+an official reference destination, exposed in the completed-round review.
+No league marks or athlete photographs are included.
+
+Optional additional English questions:
+Open Trivia Database, https://opentdb.com
+Documentation: https://opentdb.com/api_config.php
+Category enumeration: https://opentdb.com/api_category.php (Sports = 21)
+License: Creative Commons Attribution-ShareAlike 4.0 International,
+https://creativecommons.org/licenses/by-sa/4.0/
+Attribution and license links are available in the in-app library section.
+Downloaded content is decoded from RFC3986 transport encoding, filtered for
+inappropriate commercial/gambling terms, deduplicated and cached locally.
+No automatic translation is claimed. The optional pack appears for play only
+in the English app language. Original questions remain available offline.
+The API requires no key, permits one category and up to 50 questions per
+request, and limits each IP to one request per five seconds. The app uses
+10-question requests with a six-second local guard and handles response codes,
+HTTP errors, malformed payloads and network failure without replacing the
+bundled library. Optional background refresh is controlled by iOS.
+A real request returned HTTP 200, response_code 0, ten Sports questions;
+see Evidence/opentdb-response.json.
+
+Game Center:
+https://developer.apple.com/documentation/gamekit/gkturnbasedmatch
+https://developer.apple.com/documentation/gamekit/gkleaderboard
+https://developer.apple.com/documentation/gamekit/creating-recurring-leaderboards
+https://developer.apple.com/documentation/gamekit/initializing-and-configuring-game-center
+Native turn-based matches carry the same ten fully localized questions and
+two players' scores. Match results survive failed sends and can be retried.
+Leaderboards must be configured under the app's own Apple developer account.
+Local Game Progress Manager testing requires a physical Apple device (iOS
+18.4 or later); it does not provide a simulator-only substitute.
+
+Icon:
+Generated with the built-in imagegen tool and resized to 1024 × 1024.
+Final asset: SportsTrivia/Resources/FieldArt.xcassets/AppIcon.appiconset/FieldIcon.png
+Prompt: iOS app icon, opaque dark navy #0B1F3A, sculpted blue #2563EB and
+cyan #38BDF8 quiz speech bubble, bold white question mark and a soccer ball,
+soft neon edge lighting, readable silhouette, no words, brands or watermark.
+Visual inspection: sports/quiz objects only, no campaign marks or text.
+
+Privacy manifest: UserDefaults is used only within the private App Group.
+Required reason 1C8F.1 follows Apple documentation:
+https://developer.apple.com/documentation/bundleresources/app-privacy-configuration/nsprivacyaccessedapitypes/nsprivacyaccessedapitype
+
+Turn-based identity handling: scores use stable participant positions, not
+other players’ gamePlayerID values, which can be scoped to a match.
+The participants array keeps its size and order for the life of a match:
+https://developer.apple.com/documentation/gamekit/gkturnbasedmatch/participants
+https://developer.apple.com/documentation/gamekit/protecting-the-player-s-privacy-using-scoped-identifiers

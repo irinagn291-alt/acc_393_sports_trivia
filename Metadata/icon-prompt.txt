@@ -1,0 +1,4 @@
+Tool: built-in imagegen
+Final asset: SportsTrivia/Resources/FieldArt.xcassets/AppIcon.appiconset/FieldIcon.png
+
+Create a polished iOS app icon, square 1024x1024 full bleed opaque dark navy #0B1F3A background, with a single sculpted blue #2563EB and cyan #38BDF8 quiz speech bubble, a bold white question mark and a small beautiful soccer ball nested together inside the bubble. Playful sports trivia, refined dimensional soft neon edge lighting, powerful readable silhouette, balanced composition with plenty of breathing room. No words, letters, numbers, brands, logos, outer device frame, watermark, or external border. Question mark is the only punctuation. Full bleed square, iOS will mask corners.

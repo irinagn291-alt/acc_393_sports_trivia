@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>A9D3ECD5-EB45-4E89-B4CC-3554074E4D5B</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A9D3ECD5-EB45-4E89-B4CC-3554074E4D5B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SportsTrivia project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FieldArena</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project SportsTrivia with scheme FieldArena</string>
+			<key>timeStartedRecording</key>
+			<real>816438503.24744594</real>
+			<key>timeStoppedRecording</key>
+			<real>816438512.02900004</real>
+			<key>title</key>
+			<string>Archiving project SportsTrivia with scheme FieldArena</string>
+			<key>uniqueIdentifier</key>
+			<string>A9D3ECD5-EB45-4E89-B4CC-3554074E4D5B</string>
+		</dict>
+		<key>B4832244-349E-48C4-A533-12105EF8423D</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B4832244-349E-48C4-A533-12105EF8423D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SportsTrivia project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>FieldArena</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project SportsTrivia with scheme FieldArena</string>
+			<key>timeStartedRecording</key>
+			<real>816437165.10280097</real>
+			<key>timeStoppedRecording</key>
+			<real>816437174.52469003</real>
+			<key>title</key>
+			<string>Archiving project SportsTrivia with scheme FieldArena</string>
+			<key>uniqueIdentifier</key>
+			<string>B4832244-349E-48C4-A533-12105EF8423D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

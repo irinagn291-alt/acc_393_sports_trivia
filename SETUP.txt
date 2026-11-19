@@ -1,0 +1,46 @@
+Sports Trivia — local project
+
+Open SportsTrivia.xcodeproj and select shared scheme FieldArena.
+Minimum OS: iOS / iPadOS 17.4. Swift 5 language mode. No dependencies.
+5 production Swift files, plus 1 combined verification source.
+The app and widget extension share Rift.swift and localized resources.
+
+Before signing for a physical device, choose your own development team for
+FieldArena and TriviaGlance. Register App ID org.cobaltfield.triviaq82 and
+widget ID org.cobaltfield.triviaq82.glance, and enable their own App Group:
+group.org.cobaltfield.triviaq82. App capabilities include Game Center,
+Push Notifications and optional background fetch. No remote push server is
+used. Reminder delivery is entirely local.
+
+Game Center service configuration (external account action, not performed):
+- Enable Game Center for the app record.
+- Add recurring leaderboard fieldtrivia.weekly.v1, integer scores 0–7000,
+  descending, best score retained. Duration and restart interval: seven days.
+- The local weekly table uses Monday and device-local calendar boundaries.
+  A global Game Center occurrence has one configured timezone for everyone;
+  its reset is controlled by Apple configuration, not each user's timezone.
+- Use two real test accounts/devices to verify turn-based invitations, both
+  turn submissions and the final match outcomes. Offline solo play does not
+  depend on this setup.
+
+README technical conflicts resolved:
+An actual WidgetKit extension target is necessary on iOS; it is included in
+addition to the one application target and the verification target. It is not
+a second app. Live Activities are intentionally disabled, following the
+individual specification's explicit exception for short rounds. No unused
+camera, microphone, location, health, photo or calendar permission is declared.
+
+Build outputs and QA evidence have separate directories in this project.
+Deliverables/SportsTrivia-source.zip excludes intermediate files, host paths,
+xcuserdata, .DS_Store, caches and DerivedData. The device archive is unsigned;
+it is a local compilation artifact, not an App Store submission or an IPA.
+
+Foreground simulator QA must use the root factory's simulator_pool.py with
+Verification/qa.sh. The script requires GF_SIMULATOR_UDID and never creates,
+erases or deletes a named user device. It exports screenshots and the local
+ledger before releasing the temporary simulator. Use a different QA_LABEL
+for each run because xcresult bundles must have unique paths.
+
+Offline weekly results remain in the local ledger. Game Center accepts score
+submissions only for an active recurring occurrence; expired occurrences are
+not backfilled when the device reconnects later.

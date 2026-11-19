@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source": "phone-shared-preferences.plist",
+  "ledger_matches_private_save": true,
+  "widget_week_points": 400,
+  "widget_streak": 1,
+  "daily_ready": false,
+  "test_history_entries": 2
+}

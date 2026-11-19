@@ -1,0 +1,96 @@
+Application, 0x10f58ef80, pid: 98426, label: 'Sports Trivia' <App element pid: 98426>
+  Window (Main), 0x10f58f0c0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4343939072.4>
+    Other, 0x10f58f340, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4344716800.6>
+    Other, 0x10f58f480, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4388020352.7>
+      Other, 0x10f58f5c0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4388021632.9>
+        Other, 0x10f58f700, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4344007168.11>
+          Other, 0x10f58f840, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4528575488.12>
+            Other, 0x10f58f980, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4344710144.13>
+              Other, 0x10f58fac0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4343257344.14>
+                Other, 0x10f58fc00, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4387978240.16>
+                  Other, 0x10f58fd40, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4344009728.18>
+                    Other, 0x10f58fe80, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4528571808.23>
+                      Other, 0x10f58cc80, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4528571648.28>
+                        Other, 0x10f58cf00, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4387797504.29>
+                          Other, 0x10f58d540, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4506655744.30>
+                            Other, 0x10f58d680, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4387599360.32>
+                              Other, 0x10f58d7c0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4506779648.34>
+                                Other, 0x10f58d900, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4528582688.35>
+                                  ScrollView, 0x10f58d040, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4344810496.36>
+                                    Other, 0x10f58d180, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4506654848.37>
+                                      Other, 0x10f58d2c0, {{0.0, 0.0}, {1032.0, 116.0}} <AX element pid: 98426, elementOrHash.elementID: 4506660224.41>
+                                    Other, 0x10f58d400, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4506654400.38>
+                                    Other, 0x10f58da40, {{0.0, 96.0}, {1032.0, 1079.5}} <AX element pid: 98426, elementOrHash.elementID: 4507248000.39>
+                                      StaticText, 0x10f58db80, {{38.0, 118.0}, {162.0, 14.5}}, label: 'THE SPORTING MIND' <AX element pid: 98426, elementOrHash.elementID: 4528571168.42>
+                                      StaticText, 0x10f58dcc0, {{38.0, 136.5}, {209.0, 41.0}}, label: 'Sports Trivia' <AX element pid: 98426, elementOrHash.elementID: 4528570688.43>
+                                      Image, 0x10f58de00, {{939.5, 135.0}, {37.0, 25.5}}, identifier: 'sportscourt', label: 'Sports Court' <AX element pid: 98426, elementOrHash.elementID: 4528570368.44>
+                                      Button, 0x10f58df40, {{38.0, 201.5}, {956.0, 210.0}}, identifier: 'startRound', label: 'YOUR DAILY CHALLENGE, Think fast.
+Know your sport., Start a round' <AX element pid: 98426, elementOrHash.elementID: 4528575008.45>
+                                        StaticText, 0x10f58e080, {{62.0, 235.8}, {181.5, 14.5}}, label: 'YOUR DAILY CHALLENGE' <AX element pid: 98426, elementOrHash.elementID: 4528570528.70>
+                                        StaticText, 0x10f58e1c0, {{62.0, 262.3}, {280.5, 82.0}}, label: 'Think fast.
+Know your sport.' <AX element pid: 98426, elementOrHash.elementID: 4528573088.71>
+                                        StaticText, 0x10f58e300, {{884.0, 257.2}, {86.0, 84.0}}, label: '10' <AX element pid: 98426, elementOrHash.elementID: 4528574848.72>
+                                        StaticText, 0x10f58e440, {{898.0, 341.2}, {58.0, 14.5}}, label: 'questions' <AX element pid: 98426, elementOrHash.elementID: 4528575328.73>
+                                        StaticText, 0x10f58e580, {{63.5, 356.7}, {131.0, 20.5}}, label: 'Start a round' <AX element pid: 98426, elementOrHash.elementID: 4528573248.74>
+                                        Image, 0x1033aa1c0, {{63.5, 358.0}, {17.5, 17.5}}, identifier: 'arrow.right.circle.fill', label: 'Arrow Right Circle' <AX element pid: 98426, elementOrHash.elementID: 4528573568.75>
+                                      Image, 0x110490000, {{186.5, 455.0}, {14.0, 18.0}}, identifier: 'flame.fill', label: 'Flame' <AX element pid: 98426, elementOrHash.elementID: 4528574368.46>
+                                      Image, 0x110490140, {{505.5, 456.0}, {21.0, 16.0}}, identifier: 'chart.bar.fill', label: 'Chart Column' <AX element pid: 98426, elementOrHash.elementID: 4528576128.47>
+                                      Image, 0x110490280, {{830.0, 455.5}, {17.0, 17.0}}, identifier: 'checkmark.circle.fill', label: 'Selected', Selected <AX element pid: 98426, elementOrHash.elementID: 4528576288.48>
+                                      StaticText, 0x1104903c0, {{186.1, 481.5}, {14.5, 26.5}}, label: '1' <AX element pid: 98426, elementOrHash.elementID: 4528576608.49>
+                                      StaticText, 0x110490500, {{494.5, 480.5}, {43.0, 26.5}}, label: '300' <AX element pid: 98426, elementOrHash.elementID: 4528575648.50>
+                                      StaticText, 0x110490640, {{831.4, 481.0}, {14.5, 26.5}}, label: '2' <AX element pid: 98426, elementOrHash.elementID: 4528573408.51>
+                                      StaticText, 0x110490780, {{162.6, 515.0}, {61.5, 13.5}}, label: 'Daily streak' <AX element pid: 98426, elementOrHash.elementID: 4528572448.52>
+                                      StaticText, 0x1104908c0, {{479.2, 514.0}, {73.5, 13.5}}, label: 'Weekly points' <AX element pid: 98426, elementOrHash.elementID: 4528572768.53>
+                                      StaticText, 0x110490a00, {{800.2, 514.5}, {77.0, 13.5}}, label: 'Rounds played' <AX element pid: 98426, elementOrHash.elementID: 4528575968.54>
+                                      StaticText, 0x110490b40, {{38.0, 570.5}, {145.0, 26.5}}, label: 'Find your field' <AX element pid: 98426, elementOrHash.elementID: 4528573728.55>
+                                      StaticText, 0x110490c80, {{899.5, 576.5}, {94.5, 14.5}}, label: 'OFFLINE READY' <AX element pid: 98426, elementOrHash.elementID: 4528572288.56>
+                                      Other, 0x110490dc0, {{38.0, 621.0}, {956.0, 92.0}} <AX element pid: 98426, elementOrHash.elementID: 4528579968.57>
+                                        Button, 0x110490f00, {{38.0, 621.0}, {310.5, 92.0}}, identifier: 'category0', label: 'Leagues & rules, 10 questions · 20 seconds each' <AX element pid: 98426, elementOrHash.elementID: 4528578208.76>
+                                          StaticText, 0x110491040, {{114.0, 639.0}, {126.5, 20.5}}, label: 'Leagues & rules' <AX element pid: 98426, elementOrHash.elementID: 4528577568.83>
+                                          Image, 0x110491180, {{66.5, 655.0}, {21.5, 24.0}}, identifier: 'trophy.fill', label: 'Trophy Cup, Filled' <AX element pid: 98426, elementOrHash.elementID: 4528572608.84>
+                                          StaticText, 0x1104912c0, {{114.0, 664.5}, {100.5, 30.5}}, label: '10 questions · 20 seconds each' <AX element pid: 98426, elementOrHash.elementID: 4528577888.85>
+                                          Image, 0x110491400, {{324.0, 662.0}, {6.0, 10.5}}, identifier: 'chevron.right', label: 'Forward' <AX element pid: 98426, elementOrHash.elementID: 4528578048.86>
+                                        Button, 0x110491540, {{360.5, 621.0}, {311.0, 92.0}}, identifier: 'category1', label: 'Sporting history, 10 questions · 20 seconds each' <AX element pid: 98426, elementOrHash.elementID: 4528579008.77>
+                                          StaticText, 0x110491680, {{436.7, 639.0}, {128.5, 20.5}}, label: 'Sporting history' <AX element pid: 98426, elementOrHash.elementID: 4528578528.87>
+                                          Image, 0x1104917c0, {{386.0, 656.0}, {24.5, 22.0}}, identifier: 'clock.arrow.circlepath', label: 'Clock With A Circular Arrow' <AX element pid: 98426, elementOrHash.elementID: 4528578368.88>
+                                          StaticText, 0x110491900, {{436.7, 664.5}, {100.5, 30.5}}, label: '10 questions · 20 seconds each' <AX element pid: 98426, elementOrHash.elementID: 4528578688.89>
+                                          Image, 0x110491a40, {{647.0, 662.0}, {6.0, 10.5}}, identifier: 'chevron.right', label: 'Forward' <AX element pid: 98426, elementOrHash.elementID: 4528578848.90>
+                                        Button, 0x110491b80, {{683.5, 621.0}, {310.5, 92.0}}, identifier: 'category2', label: 'The athletes, 10 questions · 20 seconds each' <AX element pid: 98426, elementOrHash.elementID: 4528579808.78>
+                                          StaticText, 0x110491cc0, {{759.3, 639.0}, {99.0, 20.5}}, label: 'The athletes' <AX element pid: 98426, elementOrHash.elementID: 4528579328.91>
+                                          Image, 0x110491e00, {{713.0, 655.0}, {18.5, 24.0}}, identifier: 'figure.run', label: 'Running' <AX element pid: 98426, elementOrHash.elementID: 4528579168.92>
+                                          StaticText, 0x110491f40, {{759.3, 664.5}, {100.5, 30.5}}, label: '10 questions · 20 seconds each' <AX element pid: 98426, elementOrHash.elementID: 4528579488.93>
+                                          Image, 0x110492080, {{969.5, 662.0}, {6.0, 10.5}}, identifier: 'chevron.right', label: 'Forward' <AX element pid: 98426, elementOrHash.elementID: 4528579648.94>
+                                      Button, 0x1104921c0, {{38.0, 737.0}, {956.0, 83.5}}, identifier: 'daily', label: 'Question of the day, Completed today. See you tomorrow.', Selected, Disabled <AX element pid: 98426, elementOrHash.elementID: 4528580768.58>
+                                        Image, 0x110492300, {{60.0, 763.0}, {32.0, 32.0}}, identifier: 'checkmark.seal.fill', label: 'Verified', Selected, Disabled <AX element pid: 98426, elementOrHash.elementID: 4528580128.79>
+                                        StaticText, 0x110492440, {{110.0, 757.0}, {155.0, 20.5}}, label: 'Question of the day', Disabled <AX element pid: 98426, elementOrHash.elementID: 4528580288.80>
+                                        StaticText, 0x110492580, {{110.0, 782.5}, {252.5, 18.0}}, label: 'Completed today. See you tomorrow.', Disabled <AX element pid: 98426, elementOrHash.elementID: 4528580448.81>
+                                        Image, 0x1104926c0, {{959.5, 772.5}, {12.5, 12.5}}, identifier: 'arrow.up.right', label: 'Up-Right Diagonal Arrow', Disabled <AX element pid: 98426, elementOrHash.elementID: 4528580608.82>
+                                      StaticText, 0x110492800, {{60.0, 866.5}, {181.0, 26.5}}, label: 'Season challenge' <AX element pid: 98426, elementOrHash.elementID: 4528580928.59>
+                                      StaticText, 0x110492940, {{60.0, 909.0}, {427.0, 20.5}}, label: 'Four chapters each quarter. Score 600 to open the next.' <AX element pid: 98426, elementOrHash.elementID: 4528581088.60>
+                                      StaticText, 0x110492a80, {{60.0, 952.5}, {76.5, 20.5}}, label: 'Chapter 1' <AX element pid: 98426, elementOrHash.elementID: 4528581248.61>
+                                      Button, 0x110492bc0, {{916.0, 945.5}, {56.0, 34.5}}, label: 'Play' <AX element pid: 98426, elementOrHash.elementID: 4528581408.62>
+                                      StaticText, 0x110492d00, {{60.0, 1003.0}, {79.0, 20.5}}, label: 'Chapter 2' <AX element pid: 98426, elementOrHash.elementID: 4528581568.63>
+                                      Button, 0x110492e40, {{916.0, 996.0}, {56.0, 34.5}}, label: 'Play', Disabled <AX element pid: 98426, elementOrHash.elementID: 4528581728.64>
+                                      StaticText, 0x110492f80, {{60.0, 1053.5}, {79.0, 20.5}}, label: 'Chapter 3' <AX element pid: 98426, elementOrHash.elementID: 4528581888.65>
+                                      Button, 0x1104930c0, {{916.0, 1046.5}, {56.0, 34.5}}, label: 'Play', Disabled <AX element pid: 98426, elementOrHash.elementID: 4528582048.66>
+                                      StaticText, 0x110493200, {{60.0, 1104.0}, {79.5, 20.5}}, label: 'Chapter 4' <AX element pid: 98426, elementOrHash.elementID: 4528582208.67>
+                                      Button, 0x110493340, {{916.0, 1097.0}, {56.0, 34.5}}, label: 'Play', Disabled <AX element pid: 98426, elementOrHash.elementID: 4528582368.68>
+                                    Other, 0x110493480, {{999.0, 96.0}, {30.0, 1248.0}}, label: 'Vertical scroll bar, 1 page', value: 0% <AX element pid: 98426, elementOrHash.elementID: 4387538432.40>
+                                      Other, 0x1104935c0, {{1026.0, 279.5}, {3.0, 1061.5}} <AX element pid: 98426, elementOrHash.elementID: 4506659328.69>
+                                    Other, 0x110493700, {{999.0, 96.0}, {30.0, 1248.0}}, label: 'Vertical scroll bar, 1 page', value: 0% <AX element pid: 98426, elementOrHash.elementID: 4387538432.40>
+                                      Other, 0x110493840, {{1026.0, 279.5}, {3.0, 1061.5}} <AX element pid: 98426, elementOrHash.elementID: 4506659328.69>
+                          Toolbar, 0x110493980, {{0.0, 0.0}, {1032.0, 1376.0}}, identifier: 'Toolbar', label: 'Toolbar' <AX element pid: 98426, elementOrHash.elementID: 4387798016.31>
+                            Other, 0x110493ac0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4507250560.33>
+              Other, 0x110493c00, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4343944192.15>
+                Other, 0x110493d40, {{0.0, 32.0}, {1032.0, 44.0}} <AX element pid: 98426, elementOrHash.elementID: 4389945344.17>
+                  Button, 0x110493e80, {{361.5, 36.0}, {65.0, 36.0}}, identifier: 'sportscourt.fill', label: 'Play', Selected <AX element pid: 98426, elementOrHash.elementID: 4387824640.19>
+                    Button, 0x11049c000, {{361.5, 36.0}, {65.0, 36.0}}, identifier: 'sportscourt.fill', label: 'Play', Selected <AX element pid: 98426, elementOrHash.elementID: 4387902976.24>
+                  Button, 0x11049c140, {{426.5, 36.0}, {76.5, 36.0}}, identifier: 'person.2.fill', label: 'Duels' <AX element pid: 98426, elementOrHash.elementID: 4387825408.20>
+                    Button, 0x11049c280, {{426.5, 36.0}, {76.5, 36.0}}, identifier: 'person.2.fill', label: 'Duels' <AX element pid: 98426, elementOrHash.elementID: 4387905536.25>
+                  Button, 0x11049c3c0, {{503.0, 36.0}, {95.0, 36.0}}, identifier: 'chart.bar.xaxis', label: 'Ranking' <AX element pid: 98426, elementOrHash.elementID: 4387826176.21>
+                    Button, 0x11049c500, {{503.0, 36.0}, {95.0, 36.0}}, identifier: 'chart.bar.xaxis', label: 'Ranking' <AX element pid: 98426, elementOrHash.elementID: 4387908096.26>
+                  Button, 0x11049c640, {{598.0, 36.0}, {72.5, 36.0}}, identifier: 'ellipsis.circle', label: 'More' <AX element pid: 98426, elementOrHash.elementID: 4387826944.22>
+                    Button, 0x11049c780, {{598.0, 36.0}, {72.5, 36.0}}, identifier: 'ellipsis.circle', label: 'More' <AX element pid: 98426, elementOrHash.elementID: 4387910656.27>
+  Window, 0x11049c8c0, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4517543936.5>
+    Other, 0x11049ca00, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4387539456.8>
+      Other, 0x11049cb40, {{0.0, 0.0}, {1032.0, 1376.0}} <AX element pid: 98426, elementOrHash.elementID: 4387540992.10>

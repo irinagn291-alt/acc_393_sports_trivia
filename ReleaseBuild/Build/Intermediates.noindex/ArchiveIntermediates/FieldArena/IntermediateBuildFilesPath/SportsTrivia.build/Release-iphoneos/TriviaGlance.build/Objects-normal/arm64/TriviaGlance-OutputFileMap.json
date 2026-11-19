@@ -1,0 +1,21 @@
+{
+  "" : {
+    "const-values" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-primary.swiftconstvalues",
+    "dependencies" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-primary.d",
+    "diagnostics" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-primary.dia",
+    "emit-module-dependencies" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-primary-emit-module.dia",
+    "pch" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-primary.swiftdeps"
+  },
+  "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Core/Rift.swift" : {
+    "index-unit-output-path" : "/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/Rift.o",
+    "llvm-bc" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/Rift.bc",
+    "object" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/Rift.o"
+  },
+  "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/TriviaGlance/Glance.swift" : {
+    "index-unit-output-path" : "/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/Glance.o",
+    "llvm-bc" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/Glance.bc",
+    "object" : "/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/ReleaseBuild/Build/Intermediates.noindex/ArchiveIntermediates/FieldArena/IntermediateBuildFilesPath/SportsTrivia.build/Release-iphoneos/TriviaGlance.build/Objects-normal/arm64/Glance.o"
+  }
+}

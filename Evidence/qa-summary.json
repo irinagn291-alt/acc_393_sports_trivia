@@ -1,0 +1,63 @@
+{
+  "iPad": {
+    "status": "passed",
+    "result_bundle": "ipad-retry1.xcresult",
+    "tests": 6,
+    "cases": [
+      "full round and save/exit/relaunch",
+      "daily timeout after background",
+      "six additional localizations",
+      "model invariants",
+      "notification permission refusal",
+      "six widget-family renders"
+    ],
+    "device": "iPad Pro 13-inch (M5), iPadOS 27.2",
+    "failures": 0,
+    "pool_exit_code": 0
+  },
+  "iPhone": {
+    "status": "passed",
+    "device": "iPhone 18 Pro, iOS 27.2",
+    "result_bundle": "phone.xcresult",
+    "tests": 6,
+    "failures": 0,
+    "cases": [
+      "full round and save/exit/relaunch",
+      "daily timeout after background",
+      "six additional localizations",
+      "model invariants",
+      "notification permission refusal",
+      "six widget-family renders"
+    ],
+    "pool_exit_code": 0
+  },
+  "AppGroup": {
+    "status": "passed",
+    "source": "phone-shared-preferences.plist",
+    "ledger_matches_private_save": true,
+    "widget_week_points": 400,
+    "widget_streak": 1,
+    "daily_ready": false,
+    "test_history_entries": 2
+  },
+  "visual_review": {
+    "status": "passed",
+    "screens": [
+      "home",
+      "round",
+      "results",
+      "ranking",
+      "duels",
+      "ru",
+      "notifications-denied"
+    ],
+    "widget_families": 6,
+    "small_widget_title": "fully visible",
+    "widget_renders_use_empty_fixture": true
+  },
+  "limits": [
+    "Two-account Game Center match/server leaderboard requires developer registration, profiles and test accounts.",
+    "Widget Home/Lock Screen installation, physical devices and actual background delivery were not tested.",
+    "Release device archive is unsigned."
+  ]
+}

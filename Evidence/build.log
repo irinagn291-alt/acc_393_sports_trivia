@@ -1,0 +1,869 @@
+2026-11-15 12:29:22.760 xcodebuild[32890:6154796]  DVTFilePathFSEvents: Failed to start fs event stream.
+2026-11-15 12:29:24.977 xcodebuild[32890:6154588] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+2026-11-15 12:29:28.545 xcodebuild[32890:6154801] CoreSimulatorService connection became invalid.  Simulator services will no longer be available.
+2026-11-15 12:29:28.549 xcodebuild[32890:6158184] Logging connecton invalid: <OS_xpc_error: <dictionary: 0x1eacd6600> { count = 1, transaction: 0, voucher = 0x0, contents =
+	"XPCErrorDescription" => <string: 0x1eacd6740> { string cache = 0x0, length = 18, contents = "Connection invalid" }
+}>
+2026-11-15 12:29:28.550 xcodebuild[32890:6154801] Error opening log file (/Users/belzephyrus/Library/Logs/CoreSimulator/CoreSimulator.com.apple.dt.xcodebuild.log): Operation not permitted
+[-[SimServiceContext sendRequest:]:2131] ERROR : Unable to deliver request ({
+    "developer_dir" = "/Applications/Xcode.app/Contents/Developer";
+    request = "set_developer_dir";
+}) because we are not connected to CoreSimulatorService.
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj -scheme FieldArena -configuration Debug -sdk iphonesimulator -destination "generic/platform=iOS Simulator" -derivedDataPath output/concepts15nov/10_one_win/02_sports_trivia/Build CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+    SDKROOT = iphonesimulator27.2
+
+2026-11-15 12:29:29.593 xcodebuild[32890:6154588] [MT] DVTAssertions: Warning in DVTFrameworks/DVTFoundation/FileTypes/DVTFileDataTypeDetection.m:80
+Details:  detectedTypeIdentifier (com.apple.binary-property-list) does not conform to matchedTypeIdentifier in MagicFileDataTypeDetector extenson com.apple.property-list. When both are specified, this conformance is required unless overridden by setting allowNonInheritance. extension.identifier:Xcode.MagicFileDataTypeDetector.BinaryPlist
+Object:   <DVTFileDataTypeDetectionMagicCache: 0x798e733d80>
+Method:   -initWithExtension:
+Thread:   <_NSMainThread: 0x10340d470>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+[-[SimDiskImageManager init]:226] ERROR : Could not kickstart simdiskimaged; SimDiskImageManager services will not be available: Error Domain=NSPOSIXErrorDomain Code=53 "Software caused connection abort" UserInfo={NSLocalizedDescription=Error returned in reply from CoreSimulatorService: Connection invalid}
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]:504] WARN  : Unable to discover any Simulator runtimes. Developer Directory is /Applications/Xcode.app/Contents/Developer.
+[-[SimDiskImageManager _onQueue_checkConnection:]:290] ERROR : simdiskimaged returned error (invalid), marking disconnected.
+[-[SimDiskImageManager _onQueue_checkConnection:]:290] ERROR : simdiskimaged returned error (invalid), marking disconnected.
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]_block_invoke:561] ERROR : Could not get list of trusted mount directories: Error Domain=com.apple.CoreSimulator.SimError Code=410 "The service used to manage runtime disk images (simdiskimaged) crashed or is not responding" UserInfo={NSLocalizedDescription=The service used to manage runtime disk images (simdiskimaged) crashed or is not responding}
+[-[SimServiceContext sendRequest:reply:error:]:2152] ERROR : Unable to deliver request ({
+    request = "notification_subscription";
+    "set_path" = "/Users/belzephyrus/Library/Developer/CoreSimulator/Devices";
+}) because we are not connected to CoreSimulatorService.
+2026-11-15 12:29:29.639 xcodebuild[32890:6154796] Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}
+2026-11-15 12:29:29.626 xcodebuild[32890:6154588] [MT] DVTAssertions: Warning in DVTFrameworks/DVTFoundation/FileTypes/DVTFileDataTypeDetection.m:80
+Details:  detectedTypeIdentifier (com.apple.xml-property-list) does not conform to matchedTypeIdentifier in MagicFileDataTypeDetector extenson com.apple.property-list. When both are specified, this conformance is required unless overridden by setting allowNonInheritance. extension.identifier:Xcode.MagicFileDataTypeDetector.XMLPlist
+Object:   <DVTFileDataTypeDetectionMagicCache: 0x798e14f210>
+Method:   -initWithExtension:
+Thread:   <_NSMainThread: 0x10340d470>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+[-[SimServiceContext sendRequest:reply:error:]:2152] ERROR : Unable to deliver request ({
+    request = "notification_subscription";
+    "set_path" = "/Users/belzephyrus/Library/Developer/CoreSimulator/Devices";
+}) because we are not connected to CoreSimulatorService.
+2026-11-15 12:29:29.691 xcodebuild[32890:6154796]  IDESimulatorAvailability: startObservingSimulatorUpdates() FAILED to register SimDeviceSet observer
+2026-11-15 12:29:29.691 xcodebuild[32890:6154801] Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}
+2026-11-15 12:29:29.694 xcodebuild[32890:6154801]  iOSSimulator: [SimServiceContext defaultDeviceSetWithError:] returned nil (Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedFailureReason=Failed to subscribe to notifications from CoreSimulatorService., NSLocalizedDescription=Failed to initialize simulator device set., NSUnderlyingError=0x798e730750 {Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}}}). Simulator device support disabled.
+2026-11-15 12:29:30.915 xcodebuild[32890:6154801]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/fc5e20c2-c7be-42f4-99cf-20fc818e731c.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-15 12:29:30.916 xcodebuild[32890:6158184]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/61981395-4af3-4dbd-8bb6-47a0631491ec.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-15 12:29:30.916 xcodebuild[32890:6158345]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/d04328ca-6dfd-4c23-8fd0-67c5314b8dc1.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-15 12:29:30.916 xcodebuild[32890:6154796]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/b434ee58-9805-4a80-91fb-67dacdff85c8.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-15 12:29:30.916 xcodebuild[32890:6158338]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/faf72c4c-24a9-4a18-8bf6-d8859612b9d0.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-15 12:29:30.916 xcodebuild[32890:6158344]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/bd79422c-a73d-413d-b0c9-422110ea5f26.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-15 12:29:30.916 xcodebuild[32890:6158346]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/78bde976-29a4-4a55-89a8-9b1cf3b75654.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-15 12:29:30.916 xcodebuild[32890:6157742]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/10e68d61-67bf-4f7c-8bed-6cfbce7b11cd.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-15 12:29:30.916 xcodebuild[32890:6158465]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/6a462ab5-c198-4756-b57a-1277b5dfc224.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-15 12:29:32.063 xcodebuild[32890:6154588] [MT] IDESchemeActionsInvocationRecord: Device <DVTLocalComputer: 0x798f9f7100 (My Mac | arm64e)> is missing modelName.
+2026-11-15 12:29:32.395 xcodebuild[32890:6154588] [MT] IDESchemeActionsInvocationRecord: Device <DVTiOSDeviceSimulatorPlaceholder: 0x798f665cc0 (Any iOS Simulator Device | undefined_arch)> is missing operatingSystemVersion, operatingSystemVersionWithBuildNumber.
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (2 targets)
+    Target 'FieldArena' in project 'SportsTrivia'
+        ➜ Explicit dependency on target 'TriviaGlance' in project 'SportsTrivia'
+    Target 'TriviaGlance' in project 'SportsTrivia' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/xcstringstool compile --dry-run --output-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/InfoPlist.xcstrings
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/xcstringstool compile --dry-run --output-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/InfoPlist.xcstrings
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+Build description signature: 6f36a7a1b1bd35953b38fc4dfc761013
+Build description path: /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/XCBuildData/6f36a7a1b1bd35953b38fc4dfc761013.xcbuilddata
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/CompilationCache.noindex
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/CompilationCache.noindex
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -o /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/PrecompiledHeaders
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/PrecompiledHeaders
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/SportsTrivia-440e67b0b97c4eb51bd99320c990d513-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia.xcodeproj
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/SportsTrivia-440e67b0b97c4eb51bd99320c990d513-VFS-iphonesimulator/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance.DependencyStaticMetadataFileList (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance.DependencyMetadataFileList (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance.hmap (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-project-headers.hmap (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-project-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-generated-files.hmap (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-generated-files.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-own-target-headers.hmap (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-all-target-headers.hmap (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-all-non-framework-target-headers.hmap (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugEntryPoint-normal-x86_64.txt (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugEntryPoint-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugEntryPoint-normal-arm64.txt (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugEntryPoint-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugDylibPath-normal-x86_64.txt (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugDylibPath-normal-arm64.txt (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugDylibInstallName-normal-arm64.txt (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugDylibInstallName-normal-x86_64.txt (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance_const_extract_protocols.json (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.SwiftFileList (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.SwiftFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.SwiftConstValuesFileList (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.LinkFileList (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.LinkFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-OutputFileMap.json (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-OutputFileMap.json (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-project-headers.hmap (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-project-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance_const_extract_protocols.json (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.SwiftConstValuesFileList (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.LinkFileList (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.LinkFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-own-target-headers.hmap (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.SwiftFileList (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.SwiftFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia.DependencyStaticMetadataFileList (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia.DependencyMetadataFileList (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-generated-files.hmap (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-generated-files.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia.hmap (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-all-target-headers.hmap (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-DebugDylibPath-normal-x86_64.txt (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-all-non-framework-target-headers.hmap (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-DebugDylibPath-normal-arm64.txt (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-DebugDylibInstallName-normal-x86_64.txt (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-DebugDylibInstallName-normal-arm64.txt (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia.SwiftConstValuesFileList (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/FieldArena_const_extract_protocols.json (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/FieldArena_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia.SwiftFileList (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia.SwiftFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia.LinkFileList (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia.LinkFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/FieldArena-OutputFileMap.json (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/FieldArena-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/SportsTrivia.SwiftFileList (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/SportsTrivia.SwiftFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/SportsTrivia.SwiftConstValuesFileList (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/SportsTrivia.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/SportsTrivia.LinkFileList (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/SportsTrivia.LinkFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/FieldArena_const_extract_protocols.json (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/FieldArena_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/FieldArena-OutputFileMap.json (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/arm64/FieldArena-OutputFileMap.json
+
+MkDir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /bin/mkdir -p /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex
+
+MkDir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/SportsTrivia.app/PlugIns (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /bin/mkdir -p /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/SportsTrivia.app/PlugIns
+
+MkDir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/SportsTrivia.app (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /bin/mkdir -p /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/SportsTrivia.app
+
+ProcessInfoPlistFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/Info.plist /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/TriviaGlance/Info.plist (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-infoPlistUtility /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/TriviaGlance/Info.plist -producttype com.apple.product-type.app-extension -expandbuildsettings -format binary -platform iphonesimulator -o /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/Info.plist
+
+CpResource /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/PrivacyInfo.xcprivacy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/PrivacyInfo.xcprivacy (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/PrivacyInfo.xcprivacy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex
+
+Ld /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.4-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -Os -Xlinker -no_warn_duplicate_libraries -L/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -F/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -install_name @rpath/TriviaGlance.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance_dependency_info.dat -o /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/it.lproj/Localizable.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/it.lproj/Localizable.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/it.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/it.lproj/Localizable.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/it.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/fr.lproj/Localizable.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/fr.lproj/Localizable.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/fr.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/fr.lproj/Localizable.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/fr.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/de.lproj/Localizable.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/de.lproj/Localizable.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/de.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/de.lproj/Localizable.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/de.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/pt-BR.lproj/Localizable.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/pt-BR.lproj/Localizable.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/pt-BR.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/pt-BR.lproj/Localizable.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/pt-BR.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+Ld /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.4-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -Os -Xlinker -no_warn_duplicate_libraries -L/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -F/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -install_name @rpath/TriviaGlance.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance_dependency_info.dat -o /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/Binary/__preview.dylib
+
+CompileXCStrings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/ /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/InfoPlist.xcstrings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcstringstool compile --output-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/InfoPlist.xcstrings
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/ru.lproj/Localizable.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/ru.lproj/Localizable.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/ru.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/ru.lproj/Localizable.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/ru.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/en.lproj/Localizable.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/en.lproj/Localizable.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/en.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/en.lproj/Localizable.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/en.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/es.lproj/Localizable.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/es.lproj/Localizable.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/es.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/es.lproj/Localizable.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/es.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftDriver TriviaGlance normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TriviaGlance -Onone @/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -target x86_64-apple-ios17.4-simulator -g -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -application-extension -enable-testing -index-store-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Index.noindex/DataStore -swift-version 5 -I /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -F /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache -output-file-map /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -sdk-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance_const_extract_protocols.json -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-generated-files.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-own-target-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-all-target-headers.hmap -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-project-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources-normal/x86_64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources/x86_64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-Swift.h -working-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver TriviaGlance normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TriviaGlance -Onone @/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -target arm64-apple-ios17.4-simulator -g -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -application-extension -enable-testing -index-store-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Index.noindex/DataStore -swift-version 5 -I /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -F /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache -output-file-map /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -sdk-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance_const_extract_protocols.json -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-generated-files.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-own-target-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-all-target-headers.hmap -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-project-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources-normal/arm64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources/arm64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-Swift.h -working-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia -experimental-emit-module-separately -disable-cmo
+
+CreateUniversalBinary /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/__preview.dylib normal arm64\ x86_64 (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/Binary/__preview.dylib /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/__preview.dylib
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/fr.lproj/InfoPlist.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/fr.lproj/InfoPlist.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename InfoPlist.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/fr.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/fr.lproj/InfoPlist.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/fr.lproj/InfoPlist.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/pt-BR.lproj/InfoPlist.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/pt-BR.lproj/InfoPlist.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename InfoPlist.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/pt-BR.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/pt-BR.lproj/InfoPlist.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/pt-BR.lproj/InfoPlist.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/it.lproj/InfoPlist.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/it.lproj/InfoPlist.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename InfoPlist.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/it.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/it.lproj/InfoPlist.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/it.lproj/InfoPlist.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/ru.lproj/InfoPlist.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/ru.lproj/InfoPlist.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename InfoPlist.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/ru.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/ru.lproj/InfoPlist.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/ru.lproj/InfoPlist.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/es.lproj/InfoPlist.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/es.lproj/InfoPlist.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename InfoPlist.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/es.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/es.lproj/InfoPlist.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/es.lproj/InfoPlist.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/en.lproj/InfoPlist.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/en.lproj/InfoPlist.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename InfoPlist.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/en.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/en.lproj/InfoPlist.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/en.lproj/InfoPlist.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+CopyStringsFile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/de.lproj/InfoPlist.strings /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/de.lproj/InfoPlist.strings (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copyStrings --validate --outputencoding binary --outfilename InfoPlist.strings --outdir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.appex/de.lproj -- /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/de.lproj/InfoPlist.strings
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/de.lproj/InfoPlist.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-B35JFXX9E3LNRLU3PF6C30PPV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ptrcheck-5V8X508VB5OIZLJJ2VZTOWNHK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stdarg-C2UYTE3H1TJSOHI1AXV202UF2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stdbool-DVV1FZM6VG11VNRH700V1UZLL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ActivityKit-DSIR7APPASMRDRXIRQZ7WUO0Z.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stddef-4K3I9AMC2PW04MNZG2BX3U4MK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/SwiftShims-6587A0HCH3IKAEIDU7CY71HXB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_AvailabilityInternal-26EQ39OFPDVPHMBJNMM7ARXFI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_float-4KFM9DWN4FHMUJO23541D4Q83.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ptrauth-DS3LW7F2ZBYYMPOCG1N4Q0JJX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/DeveloperToolsSupport-37UPB8VOHXBA0IZE5QCFISANH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_AvailabilityInternal-6AH34BBMYU1W95LFABHG7DKOA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/DeveloperToolsSupport-A5VMV1WV2BNI9GLFRZ7J3ATLX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ActivityKit-62V830MWJ51QSACIB1DJAVMLX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stddef-R1WTEU67O9T7IF08W2J0G8H6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ptrauth-3XERFJVNZENZH9KLC0VVW5Z1Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stdbool-98UOB7E0KICXKJPLUAVQ3FNTA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ptrcheck-D5XO6ALRWLGAKT5H2XRKQBPG7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/SwiftShims-7B8JCJSBDX6N6RAVORM8IUFYE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stdarg-ESJZCIZUOKPFMOIQCPS5TVQ0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-DL7ALMP5F5WF47RSSF7RGYA19.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_float-8YP1BGO92SYO42AFJE7Z1N5HE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_DarwinFoundation1-AUZWV1LP1SV2GRCOG278YNM6E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_DarwinFoundation1-87EQWTK7XEDJU76S5TW1O8Q5V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_DarwinFoundation2-2Q1VV5RJT13FHWXEZVSSYP3P1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ExtensionFoundation-2Y9EIARUL192QQJGHV9KY9N1N.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_limits-6P1VSFBA2FR2C6A6X4JNYTFHB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_limits-1XAA399IAVCVKWSXR3Q7JQVST.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ExtensionFoundation-409OD87EULSMI3551PQDEFKX7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_DarwinFoundation2-2MBPVJ34B3EMR4JCU1D5DCC18.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stdint-8QY6GBUKMLXELBBA4HCQOTBW3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/sys_types-EB2KPSMH0JZEBZ8ZT1LNYS1GF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_tgmath-9DAXKJL0JOVU6NSUDA53G34K1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/string_h-ALGP0PHDZLO1THMX75TJ1TK1X.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_DarwinFoundation3-8L0FPB03VJW11D6V1FSPRA9BU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stdatomic-1EO442TV8NZDMHDCKX6LVDPIX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/sys_types-PDS5XD7J7TE3RPPTUONAJH4T.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_tgmath-DABK7TCEJPDOK19QXUHKJIX39.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stdint-5FDRGJP5IOKY3N8W8LU6GCLBY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/string_h-1KT6LVHQCAED3I4S5SQBOHQRX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_stdatomic-1HQ2KSOW6NB7GGYWWPQZKHZO6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_DarwinFoundation3-497A5WVD30OX44D9QR8CS4WWW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_intrinsics-8DU2FOLFO4BOU5CWROZWNAJU9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_intrinsics-1LPGRO4PT3GEG7EQJVI9TZT3Y.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_inttypes-BDUNVR2YRPWDDXJRBDL3LZTKB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Darwin-C0R2L2JRE176LLE8YNRRTBYH0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_Builtin_inttypes-BJB491IEK9QLHGB1TGGKEALSR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Darwin-9RYYDHOYC0WUKG52HYVIN9F8X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/simd-4HI333THA02C2Y1PHBMBL3190.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/MachO-4UWACOYRUM70U58GZS184GKVD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ObjectiveC-8WSA5AH8YVK2OLI0E8FG1I985.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ObjectiveC-DIZX4OMH276FVLUHTGDX58T2K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/MachO-2JP6FY58YX8ROTB1E9LESC6MC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/os_object-5XTHINNZ695UC227ZWCJ8CXPY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/os_workgroup-D6B3J3R5AADHTD9KDCLZT77EG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/simd-6ZCY7Y2EGYAWG8J7PDCOBZLZ6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/os_object-4K2W5X03V4UYRUX904FJLV7N9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Dispatch-8OV53M0DJDEEXMRC4W18VLOG8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/dnssd-E1R5J6BBYBOJPT5F3B8FWP2HF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/XPC-28YLTON0W3HDVDNV2C01M6UV5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/os_workgroup-61XZVPGYCJBQ9THT1WRDC4872.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreFoundation-CB9Y4AO6QLKKBD5QGLO3ODH99.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/os-ALX6EXLP0IPA785KCIWD9NJJN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Dispatch-3X3L8Y9BBWMEPR5SFJ1L32NZB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreGraphics-AX6ITZ53XZ8BAJJZXWLQYGUAG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CFNetwork-83N69ZW9O8A2OQFMUFY4EYPCL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Security-16M5JUHJJY8MJN63PAENL3OP7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreAudioTypes-BJY3TB1TXAYNRYVJS0ZYQO2QK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/XPC-51RC6VTAOWHLB4TTYV2HTT5E8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreFoundation-3UO55KQ8N3GZQFETUY7PZ2J97.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/dnssd-60T00UPOZ15E0JK73YT5XRUVY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreAudio-E06XRBUEYG2ARDHKSXKO7HKZ4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/os-BYT6RESCEVIHST6ULWF089UTU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Foundation-DN5LJCU6DX4O5XRPUACOQBMGZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreText-9CK5VC6RS6UI85MUDHKU5EDKV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ImageIO-BHPM9GT9USO45I58CJE2MEOE8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CFNetwork-40BPSVGM5OYDC1LVT8ASWRSCB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreGraphics-C93CEK9KTFQQTNF099HVD0CUW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreAudioTypes-A5SFTGNK5XVT0XGLVUYSOZ0OH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Security-2SZ28NH3WAGC0YQT19TRB6AX6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreAudio-3NYBWU1D55NHS16Q2CC6SLE1X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Foundation-14RQVNLXCGHQPL7NDKZCXXFQE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreText-AJH1JR65FW0KVVQWMWWC8EBM3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/ImageIO-1EA2E2F8YOXVENVJM0LIG5B8Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Spatial-CHWTUXOPQ3JHTC743XBBUSRRS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Spatial-51TYQ1Q5UKGQMQO1VKFI7UYTA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/OpenGLES-BJBMCL7TAYZWN0P71UKDZBYR0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreTransferable-5EWC1E6VSUQQQLQYD5X0IS3N3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_LocationEssentials-8ZBO7ADKD0FLBJ0DV8HVKWV8F.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/OSLog-CEM188F6FXQDL71HUXYNVW4OU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Accessibility-5KWJA7Y4F02YDTHAX91WF39YK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreData-5I3BRYU3APT5I2IV3C9A7U2B8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/DataDetection-918ZV9RTPLRF7W483E3B79FNL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-C1BCQSFU94B9PHCAWZ5CYO1BF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/WidgetKit-2OJ28U4NDNT4Q346ZE0LZAEHL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/UserNotifications-D5RIF81LMB8R43PLJO6V2Y6UM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Network-1LJNPFCFWV0AA50RHXSUHWW7Y.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/AppIntents-98DFNGKOWWPJW9DVZZQF3SPK8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Symbols-9LYQ03MQMV0NAFMJIR66DHOLV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/IOSurface-6MG414PGID0YMLCHCYNZAZDDU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/AppIntentsTypeSupport-EU91G85HKF0XMQW7VSCMM5IRU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/UIUtilities-8PBQJGOSIAGU859C3KLWQLXFK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/FileProvider-EACTYDAT0DWOR1Y0LDXZXE4U9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/RelevanceKit-BZS8DII3T0RK1SYIYVJCWK1MF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreLocation-1YLVWUVQGJSLQ6SZEMLHR7NM1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreSpotlight-3KN9YINEBXUNQ87927AKU7L2Y.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Metal-A5Z9WDMAAN4TIJQXB4BUA032Z.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreMotion-71JPDJGNWGGU9VRJMUITAA2IC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Intents-F20GKXS4X15B0WRTWVEPD6GL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-CPUXTOAFQ0Z0SKQ5O7RNCQF27.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Accessibility-854Y3NXSCYKYWS2V3DGPU8G33.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreTransferable-60NQ1TS5D05PC65LHT1PE6V9Z.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/WidgetKit-AWNH88ZT6E864TOMO2JIEKGJF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/DataDetection-CRSIJA7LY3M58SK36TT786ILG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/UIUtilities-BAOJR4B32PN1H62FCP9XBE767.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Symbols-AR5NWEPW0UQO5I07DLVOW9652.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/RelevanceKit-1WQ2QTXTTRS1EJGE9O36GV5PS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/UserNotifications-6QE57FLZLTWGHJVXBDCJSAWEG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/OSLog-2RVTR8NBGG7FDC55X2FHMJ0VF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/OpenGLES-C6M1OQ6XOCACHLBWD6QV5TXT9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/AppIntentsTypeSupport-DR39WD6HQ1Y9FF3CWZXD9NORK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/FileProvider-EHWFP7RXI9P2DGB1JPW44ACR5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/_LocationEssentials-B77DLAQ2N5C7FW9N4JH2UXJP3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/AppIntents-37LBF4DBHEGN8YMQNYLZH3IUT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Network-CQVMFA95P0AVXNEGSVAEY6M4I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreData-4LT4AQCAFHTHJ15XX8HQAZC5E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/IOSurface-E0QVARI23GR9M5JC5CGCY1EXK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Metal-2PO7HFTI1U6BG8QQ5WB2K3IJE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreLocation-34PFDGM581SZQZIALM5CAR12B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreSpotlight-DB7U3XHPF11NV8LH5S2BM86AT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreVideo-1KHYO1PI2ASCBATJKCYB3RPCH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreImage-61PTMVVRSKI6ZQ6T2KLF0Y6ZA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/QuartzCore-F3SWDSKK9TMSN5BZES12O31A3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreMedia-6CDYSFWGF4DNRIM1MV32CNU9U.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/Intents-BX0IRBXH05XZ6K43ZHNS4G7NO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreMotion-4UFDYCS016PMMGP8LDD45W47P.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/SwiftUICore-2FPX929D6YI5RV8OH2HEZOK9H.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreVideo-7HMEWPRJOIL397L2L9ZZMVYIN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/UIKit-D0FQ191F23FQXXC5UAQ26T9FE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreMedia-6R4A3ZOS00X1HX390QDJYBAHK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/CoreImage-BSM5FYD0TTGETV2GZLBHQKIXV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/QuartzCore-5UVPTY6Y8RACQNRWAEVZQ0U34.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/SwiftUICore-CPKVYPKHO9ZA7IX18G5JHC99X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/UIKit-4KM4121H3GCFJLTTV4TPTV1HR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/SwiftUI-6POAJV6KDLB4HMAJUE7R138BP.pcm
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ TriviaGlance (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftCompile normal x86_64 (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    
+
+SwiftCompile normal x86_64 Compiling\ Rift.swift /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Core/Rift.swift (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftCompile normal x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Core/Rift.swift (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-SwiftPerFileCompile Rift.swift
+
+SwiftCompile normal x86_64 Compiling\ Glance.swift /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/TriviaGlance/Glance.swift (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftCompile normal x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/TriviaGlance/Glance.swift (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-SwiftPerFileCompile Glance.swift
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for TriviaGlance (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftDriver\ Compilation\ Requirements TriviaGlance normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TriviaGlance -Onone @/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -target x86_64-apple-ios17.4-simulator -g -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -application-extension -enable-testing -index-store-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Index.noindex/DataStore -swift-version 5 -I /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -F /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache -output-file-map /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -sdk-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance_const_extract_protocols.json -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-generated-files.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-own-target-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-all-target-headers.hmap -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-project-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources-normal/x86_64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources/x86_64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-Swift.h -working-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia -experimental-emit-module-separately -disable-cmo
+
+Copy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.abi.json (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.abi.json /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/x86_64-apple-ios-simulator.swiftdoc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.swiftdoc (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.swiftdoc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+
+Copy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.swiftsourceinfo (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.swiftsourceinfo /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+Copy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.swiftmodule (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance.swiftmodule /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules/SwiftUI-7QFJ1W8FVSXNIZHE2MWJRR5N0.pcm
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ TriviaGlance (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftCompile normal arm64 (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    
+
+SwiftCompile normal arm64 Compiling\ Rift.swift /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Core/Rift.swift (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftCompile normal arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Core/Rift.swift (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-SwiftPerFileCompile Rift.swift
+
+SwiftCompile normal arm64 Compiling\ Glance.swift /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/TriviaGlance/Glance.swift (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftCompile normal arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/TriviaGlance/Glance.swift (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-SwiftPerFileCompile Glance.swift
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for TriviaGlance (in target 'TriviaGlance' from project 'SportsTrivia')
+
+SwiftDriver\ Compilation\ Requirements TriviaGlance normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name TriviaGlance -Onone @/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -target arm64-apple-ios17.4-simulator -g -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -application-extension -enable-testing -index-store-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Index.noindex/DataStore -swift-version 5 -I /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -F /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache -output-file-map /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -sdk-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance_const_extract_protocols.json -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-generated-files.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-own-target-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-all-target-headers.hmap -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/TriviaGlance-project-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources-normal/arm64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources/arm64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-Swift.h -working-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources/TriviaGlance-Swift.h /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-Swift.h /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-Swift.h (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-swiftHeaderTool -arch arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance-Swift.h -arch x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/x86_64/TriviaGlance-Swift.h -o /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/DerivedSources/TriviaGlance-Swift.h
+
+Copy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.swiftmodule (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.swiftmodule /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.swiftdoc (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.swiftdoc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.abi.json (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.abi.json /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.swiftsourceinfo (in target 'TriviaGlance' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/TriviaGlance.build/Objects-normal/arm64/TriviaGlance.swiftsourceinfo /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/TriviaGlance.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+MkDir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_output/thinned (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /bin/mkdir -p /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_output/thinned
+
+MkDir /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_output/unthinned (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /bin/mkdir -p /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_output/unthinned
+
+GenerateAssetSymbols /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets --compile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/SportsTrivia.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_dependencies --output-partial-info-plist /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_generated_info.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 17.4 --platform iphonesimulator --bundle-identifier org.cobaltfield.triviaq82 --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+2026-11-15 12:31:00.301 ibtoold[38361:6183056] CoreSimulatorService connection became invalid.  Simulator services will no longer be available.
+2026-11-15 12:31:02.097 ibtoold[38361:6186896] Logging connecton invalid: <OS_xpc_error: <dictionary: 0x1eacd6600> { count = 1, transaction: 0, voucher = 0x0, contents =
+	"XPCErrorDescription" => <string: 0x1eacd6740> { string cache = 0x0, length = 18, contents = "Connection invalid" }
+}>
+2026-11-15 12:31:02.097 ibtoold[38361:6183056] Error opening log file (/Users/belzephyrus/Library/Logs/CoreSimulator/CoreSimulator.com.apple.ibtool.log): Operation not permitted
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]:504] WARN  : Unable to discover any Simulator runtimes. Developer Directory is /Applications/Xcode.app/Contents/Developer.
+[-[SimDiskImageManager init]:226] ERROR : Could not kickstart simdiskimaged; SimDiskImageManager services will not be available: Error Domain=NSPOSIXErrorDomain Code=53 "Software caused connection abort" UserInfo={NSLocalizedDescription=Error returned in reply from CoreSimulatorService: Connection invalid}
+[-[SimDiskImageManager _onQueue_checkConnection:]:290] ERROR : simdiskimaged returned error (invalid), marking disconnected.
+[-[SimDiskImageManager _onQueue_checkConnection:]:270] ERROR : simdiskimaged connection is currently unavailable because connection became invalid
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]_block_invoke:561] ERROR : Could not get list of trusted mount directories: Error Domain=com.apple.CoreSimulator.SimError Code=409 "Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded" UserInfo={NSLocalizedDescription=Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded}
+2026-11-15 12:31:02.139 ibtoold[38361:6186836] Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}
+[-[SimServiceContext sendRequest:reply:error:]:2152] ERROR : Unable to deliver request ({
+    request = "notification_subscription";
+    "set_path" = "/Users/belzephyrus/Library/Developer/CoreSimulator/Devices";
+}) because we are not connected to CoreSimulatorService.
+/* com.apple.actool.document.warnings */
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][][][]: warning: AppIcon.appiconset/FieldIcon.png is 1254x1254 but should be 1024x1024.
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][][][]: warning: AppIcon.appiconset/FieldIcon.png is 1254x1254 but should be 1024x1024.
+/* com.apple.actool.compilation-results */
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CompileAssetCatalogVariant thinned /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/SportsTrivia.app /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets --compile /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 17.4 --platform iphonesimulator
+2026-11-15 12:31:02.889 ibtoold[38362:6186520] CoreSimulatorService connection became invalid.  Simulator services will no longer be available.
+/* com.apple.actool.errors */
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets: error: The stickers icon set, app icon set, or icon stack named "AppIcon" did not have any applicable content.
+/* com.apple.actool.document.warnings */
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][][][]: warning: AppIcon.appiconset/FieldIcon.png is 1254x1254 but should be 1024x1024.
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/SportsTrivia/Resources/FieldArt.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][][][]: warning: AppIcon.appiconset/FieldIcon.png is 1254x1254 but should be 1024x1024.
+/* com.apple.actool.compilation-results */
+/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/assetcatalog_generated_info.plist_thinned
+
+
+SwiftDriver FieldArena normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'FieldArena' from project 'SportsTrivia')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SportsTrivia -Onone @/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -target x86_64-apple-ios17.4-simulator -g -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Index.noindex/DataStore -swift-version 5 -I /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -F /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache -output-file-map /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/FieldArena-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex -sdk-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/FieldArena_const_extract_protocols.json -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-generated-files.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-own-target-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-all-target-headers.hmap -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/SportsTrivia-project-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/DerivedSources-normal/x86_64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/DerivedSources/x86_64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia/Build/Build/Intermediates.noindex/SportsTrivia.build/Debug-iphonesimulator/FieldArena.build/Objects-normal/x86_64/SportsTrivia-Swift.h -working-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts15nov/10_one_win/02_sports_trivia -experimental-emit-module-separately -disable-cmo
+** BUILD INTERRUPTED **

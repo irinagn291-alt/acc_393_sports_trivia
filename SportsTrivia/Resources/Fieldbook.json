@@ -1,0 +1,3070 @@
+[
+  {
+    "id": "field-001",
+    "c": 0,
+    "q": {
+      "en": "How many players does a football team have on the field at the start?",
+      "de": "Wie viele Spieler hat ein Fußballteam zu Spielbeginn auf dem Feld?",
+      "pt-BR": "Quantos jogadores um time de futebol tem em campo no início?",
+      "fr": "Combien de joueurs une équipe de football aligne-t-elle au départ ?",
+      "es": "¿Cuántos jugadores tiene un equipo de fútbol en el campo al inicio?",
+      "it": "Quanti giocatori ha una squadra di calcio in campo all’inizio?",
+      "ru": "Сколько игроков футбольной команды выходит на поле в начале матча?"
+    },
+    "o": {
+      "en": [
+        "11",
+        "9",
+        "7",
+        "15"
+      ],
+      "de": [
+        "11",
+        "9",
+        "7",
+        "15"
+      ],
+      "pt-BR": [
+        "11",
+        "9",
+        "7",
+        "15"
+      ],
+      "fr": [
+        "11",
+        "9",
+        "7",
+        "15"
+      ],
+      "es": [
+        "11",
+        "9",
+        "7",
+        "15"
+      ],
+      "it": [
+        "11",
+        "9",
+        "7",
+        "15"
+      ],
+      "ru": [
+        "11",
+        "9",
+        "7",
+        "15"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.theifab.com/laws/latest/"
+  },
+  {
+    "id": "field-002",
+    "c": 0,
+    "q": {
+      "en": "Which league is associated with professional basketball?",
+      "de": "Welche Liga gehört zum Profibasketball?",
+      "pt-BR": "Qual liga é de basquete profissional?",
+      "fr": "Quelle ligue est consacrée au basket professionnel ?",
+      "es": "¿Qué liga corresponde al baloncesto profesional?",
+      "it": "Quale lega è dedicata al basket professionistico?",
+      "ru": "Какая лига связана с профессиональным баскетболом?"
+    },
+    "o": {
+      "en": [
+        "NBA",
+        "NHL",
+        "MLB",
+        "NFL"
+      ],
+      "de": [
+        "NBA",
+        "NHL",
+        "MLB",
+        "NFL"
+      ],
+      "pt-BR": [
+        "NBA",
+        "NHL",
+        "MLB",
+        "NFL"
+      ],
+      "fr": [
+        "NBA",
+        "NHL",
+        "MLB",
+        "NFL"
+      ],
+      "es": [
+        "NBA",
+        "NHL",
+        "MLB",
+        "NFL"
+      ],
+      "it": [
+        "NBA",
+        "NHL",
+        "MLB",
+        "NFL"
+      ],
+      "ru": [
+        "NBA",
+        "NHL",
+        "MLB",
+        "NFL"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.nba.com/"
+  },
+  {
+    "id": "field-003",
+    "c": 0,
+    "q": {
+      "en": "Which league features the Stanley Cup?",
+      "de": "In welcher Liga wird der Stanley Cup vergeben?",
+      "pt-BR": "Qual liga disputa a Stanley Cup?",
+      "fr": "Dans quelle ligue dispute-t-on la coupe Stanley ?",
+      "es": "¿En qué liga se disputa la Copa Stanley?",
+      "it": "In quale lega si disputa la Stanley Cup?",
+      "ru": "В какой лиге разыгрывают Кубок Стэнли?"
+    },
+    "o": {
+      "en": [
+        "NHL",
+        "NBA",
+        "MLB",
+        "NFL"
+      ],
+      "de": [
+        "NHL",
+        "NBA",
+        "MLB",
+        "NFL"
+      ],
+      "pt-BR": [
+        "NHL",
+        "NBA",
+        "MLB",
+        "NFL"
+      ],
+      "fr": [
+        "NHL",
+        "NBA",
+        "MLB",
+        "NFL"
+      ],
+      "es": [
+        "NHL",
+        "NBA",
+        "MLB",
+        "NFL"
+      ],
+      "it": [
+        "NHL",
+        "NBA",
+        "MLB",
+        "NFL"
+      ],
+      "ru": [
+        "NHL",
+        "NBA",
+        "MLB",
+        "NFL"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.nhl.com/stanley-cup-playoffs"
+  },
+  {
+    "id": "field-004",
+    "c": 0,
+    "q": {
+      "en": "Which league features the World Series in baseball?",
+      "de": "Welche Liga veranstaltet die World Series im Baseball?",
+      "pt-BR": "Qual liga realiza a World Series de beisebol?",
+      "fr": "Quelle ligue organise les World Series de baseball ?",
+      "es": "¿Qué liga organiza la Serie Mundial de béisbol?",
+      "it": "Quale lega organizza le World Series di baseball?",
+      "ru": "В какой бейсбольной лиге проводят Мировую серию?"
+    },
+    "o": {
+      "en": [
+        "MLB",
+        "NBA",
+        "NHL",
+        "NFL"
+      ],
+      "de": [
+        "MLB",
+        "NBA",
+        "NHL",
+        "NFL"
+      ],
+      "pt-BR": [
+        "MLB",
+        "NBA",
+        "NHL",
+        "NFL"
+      ],
+      "fr": [
+        "MLB",
+        "NBA",
+        "NHL",
+        "NFL"
+      ],
+      "es": [
+        "MLB",
+        "NBA",
+        "NHL",
+        "NFL"
+      ],
+      "it": [
+        "MLB",
+        "NBA",
+        "NHL",
+        "NFL"
+      ],
+      "ru": [
+        "MLB",
+        "NBA",
+        "NHL",
+        "NFL"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.mlb.com/postseason/history/world-series"
+  },
+  {
+    "id": "field-005",
+    "c": 0,
+    "q": {
+      "en": "Which league plays the Super Bowl?",
+      "de": "Welche Liga spielt den Super Bowl?",
+      "pt-BR": "Qual liga disputa o Super Bowl?",
+      "fr": "Quelle ligue dispute le Super Bowl ?",
+      "es": "¿Qué liga disputa el Super Bowl?",
+      "it": "Quale lega disputa il Super Bowl?",
+      "ru": "В какой лиге проводят Супербоул?"
+    },
+    "o": {
+      "en": [
+        "NFL",
+        "NBA",
+        "NHL",
+        "MLB"
+      ],
+      "de": [
+        "NFL",
+        "NBA",
+        "NHL",
+        "MLB"
+      ],
+      "pt-BR": [
+        "NFL",
+        "NBA",
+        "NHL",
+        "MLB"
+      ],
+      "fr": [
+        "NFL",
+        "NBA",
+        "NHL",
+        "MLB"
+      ],
+      "es": [
+        "NFL",
+        "NBA",
+        "NHL",
+        "MLB"
+      ],
+      "it": [
+        "NFL",
+        "NBA",
+        "NHL",
+        "MLB"
+      ],
+      "ru": [
+        "NFL",
+        "NBA",
+        "NHL",
+        "MLB"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.nfl.com/super-bowl/"
+  },
+  {
+    "id": "field-006",
+    "c": 0,
+    "q": {
+      "en": "How many minutes are in a standard football match, before added time?",
+      "de": "Wie viele Minuten dauert ein reguläres Fußballspiel ohne Nachspielzeit?",
+      "pt-BR": "Quantos minutos dura uma partida normal de futebol, sem acréscimos?",
+      "fr": "Combien de minutes dure un match de football sans temps additionnel ?",
+      "es": "¿Cuántos minutos dura un partido de fútbol sin tiempo añadido?",
+      "it": "Quanti minuti dura una partita di calcio senza recupero?",
+      "ru": "Сколько минут длится обычный футбольный матч без добавленного времени?"
+    },
+    "o": {
+      "en": [
+        "90",
+        "60",
+        "80",
+        "100"
+      ],
+      "de": [
+        "90",
+        "60",
+        "80",
+        "100"
+      ],
+      "pt-BR": [
+        "90",
+        "60",
+        "80",
+        "100"
+      ],
+      "fr": [
+        "90",
+        "60",
+        "80",
+        "100"
+      ],
+      "es": [
+        "90",
+        "60",
+        "80",
+        "100"
+      ],
+      "it": [
+        "90",
+        "60",
+        "80",
+        "100"
+      ],
+      "ru": [
+        "90",
+        "60",
+        "80",
+        "100"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.theifab.com/laws/latest/"
+  },
+  {
+    "id": "field-007",
+    "c": 0,
+    "q": {
+      "en": "How many basketball players per team are on the court during play?",
+      "de": "Wie viele Basketballspieler eines Teams stehen gleichzeitig auf dem Feld?",
+      "pt-BR": "Quantos jogadores de basquete por time ficam na quadra?",
+      "fr": "Combien de basketteurs par équipe jouent sur le terrain ?",
+      "es": "¿Cuántos jugadores de baloncesto por equipo hay en la cancha?",
+      "it": "Quanti cestisti per squadra sono in campo?",
+      "ru": "Сколько баскетболистов одной команды одновременно на площадке?"
+    },
+    "o": {
+      "en": [
+        "5",
+        "6",
+        "7",
+        "11"
+      ],
+      "de": [
+        "5",
+        "6",
+        "7",
+        "11"
+      ],
+      "pt-BR": [
+        "5",
+        "6",
+        "7",
+        "11"
+      ],
+      "fr": [
+        "5",
+        "6",
+        "7",
+        "11"
+      ],
+      "es": [
+        "5",
+        "6",
+        "7",
+        "11"
+      ],
+      "it": [
+        "5",
+        "6",
+        "7",
+        "11"
+      ],
+      "ru": [
+        "5",
+        "6",
+        "7",
+        "11"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.fiba.basketball/"
+  },
+  {
+    "id": "field-008",
+    "c": 0,
+    "q": {
+      "en": "How many points is a basketball shot from beyond the three-point line worth?",
+      "de": "Wie viele Punkte zählt ein Basketballwurf hinter der Dreipunktlinie?",
+      "pt-BR": "Quantos pontos vale uma cesta de fora da linha de três?",
+      "fr": "Combien de points vaut un panier derrière la ligne à trois points ?",
+      "es": "¿Cuántos puntos vale una canasta desde fuera de la línea de tres?",
+      "it": "Quanti punti vale un canestro oltre la linea dei tre punti?",
+      "ru": "Сколько очков приносит бросок из-за трёхочковой линии?"
+    },
+    "o": {
+      "en": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "de": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "pt-BR": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "fr": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "es": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "it": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "ru": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.fiba.basketball/"
+  },
+  {
+    "id": "field-009",
+    "c": 0,
+    "q": {
+      "en": "How many innings are scheduled in a standard professional baseball game?",
+      "de": "Wie viele Innings hat ein reguläres professionelles Baseballspiel?",
+      "pt-BR": "Quantas entradas tem um jogo profissional padrão de beisebol?",
+      "fr": "Combien de manches sont prévues dans un match professionnel de baseball ?",
+      "es": "¿Cuántas entradas tiene un partido profesional estándar de béisbol?",
+      "it": "Quanti inning prevede una normale partita di baseball professionistico?",
+      "ru": "Сколько иннингов запланировано в стандартной профессиональной игре в бейсбол?"
+    },
+    "o": {
+      "en": [
+        "9",
+        "7",
+        "8",
+        "12"
+      ],
+      "de": [
+        "9",
+        "7",
+        "8",
+        "12"
+      ],
+      "pt-BR": [
+        "9",
+        "7",
+        "8",
+        "12"
+      ],
+      "fr": [
+        "9",
+        "7",
+        "8",
+        "12"
+      ],
+      "es": [
+        "9",
+        "7",
+        "8",
+        "12"
+      ],
+      "it": [
+        "9",
+        "7",
+        "8",
+        "12"
+      ],
+      "ru": [
+        "9",
+        "7",
+        "8",
+        "12"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.mlb.com/glossary/standard-stats/innings-played"
+  },
+  {
+    "id": "field-010",
+    "c": 0,
+    "q": {
+      "en": "How many volleyball players per team are on court in indoor volleyball?",
+      "de": "Wie viele Spieler je Team stehen beim Hallenvolleyball auf dem Feld?",
+      "pt-BR": "Quantos jogadores por time ficam na quadra no vôlei de salão?",
+      "fr": "Combien de joueurs par équipe sont sur le terrain en volley en salle ?",
+      "es": "¿Cuántos jugadores por equipo hay en voleibol de sala?",
+      "it": "Quanti giocatori per squadra sono in campo nella pallavolo indoor?",
+      "ru": "Сколько игроков одной команды находится на площадке в классическом волейболе?"
+    },
+    "o": {
+      "en": [
+        "6",
+        "5",
+        "7",
+        "9"
+      ],
+      "de": [
+        "6",
+        "5",
+        "7",
+        "9"
+      ],
+      "pt-BR": [
+        "6",
+        "5",
+        "7",
+        "9"
+      ],
+      "fr": [
+        "6",
+        "5",
+        "7",
+        "9"
+      ],
+      "es": [
+        "6",
+        "5",
+        "7",
+        "9"
+      ],
+      "it": [
+        "6",
+        "5",
+        "7",
+        "9"
+      ],
+      "ru": [
+        "6",
+        "5",
+        "7",
+        "9"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"
+  },
+  {
+    "id": "field-011",
+    "c": 0,
+    "q": {
+      "en": "How many players per side start a rugby union match?",
+      "de": "Wie viele Spieler je Team beginnen ein Rugby-Union-Spiel?",
+      "pt-BR": "Quantos jogadores por lado iniciam uma partida de rugby union?",
+      "fr": "Combien de joueurs par équipe débutent un match de rugby à XV ?",
+      "es": "¿Cuántos jugadores por equipo inician un partido de rugby union?",
+      "it": "Quanti giocatori per squadra iniziano una partita di rugby union?",
+      "ru": "Сколько игроков одной команды начинает матч по регби-15?"
+    },
+    "o": {
+      "en": [
+        "15",
+        "11",
+        "13",
+        "7"
+      ],
+      "de": [
+        "15",
+        "11",
+        "13",
+        "7"
+      ],
+      "pt-BR": [
+        "15",
+        "11",
+        "13",
+        "7"
+      ],
+      "fr": [
+        "15",
+        "11",
+        "13",
+        "7"
+      ],
+      "es": [
+        "15",
+        "11",
+        "13",
+        "7"
+      ],
+      "it": [
+        "15",
+        "11",
+        "13",
+        "7"
+      ],
+      "ru": [
+        "15",
+        "11",
+        "13",
+        "7"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.world.rugby/the-game/laws/"
+  },
+  {
+    "id": "field-012",
+    "c": 0,
+    "q": {
+      "en": "How many Grand Slam tournaments are held each year in tennis?",
+      "de": "Wie viele Grand-Slam-Turniere gibt es jährlich im Tennis?",
+      "pt-BR": "Quantos torneios de Grand Slam são realizados por ano no tênis?",
+      "fr": "Combien de tournois du Grand Chelem de tennis ont lieu par an ?",
+      "es": "¿Cuántos torneos de Grand Slam se celebran al año en tenis?",
+      "it": "Quanti tornei del Grande Slam si disputano ogni anno nel tennis?",
+      "ru": "Сколько турниров Большого шлема проходит в теннисе каждый год?"
+    },
+    "o": {
+      "en": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "de": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "pt-BR": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "fr": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "es": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "it": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "ru": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.itftennis.com/en/itf-tours/grand-slam-tournaments/"
+  },
+  {
+    "id": "field-013",
+    "c": 1,
+    "q": {
+      "en": "In what year were the first modern Olympic Games held?",
+      "de": "In welchem Jahr fanden die ersten Olympischen Spiele der Neuzeit statt?",
+      "pt-BR": "Em que ano ocorreram os primeiros Jogos Olímpicos modernos?",
+      "fr": "En quelle année ont eu lieu les premiers Jeux olympiques modernes ?",
+      "es": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?",
+      "it": "In quale anno si svolsero i primi Giochi olimpici moderni?",
+      "ru": "В каком году прошли первые современные Олимпийские игры?"
+    },
+    "o": {
+      "en": [
+        "1896",
+        "1900",
+        "1888",
+        "1912"
+      ],
+      "de": [
+        "1896",
+        "1900",
+        "1888",
+        "1912"
+      ],
+      "pt-BR": [
+        "1896",
+        "1900",
+        "1888",
+        "1912"
+      ],
+      "fr": [
+        "1896",
+        "1900",
+        "1888",
+        "1912"
+      ],
+      "es": [
+        "1896",
+        "1900",
+        "1888",
+        "1912"
+      ],
+      "it": [
+        "1896",
+        "1900",
+        "1888",
+        "1912"
+      ],
+      "ru": [
+        "1896",
+        "1900",
+        "1888",
+        "1912"
+      ]
+    },
+    "a": 0,
+    "src": "https://olympics.com/en/olympic-games"
+  },
+  {
+    "id": "field-014",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the first modern Olympic Games?",
+      "de": "Welche Stadt richtete die ersten Olympischen Spiele der Neuzeit aus?",
+      "pt-BR": "Qual cidade sediou os primeiros Jogos Olímpicos modernos?",
+      "fr": "Quelle ville a accueilli les premiers Jeux olympiques modernes ?",
+      "es": "¿Qué ciudad acogió los primeros Juegos Olímpicos modernos?",
+      "it": "Quale città ospitò i primi Giochi olimpici moderni?",
+      "ru": "Какой город принял первые современные Олимпийские игры?"
+    },
+    "o": {
+      "en": [
+        "Athens",
+        "Paris",
+        "Rome",
+        "London"
+      ],
+      "de": [
+        "Athen",
+        "Paris",
+        "Rom",
+        "London"
+      ],
+      "pt-BR": [
+        "Atenas",
+        "Paris",
+        "Roma",
+        "Londres"
+      ],
+      "fr": [
+        "Athènes",
+        "Paris",
+        "Rome",
+        "Londres"
+      ],
+      "es": [
+        "Atenas",
+        "París",
+        "Roma",
+        "Londres"
+      ],
+      "it": [
+        "Atene",
+        "Parigi",
+        "Roma",
+        "Londra"
+      ],
+      "ru": [
+        "Афины",
+        "Париж",
+        "Рим",
+        "Лондон"
+      ]
+    },
+    "a": 0,
+    "src": "https://olympics.com/en/olympic-games"
+  },
+  {
+    "id": "field-015",
+    "c": 1,
+    "q": {
+      "en": "In which year was the first men’s football World Cup played?",
+      "de": "In welchem Jahr fand die erste Fußball-Weltmeisterschaft der Männer statt?",
+      "pt-BR": "Em que ano foi disputada a primeira Copa do Mundo masculina de futebol?",
+      "fr": "En quelle année s’est déroulée la première Coupe du monde masculine de football ?",
+      "es": "¿En qué año se disputó el primer Mundial masculino de fútbol?",
+      "it": "In quale anno si disputò il primo Mondiale maschile di calcio?",
+      "ru": "В каком году прошёл первый чемпионат мира по футболу среди мужчин?"
+    },
+    "o": {
+      "en": [
+        "1930",
+        "1920",
+        "1946",
+        "1950"
+      ],
+      "de": [
+        "1930",
+        "1920",
+        "1946",
+        "1950"
+      ],
+      "pt-BR": [
+        "1930",
+        "1920",
+        "1946",
+        "1950"
+      ],
+      "fr": [
+        "1930",
+        "1920",
+        "1946",
+        "1950"
+      ],
+      "es": [
+        "1930",
+        "1920",
+        "1946",
+        "1950"
+      ],
+      "it": [
+        "1930",
+        "1920",
+        "1946",
+        "1950"
+      ],
+      "ru": [
+        "1930",
+        "1920",
+        "1946",
+        "1950"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.fifa.com/tournaments/mens/worldcup"
+  },
+  {
+    "id": "field-016",
+    "c": 1,
+    "q": {
+      "en": "Which country hosted the first men’s football World Cup?",
+      "de": "Welches Land richtete die erste Fußball-Weltmeisterschaft der Männer aus?",
+      "pt-BR": "Qual país sediou a primeira Copa do Mundo masculina de futebol?",
+      "fr": "Quel pays a accueilli la première Coupe du monde masculine de football ?",
+      "es": "¿Qué país acogió el primer Mundial masculino de fútbol?",
+      "it": "Quale paese ospitò il primo Mondiale maschile di calcio?",
+      "ru": "Какая страна приняла первый чемпионат мира по футболу среди мужчин?"
+    },
+    "o": {
+      "en": [
+        "Uruguay",
+        "Brazil",
+        "Italy",
+        "Spain"
+      ],
+      "de": [
+        "Uruguay",
+        "Brasilien",
+        "Italien",
+        "Spanien"
+      ],
+      "pt-BR": [
+        "Uruguai",
+        "Brasil",
+        "Itália",
+        "Espanha"
+      ],
+      "fr": [
+        "Uruguay",
+        "Brésil",
+        "Italie",
+        "Espagne"
+      ],
+      "es": [
+        "Uruguay",
+        "Brasil",
+        "Italia",
+        "España"
+      ],
+      "it": [
+        "Uruguay",
+        "Brasile",
+        "Italia",
+        "Spagna"
+      ],
+      "ru": [
+        "Уругвай",
+        "Бразилия",
+        "Италия",
+        "Испания"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.fifa.com/tournaments/mens/worldcup"
+  },
+  {
+    "id": "field-017",
+    "c": 1,
+    "q": {
+      "en": "In which year were the first Winter Olympic Games held?",
+      "de": "In welchem Jahr fanden die ersten Olympischen Winterspiele statt?",
+      "pt-BR": "Em que ano foram realizados os primeiros Jogos Olímpicos de Inverno?",
+      "fr": "En quelle année ont eu lieu les premiers Jeux olympiques d’hiver ?",
+      "es": "¿En qué año se celebraron los primeros Juegos Olímpicos de Invierno?",
+      "it": "In quale anno si svolsero i primi Giochi olimpici invernali?",
+      "ru": "В каком году состоялись первые зимние Олимпийские игры?"
+    },
+    "o": {
+      "en": [
+        "1924",
+        "1896",
+        "1936",
+        "1952"
+      ],
+      "de": [
+        "1924",
+        "1896",
+        "1936",
+        "1952"
+      ],
+      "pt-BR": [
+        "1924",
+        "1896",
+        "1936",
+        "1952"
+      ],
+      "fr": [
+        "1924",
+        "1896",
+        "1936",
+        "1952"
+      ],
+      "es": [
+        "1924",
+        "1896",
+        "1936",
+        "1952"
+      ],
+      "it": [
+        "1924",
+        "1896",
+        "1936",
+        "1952"
+      ],
+      "ru": [
+        "1924",
+        "1896",
+        "1936",
+        "1952"
+      ]
+    },
+    "a": 0,
+    "src": "https://olympics.com/en/olympic-games"
+  },
+  {
+    "id": "field-018",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the first Winter Olympic Games?",
+      "de": "Welche Stadt richtete die ersten Olympischen Winterspiele aus?",
+      "pt-BR": "Qual cidade sediou os primeiros Jogos Olímpicos de Inverno?",
+      "fr": "Quelle ville a accueilli les premiers Jeux olympiques d’hiver ?",
+      "es": "¿Qué ciudad acogió los primeros Juegos Olímpicos de Invierno?",
+      "it": "Quale città ospitò i primi Giochi olimpici invernali?",
+      "ru": "Какой город принял первые зимние Олимпийские игры?"
+    },
+    "o": {
+      "en": [
+        "Chamonix",
+        "Oslo",
+        "Paris",
+        "Rome"
+      ],
+      "de": [
+        "Chamonix",
+        "Oslo",
+        "Paris",
+        "Rom"
+      ],
+      "pt-BR": [
+        "Chamonix",
+        "Oslo",
+        "Paris",
+        "Roma"
+      ],
+      "fr": [
+        "Chamonix",
+        "Oslo",
+        "Paris",
+        "Rome"
+      ],
+      "es": [
+        "Chamonix",
+        "Oslo",
+        "París",
+        "Roma"
+      ],
+      "it": [
+        "Chamonix",
+        "Oslo",
+        "Parigi",
+        "Roma"
+      ],
+      "ru": [
+        "Шамони",
+        "Осло",
+        "Париж",
+        "Рим"
+      ]
+    },
+    "a": 0,
+    "src": "https://olympics.com/en/olympic-games"
+  },
+  {
+    "id": "field-019",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the 2012 Summer Olympics?",
+      "de": "Welche Stadt richtete die Olympischen Sommerspiele 2012 aus?",
+      "pt-BR": "Qual cidade sediou os Jogos Olímpicos de Verão de 2012?",
+      "fr": "Quelle ville a accueilli les Jeux olympiques d’été de 2012 ?",
+      "es": "¿Qué ciudad acogió los Juegos Olímpicos de Verano de 2012?",
+      "it": "Quale città ospitò le Olimpiadi estive del 2012?",
+      "ru": "Какой город принял летние Олимпийские игры 2012 года?"
+    },
+    "o": {
+      "en": [
+        "London",
+        "Athens",
+        "Madrid",
+        "Berlin"
+      ],
+      "de": [
+        "London",
+        "Athen",
+        "Madrid",
+        "Berlin"
+      ],
+      "pt-BR": [
+        "Londres",
+        "Atenas",
+        "Madri",
+        "Berlim"
+      ],
+      "fr": [
+        "Londres",
+        "Athènes",
+        "Madrid",
+        "Berlin"
+      ],
+      "es": [
+        "Londres",
+        "Atenas",
+        "Madrid",
+        "Berlín"
+      ],
+      "it": [
+        "Londra",
+        "Atene",
+        "Madrid",
+        "Berlino"
+      ],
+      "ru": [
+        "Лондон",
+        "Афины",
+        "Мадрид",
+        "Берлин"
+      ]
+    },
+    "a": 0,
+    "src": "https://olympics.com/en/olympic-games"
+  },
+  {
+    "id": "field-020",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the 2016 Summer Olympics?",
+      "de": "Welche Stadt richtete die Olympischen Sommerspiele 2016 aus?",
+      "pt-BR": "Qual cidade sediou os Jogos Olímpicos de Verão de 2016?",
+      "fr": "Quelle ville a accueilli les Jeux olympiques d’été de 2016 ?",
+      "es": "¿Qué ciudad acogió los Juegos Olímpicos de Verano de 2016?",
+      "it": "Quale città ospitò le Olimpiadi estive del 2016?",
+      "ru": "Какой город принял летние Олимпийские игры 2016 года?"
+    },
+    "o": {
+      "en": [
+        "Rio de Janeiro",
+        "Lisbon",
+        "Rome",
+        "Paris"
+      ],
+      "de": [
+        "Rio de Janeiro",
+        "Lissabon",
+        "Rom",
+        "Paris"
+      ],
+      "pt-BR": [
+        "Rio de Janeiro",
+        "Lisboa",
+        "Roma",
+        "Paris"
+      ],
+      "fr": [
+        "Rio de Janeiro",
+        "Lisbonne",
+        "Rome",
+        "Paris"
+      ],
+      "es": [
+        "Río de Janeiro",
+        "Lisboa",
+        "Roma",
+        "París"
+      ],
+      "it": [
+        "Rio de Janeiro",
+        "Lisbona",
+        "Roma",
+        "Parigi"
+      ],
+      "ru": [
+        "Рио-де-Жанейро",
+        "Лиссабон",
+        "Рим",
+        "Париж"
+      ]
+    },
+    "a": 0,
+    "src": "https://olympics.com/en/olympic-games"
+  },
+  {
+    "id": "field-021",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the 1964 Summer Olympics?",
+      "de": "Welche Stadt richtete die Olympischen Sommerspiele 1964 aus?",
+      "pt-BR": "Qual cidade sediou os Jogos Olímpicos de Verão de 1964?",
+      "fr": "Quelle ville a accueilli les Jeux olympiques d’été de 1964 ?",
+      "es": "¿Qué ciudad acogió los Juegos Olímpicos de Verano de 1964?",
+      "it": "Quale città ospitò le Olimpiadi estive del 1964?",
+      "ru": "Какой город принял летние Олимпийские игры 1964 года?"
+    },
+    "o": {
+      "en": [
+        "Tokyo",
+        "Seoul",
+        "Beijing",
+        "Osaka"
+      ],
+      "de": [
+        "Tokio",
+        "Seoul",
+        "Peking",
+        "Osaka"
+      ],
+      "pt-BR": [
+        "Tóquio",
+        "Seul",
+        "Pequim",
+        "Osaka"
+      ],
+      "fr": [
+        "Tokyo",
+        "Séoul",
+        "Pékin",
+        "Osaka"
+      ],
+      "es": [
+        "Tokio",
+        "Seúl",
+        "Pekín",
+        "Osaka"
+      ],
+      "it": [
+        "Tokyo",
+        "Seul",
+        "Pechino",
+        "Osaka"
+      ],
+      "ru": [
+        "Токио",
+        "Сеул",
+        "Пекин",
+        "Осака"
+      ]
+    },
+    "a": 0,
+    "src": "https://olympics.com/en/olympic-games"
+  },
+  {
+    "id": "field-022",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the 1924 Summer Olympics?",
+      "de": "Welche Stadt richtete die Olympischen Sommerspiele 1924 aus?",
+      "pt-BR": "Qual cidade sediou os Jogos Olímpicos de Verão de 1924?",
+      "fr": "Quelle ville a accueilli les Jeux olympiques d’été de 1924 ?",
+      "es": "¿Qué ciudad acogió los Juegos Olímpicos de Verano de 1924?",
+      "it": "Quale città ospitò le Olimpiadi estive del 1924?",
+      "ru": "Какой город принял летние Олимпийские игры 1924 года?"
+    },
+    "o": {
+      "en": [
+        "Paris",
+        "London",
+        "Athens",
+        "Rome"
+      ],
+      "de": [
+        "Paris",
+        "London",
+        "Athen",
+        "Rom"
+      ],
+      "pt-BR": [
+        "Paris",
+        "Londres",
+        "Atenas",
+        "Roma"
+      ],
+      "fr": [
+        "Paris",
+        "Londres",
+        "Athènes",
+        "Rome"
+      ],
+      "es": [
+        "París",
+        "Londres",
+        "Atenas",
+        "Roma"
+      ],
+      "it": [
+        "Parigi",
+        "Londra",
+        "Atene",
+        "Roma"
+      ],
+      "ru": [
+        "Париж",
+        "Лондон",
+        "Афины",
+        "Рим"
+      ]
+    },
+    "a": 0,
+    "src": "https://olympics.com/en/olympic-games"
+  },
+  {
+    "id": "field-023",
+    "c": 1,
+    "q": {
+      "en": "What is the official marathon distance in kilometres?",
+      "de": "Wie lang ist die offizielle Marathonstrecke in Kilometern?",
+      "pt-BR": "Qual é a distância oficial da maratona em quilômetros?",
+      "fr": "Quelle est la distance officielle du marathon en kilomètres ?",
+      "es": "¿Cuál es la distancia oficial del maratón en kilómetros?",
+      "it": "Qual è la distanza ufficiale della maratona in chilometri?",
+      "ru": "Какова официальная длина марафона в километрах?"
+    },
+    "o": {
+      "en": [
+        "42.195",
+        "40",
+        "21.1",
+        "50"
+      ],
+      "de": [
+        "42,195",
+        "40",
+        "21,1",
+        "50"
+      ],
+      "pt-BR": [
+        "42,195",
+        "40",
+        "21,1",
+        "50"
+      ],
+      "fr": [
+        "42,195",
+        "40",
+        "21,1",
+        "50"
+      ],
+      "es": [
+        "42,195",
+        "40",
+        "21,1",
+        "50"
+      ],
+      "it": [
+        "42,195",
+        "40",
+        "21,1",
+        "50"
+      ],
+      "ru": [
+        "42,195",
+        "40",
+        "21,1",
+        "50"
+      ]
+    },
+    "a": 0,
+    "src": "https://worldathletics.org/disciplines/road-running/marathon"
+  },
+  {
+    "id": "field-024",
+    "c": 1,
+    "q": {
+      "en": "How many rings are in the Olympic symbol?",
+      "de": "Wie viele Ringe hat das olympische Symbol?",
+      "pt-BR": "Quantos anéis há no símbolo olímpico?",
+      "fr": "Combien d’anneaux compte le symbole olympique ?",
+      "es": "¿Cuántos anillos tiene el símbolo olímpico?",
+      "it": "Quanti anelli ci sono nel simbolo olimpico?",
+      "ru": "Сколько колец в олимпийском символе?"
+    },
+    "o": {
+      "en": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "de": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "pt-BR": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "fr": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "es": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "it": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "ru": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ]
+    },
+    "a": 0,
+    "src": "https://olympics.com/en/olympic-games"
+  },
+  {
+    "id": "field-025",
+    "c": 2,
+    "q": {
+      "en": "Which athlete is famous for sprinting the 100 and 200 metres?",
+      "de": "Welcher Sportler ist für Sprints über 100 und 200 Meter bekannt?",
+      "pt-BR": "Qual atleta é famoso pelas provas de 100 e 200 metros rasos?",
+      "fr": "Quel athlète est célèbre pour le sprint sur 100 et 200 mètres ?",
+      "es": "¿Qué atleta es famoso por los 100 y 200 metros lisos?",
+      "it": "Quale atleta è famoso per i 100 e i 200 metri?",
+      "ru": "Какой спортсмен прославился в беге на 100 и 200 метров?"
+    },
+    "o": {
+      "en": [
+        "Usain Bolt",
+        "Michael Phelps",
+        "Roger Federer",
+        "Pelé"
+      ],
+      "de": [
+        "Usain Bolt",
+        "Michael Phelps",
+        "Roger Federer",
+        "Pelé"
+      ],
+      "pt-BR": [
+        "Usain Bolt",
+        "Michael Phelps",
+        "Roger Federer",
+        "Pelé"
+      ],
+      "fr": [
+        "Usain Bolt",
+        "Michael Phelps",
+        "Roger Federer",
+        "Pelé"
+      ],
+      "es": [
+        "Usain Bolt",
+        "Michael Phelps",
+        "Roger Federer",
+        "Pelé"
+      ],
+      "it": [
+        "Usain Bolt",
+        "Michael Phelps",
+        "Roger Federer",
+        "Pelé"
+      ],
+      "ru": [
+        "Усэйн Болт",
+        "Майкл Фелпс",
+        "Роджер Федерер",
+        "Пеле"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-026",
+    "c": 2,
+    "q": {
+      "en": "Which of these athletes is an Olympic swimmer?",
+      "de": "Welcher dieser Sportler ist olympischer Schwimmer?",
+      "pt-BR": "Qual destes atletas é um nadador olímpico?",
+      "fr": "Lequel de ces athlètes est un nageur olympique ?",
+      "es": "¿Cuál de estos atletas es nadador olímpico?",
+      "it": "Quale di questi atleti è un nuotatore olimpico?",
+      "ru": "Кто из этих спортсменов — олимпийский пловец?"
+    },
+    "o": {
+      "en": [
+        "Michael Phelps",
+        "Usain Bolt",
+        "Rafael Nadal",
+        "Lionel Messi"
+      ],
+      "de": [
+        "Michael Phelps",
+        "Usain Bolt",
+        "Rafael Nadal",
+        "Lionel Messi"
+      ],
+      "pt-BR": [
+        "Michael Phelps",
+        "Usain Bolt",
+        "Rafael Nadal",
+        "Lionel Messi"
+      ],
+      "fr": [
+        "Michael Phelps",
+        "Usain Bolt",
+        "Rafael Nadal",
+        "Lionel Messi"
+      ],
+      "es": [
+        "Michael Phelps",
+        "Usain Bolt",
+        "Rafael Nadal",
+        "Lionel Messi"
+      ],
+      "it": [
+        "Michael Phelps",
+        "Usain Bolt",
+        "Rafael Nadal",
+        "Lionel Messi"
+      ],
+      "ru": [
+        "Майкл Фелпс",
+        "Усэйн Болт",
+        "Рафаэль Надаль",
+        "Лионель Месси"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-027",
+    "c": 2,
+    "q": {
+      "en": "Which athlete is a tennis champion?",
+      "de": "Welche Sportlerin ist eine Tennischampionin?",
+      "pt-BR": "Qual atleta é campeã de tênis?",
+      "fr": "Quelle athlète est une championne de tennis ?",
+      "es": "¿Qué atleta es campeona de tenis?",
+      "it": "Quale atleta è una campionessa di tennis?",
+      "ru": "Кто из этих спортсменок — чемпионка по теннису?"
+    },
+    "o": {
+      "en": [
+        "Serena Williams",
+        "Simone Biles",
+        "Marta",
+        "Allyson Felix"
+      ],
+      "de": [
+        "Serena Williams",
+        "Simone Biles",
+        "Marta",
+        "Allyson Felix"
+      ],
+      "pt-BR": [
+        "Serena Williams",
+        "Simone Biles",
+        "Marta",
+        "Allyson Felix"
+      ],
+      "fr": [
+        "Serena Williams",
+        "Simone Biles",
+        "Marta",
+        "Allyson Felix"
+      ],
+      "es": [
+        "Serena Williams",
+        "Simone Biles",
+        "Marta",
+        "Allyson Felix"
+      ],
+      "it": [
+        "Serena Williams",
+        "Simone Biles",
+        "Marta",
+        "Allyson Felix"
+      ],
+      "ru": [
+        "Серена Уильямс",
+        "Симона Байлз",
+        "Марта",
+        "Эллисон Феликс"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-028",
+    "c": 2,
+    "q": {
+      "en": "Which athlete competes in artistic gymnastics?",
+      "de": "Welche Sportlerin tritt im Kunstturnen an?",
+      "pt-BR": "Qual atleta compete na ginástica artística?",
+      "fr": "Quelle athlète pratique la gymnastique artistique ?",
+      "es": "¿Qué atleta compite en gimnasia artística?",
+      "it": "Quale atleta gareggia nella ginnastica artistica?",
+      "ru": "Кто из этих спортсменок выступает в спортивной гимнастике?"
+    },
+    "o": {
+      "en": [
+        "Simone Biles",
+        "Serena Williams",
+        "Marta",
+        "Katie Ledecky"
+      ],
+      "de": [
+        "Simone Biles",
+        "Serena Williams",
+        "Marta",
+        "Katie Ledecky"
+      ],
+      "pt-BR": [
+        "Simone Biles",
+        "Serena Williams",
+        "Marta",
+        "Katie Ledecky"
+      ],
+      "fr": [
+        "Simone Biles",
+        "Serena Williams",
+        "Marta",
+        "Katie Ledecky"
+      ],
+      "es": [
+        "Simone Biles",
+        "Serena Williams",
+        "Marta",
+        "Katie Ledecky"
+      ],
+      "it": [
+        "Simone Biles",
+        "Serena Williams",
+        "Marta",
+        "Katie Ledecky"
+      ],
+      "ru": [
+        "Симона Байлз",
+        "Серена Уильямс",
+        "Марта",
+        "Кэти Ледеки"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-029",
+    "c": 2,
+    "q": {
+      "en": "Who captained Argentina to the 2022 men’s football World Cup title?",
+      "de": "Wer führte Argentinien als Kapitän zum Fußball-WM-Titel der Männer 2022?",
+      "pt-BR": "Quem foi o capitão da Argentina no título da Copa do Mundo masculina de 2022?",
+      "fr": "Qui était le capitaine de l’Argentine championne du monde de football masculin en 2022 ?",
+      "es": "¿Quién fue el capitán de Argentina al ganar el Mundial masculino de fútbol de 2022?",
+      "it": "Chi fu il capitano dell’Argentina campione del mondo di calcio maschile nel 2022?",
+      "ru": "Кто был капитаном сборной Аргентины, выигравшей мужской чемпионат мира 2022 года?"
+    },
+    "o": {
+      "en": [
+        "Lionel Messi",
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt"
+      ],
+      "de": [
+        "Lionel Messi",
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt"
+      ],
+      "pt-BR": [
+        "Lionel Messi",
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt"
+      ],
+      "fr": [
+        "Lionel Messi",
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt"
+      ],
+      "es": [
+        "Lionel Messi",
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt"
+      ],
+      "it": [
+        "Lionel Messi",
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt"
+      ],
+      "ru": [
+        "Лионель Месси",
+        "Рафаэль Надаль",
+        "Майкл Джордан",
+        "Усэйн Болт"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-030",
+    "c": 2,
+    "q": {
+      "en": "Which athlete is associated with the Chicago Bulls?",
+      "de": "Welcher Sportler ist mit den Chicago Bulls verbunden?",
+      "pt-BR": "Qual atleta é associado ao Chicago Bulls?",
+      "fr": "Quel athlète est associé aux Chicago Bulls ?",
+      "es": "¿Qué atleta está asociado con los Chicago Bulls?",
+      "it": "Quale atleta è legato ai Chicago Bulls?",
+      "ru": "Кто из этих спортсменов связан с «Чикаго Буллз»?"
+    },
+    "o": {
+      "en": [
+        "Michael Jordan",
+        "Pelé",
+        "Roger Federer",
+        "Michael Phelps"
+      ],
+      "de": [
+        "Michael Jordan",
+        "Pelé",
+        "Roger Federer",
+        "Michael Phelps"
+      ],
+      "pt-BR": [
+        "Michael Jordan",
+        "Pelé",
+        "Roger Federer",
+        "Michael Phelps"
+      ],
+      "fr": [
+        "Michael Jordan",
+        "Pelé",
+        "Roger Federer",
+        "Michael Phelps"
+      ],
+      "es": [
+        "Michael Jordan",
+        "Pelé",
+        "Roger Federer",
+        "Michael Phelps"
+      ],
+      "it": [
+        "Michael Jordan",
+        "Pelé",
+        "Roger Federer",
+        "Michael Phelps"
+      ],
+      "ru": [
+        "Майкл Джордан",
+        "Пеле",
+        "Роджер Федерер",
+        "Майкл Фелпс"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-031",
+    "c": 2,
+    "q": {
+      "en": "Which athlete is known for success at Roland-Garros?",
+      "de": "Welcher Sportler ist für seine Erfolge bei Roland-Garros bekannt?",
+      "pt-BR": "Qual atleta é conhecido pelo sucesso em Roland-Garros?",
+      "fr": "Quel athlète est connu pour ses succès à Roland-Garros ?",
+      "es": "¿Qué atleta es conocido por sus éxitos en Roland-Garros?",
+      "it": "Quale atleta è noto per i successi al Roland-Garros?",
+      "ru": "Кто известен своими успехами на «Ролан Гаррос»?"
+    },
+    "o": {
+      "en": [
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Pelé"
+      ],
+      "de": [
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Pelé"
+      ],
+      "pt-BR": [
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Pelé"
+      ],
+      "fr": [
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Pelé"
+      ],
+      "es": [
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Pelé"
+      ],
+      "it": [
+        "Rafael Nadal",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Pelé"
+      ],
+      "ru": [
+        "Рафаэль Надаль",
+        "Майкл Джордан",
+        "Усэйн Болт",
+        "Пеле"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-032",
+    "c": 2,
+    "q": {
+      "en": "Which footballer won the men’s World Cup in 1958, 1962 and 1970?",
+      "de": "Welcher Fußballer gewann die Männer-WM 1958, 1962 und 1970?",
+      "pt-BR": "Qual jogador venceu a Copa do Mundo masculina em 1958, 1962 e 1970?",
+      "fr": "Quel footballeur a remporté la Coupe du monde masculine en 1958, 1962 et 1970 ?",
+      "es": "¿Qué futbolista ganó el Mundial masculino en 1958, 1962 y 1970?",
+      "it": "Quale calciatore vinse i Mondiali maschili nel 1958, 1962 e 1970?",
+      "ru": "Кто выиграл мужской чемпионат мира по футболу в 1958, 1962 и 1970 годах?"
+    },
+    "o": {
+      "en": [
+        "Pelé",
+        "Diego Maradona",
+        "Lionel Messi",
+        "Cristiano Ronaldo"
+      ],
+      "de": [
+        "Pelé",
+        "Diego Maradona",
+        "Lionel Messi",
+        "Cristiano Ronaldo"
+      ],
+      "pt-BR": [
+        "Pelé",
+        "Diego Maradona",
+        "Lionel Messi",
+        "Cristiano Ronaldo"
+      ],
+      "fr": [
+        "Pelé",
+        "Diego Maradona",
+        "Lionel Messi",
+        "Cristiano Ronaldo"
+      ],
+      "es": [
+        "Pelé",
+        "Diego Maradona",
+        "Lionel Messi",
+        "Cristiano Ronaldo"
+      ],
+      "it": [
+        "Pelé",
+        "Diego Maradona",
+        "Lionel Messi",
+        "Cristiano Ronaldo"
+      ],
+      "ru": [
+        "Пеле",
+        "Диего Марадона",
+        "Лионель Месси",
+        "Криштиану Роналду"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-033",
+    "c": 2,
+    "q": {
+      "en": "Which athlete is known for freestyle swimming?",
+      "de": "Welche Sportlerin ist für Freistilschwimmen bekannt?",
+      "pt-BR": "Qual atleta é conhecida pela natação em estilo livre?",
+      "fr": "Quelle athlète est connue pour la nage libre ?",
+      "es": "¿Qué atleta es conocida por la natación en estilo libre?",
+      "it": "Quale atleta è nota per il nuoto a stile libero?",
+      "ru": "Кто из этих спортсменок известен плаванием вольным стилем?"
+    },
+    "o": {
+      "en": [
+        "Katie Ledecky",
+        "Simone Biles",
+        "Marta",
+        "Serena Williams"
+      ],
+      "de": [
+        "Katie Ledecky",
+        "Simone Biles",
+        "Marta",
+        "Serena Williams"
+      ],
+      "pt-BR": [
+        "Katie Ledecky",
+        "Simone Biles",
+        "Marta",
+        "Serena Williams"
+      ],
+      "fr": [
+        "Katie Ledecky",
+        "Simone Biles",
+        "Marta",
+        "Serena Williams"
+      ],
+      "es": [
+        "Katie Ledecky",
+        "Simone Biles",
+        "Marta",
+        "Serena Williams"
+      ],
+      "it": [
+        "Katie Ledecky",
+        "Simone Biles",
+        "Marta",
+        "Serena Williams"
+      ],
+      "ru": [
+        "Кэти Ледеки",
+        "Симона Байлз",
+        "Марта",
+        "Серена Уильямс"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-034",
+    "c": 2,
+    "q": {
+      "en": "Which athlete is a Swiss tennis champion?",
+      "de": "Welcher Sportler ist ein Schweizer Tennischampion?",
+      "pt-BR": "Qual atleta é um campeão suíço de tênis?",
+      "fr": "Quel athlète est un champion suisse de tennis ?",
+      "es": "¿Qué atleta es un campeón suizo de tenis?",
+      "it": "Quale atleta è un campione svizzero di tennis?",
+      "ru": "Кто из этих спортсменов — швейцарский чемпион по теннису?"
+    },
+    "o": {
+      "en": [
+        "Roger Federer",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Michael Phelps"
+      ],
+      "de": [
+        "Roger Federer",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Michael Phelps"
+      ],
+      "pt-BR": [
+        "Roger Federer",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Michael Phelps"
+      ],
+      "fr": [
+        "Roger Federer",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Michael Phelps"
+      ],
+      "es": [
+        "Roger Federer",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Michael Phelps"
+      ],
+      "it": [
+        "Roger Federer",
+        "Michael Jordan",
+        "Usain Bolt",
+        "Michael Phelps"
+      ],
+      "ru": [
+        "Роджер Федерер",
+        "Майкл Джордан",
+        "Усэйн Болт",
+        "Майкл Фелпс"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-035",
+    "c": 2,
+    "q": {
+      "en": "Which athlete is a Brazilian football star?",
+      "de": "Welche Sportlerin ist ein brasilianischer Fußballstar?",
+      "pt-BR": "Qual atleta é uma estrela brasileira do futebol?",
+      "fr": "Quelle athlète est une star brésilienne du football ?",
+      "es": "¿Qué atleta es una estrella brasileña del fútbol?",
+      "it": "Quale atleta è una stella brasiliana del calcio?",
+      "ru": "Кто из этих спортсменок — звезда бразильского футбола?"
+    },
+    "o": {
+      "en": [
+        "Marta",
+        "Katie Ledecky",
+        "Simone Biles",
+        "Serena Williams"
+      ],
+      "de": [
+        "Marta",
+        "Katie Ledecky",
+        "Simone Biles",
+        "Serena Williams"
+      ],
+      "pt-BR": [
+        "Marta",
+        "Katie Ledecky",
+        "Simone Biles",
+        "Serena Williams"
+      ],
+      "fr": [
+        "Marta",
+        "Katie Ledecky",
+        "Simone Biles",
+        "Serena Williams"
+      ],
+      "es": [
+        "Marta",
+        "Katie Ledecky",
+        "Simone Biles",
+        "Serena Williams"
+      ],
+      "it": [
+        "Marta",
+        "Katie Ledecky",
+        "Simone Biles",
+        "Serena Williams"
+      ],
+      "ru": [
+        "Марта",
+        "Кэти Ледеки",
+        "Симона Байлз",
+        "Серена Уильямс"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-036",
+    "c": 2,
+    "q": {
+      "en": "Which athlete is an American track sprinter?",
+      "de": "Welche Sportlerin ist eine US-amerikanische Sprinterin?",
+      "pt-BR": "Qual atleta é uma velocista dos Estados Unidos?",
+      "fr": "Quelle athlète est une sprinteuse américaine ?",
+      "es": "¿Qué atleta es una velocista estadounidense?",
+      "it": "Quale atleta è una velocista statunitense?",
+      "ru": "Кто из этих спортсменок — американская бегунья на короткие дистанции?"
+    },
+    "o": {
+      "en": [
+        "Allyson Felix",
+        "Marta",
+        "Serena Williams",
+        "Simone Biles"
+      ],
+      "de": [
+        "Allyson Felix",
+        "Marta",
+        "Serena Williams",
+        "Simone Biles"
+      ],
+      "pt-BR": [
+        "Allyson Felix",
+        "Marta",
+        "Serena Williams",
+        "Simone Biles"
+      ],
+      "fr": [
+        "Allyson Felix",
+        "Marta",
+        "Serena Williams",
+        "Simone Biles"
+      ],
+      "es": [
+        "Allyson Felix",
+        "Marta",
+        "Serena Williams",
+        "Simone Biles"
+      ],
+      "it": [
+        "Allyson Felix",
+        "Marta",
+        "Serena Williams",
+        "Simone Biles"
+      ],
+      "ru": [
+        "Эллисон Феликс",
+        "Марта",
+        "Серена Уильямс",
+        "Симона Байлз"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.olympics.com/en/athletes/"
+  },
+  {
+    "id": "field-037",
+    "c": 0,
+    "q": {
+      "en": "How far is the penalty mark from the midpoint of a football goal?",
+      "de": "Wie weit liegt der Elfmeterpunkt von der Mitte der Torlinie entfernt?",
+      "pt-BR": "Qual é a distância da marca do pênalti ao centro da linha do gol?",
+      "fr": "À quelle distance du milieu de la ligne de but se trouve le point de penalty ?",
+      "es": "¿A qué distancia del punto medio de la línea de gol está el punto penal?",
+      "it": "A quale distanza dal centro della linea di porta si trova il dischetto del rigore?",
+      "ru": "Каково расстояние от центра линии ворот до одиннадцатиметровой отметки?"
+    },
+    "o": {
+      "en": [
+        "16.5 m",
+        "9.15 m",
+        "11 m",
+        "12.5 m"
+      ],
+      "de": [
+        "16,5 m",
+        "9,15 m",
+        "11 m",
+        "12,5 m"
+      ],
+      "pt-BR": [
+        "16,5 m",
+        "9,15 m",
+        "11 m",
+        "12,5 m"
+      ],
+      "fr": [
+        "16,5 m",
+        "9,15 m",
+        "11 m",
+        "12,5 m"
+      ],
+      "es": [
+        "16,5 m",
+        "9,15 m",
+        "11 m",
+        "12,5 m"
+      ],
+      "it": [
+        "16,5 m",
+        "9,15 m",
+        "11 m",
+        "12,5 m"
+      ],
+      "ru": [
+        "16,5 m",
+        "9,15 m",
+        "11 m",
+        "12,5 m"
+      ]
+    },
+    "a": 2,
+    "src": "https://www.theifab.com/laws/latest/the-field-of-play/"
+  },
+  {
+    "id": "field-038",
+    "c": 0,
+    "q": {
+      "en": "How wide is a full-size football goal between the posts?",
+      "de": "Wie breit ist ein Fußballtor zwischen den Innenkanten der Pfosten?",
+      "pt-BR": "Qual é a largura interna de uma baliza de futebol de campo?",
+      "fr": "Quelle est la largeur intérieure d’un but de football à onze ?",
+      "es": "¿Qué distancia hay entre las caras internas de los postes de una portería reglamentaria?",
+      "it": "Quanto è larga una porta da calcio tra i lati interni dei pali?",
+      "ru": "Какова ширина футбольных ворот между внутренними краями стоек?"
+    },
+    "o": {
+      "en": [
+        "7.32 m",
+        "6.75 m",
+        "8.24 m",
+        "7.00 m"
+      ],
+      "de": [
+        "7,32 m",
+        "6,75 m",
+        "8,24 m",
+        "7,00 m"
+      ],
+      "pt-BR": [
+        "7,32 m",
+        "6,75 m",
+        "8,24 m",
+        "7,00 m"
+      ],
+      "fr": [
+        "7,32 m",
+        "6,75 m",
+        "8,24 m",
+        "7,00 m"
+      ],
+      "es": [
+        "7,32 m",
+        "6,75 m",
+        "8,24 m",
+        "7,00 m"
+      ],
+      "it": [
+        "7,32 m",
+        "6,75 m",
+        "8,24 m",
+        "7,00 m"
+      ],
+      "ru": [
+        "7,32 m",
+        "6,75 m",
+        "8,24 m",
+        "7,00 m"
+      ]
+    },
+    "a": 0,
+    "src": "https://www.theifab.com/laws/latest/the-field-of-play/"
+  },
+  {
+    "id": "field-039",
+    "c": 0,
+    "q": {
+      "en": "How far above the ground is the underside of a regulation football crossbar?",
+      "de": "Wie hoch liegt die Unterkante der Querlatte eines Fußballtors?",
+      "pt-BR": "A que altura do chão fica a borda inferior do travessão no futebol?",
+      "fr": "À quelle hauteur se situe le bord inférieur de la barre transversale au football ?",
+      "es": "¿A qué altura del suelo está el borde inferior del travesaño en fútbol?",
+      "it": "A che altezza dal terreno si trova il bordo inferiore della traversa nel calcio?",
+      "ru": "На какой высоте находится нижняя кромка перекладины футбольных ворот?"
+    },
+    "o": {
+      "en": [
+        "3.05 m",
+        "2.75 m",
+        "2.44 m",
+        "2.20 m"
+      ],
+      "de": [
+        "3,05 m",
+        "2,75 m",
+        "2,44 m",
+        "2,20 m"
+      ],
+      "pt-BR": [
+        "3,05 m",
+        "2,75 m",
+        "2,44 m",
+        "2,20 m"
+      ],
+      "fr": [
+        "3,05 m",
+        "2,75 m",
+        "2,44 m",
+        "2,20 m"
+      ],
+      "es": [
+        "3,05 m",
+        "2,75 m",
+        "2,44 m",
+        "2,20 m"
+      ],
+      "it": [
+        "3,05 m",
+        "2,75 m",
+        "2,44 m",
+        "2,20 m"
+      ],
+      "ru": [
+        "3,05 m",
+        "2,75 m",
+        "2,44 m",
+        "2,20 m"
+      ]
+    },
+    "a": 2,
+    "src": "https://www.theifab.com/laws/latest/the-field-of-play/"
+  },
+  {
+    "id": "field-040",
+    "c": 0,
+    "q": {
+      "en": "How many water jumps does each athlete face in a standard 3,000 m steeplechase?",
+      "de": "Wie viele Wassergräben überquert man im 3000-Meter-Hindernislauf?",
+      "pt-BR": "Quantos fossos de água cada atleta transpõe nos 3.000 m com obstáculos?",
+      "fr": "Combien de rivières franchit-on dans un 3 000 m steeple ?",
+      "es": "¿Cuántas rías supera cada atleta en una prueba de 3.000 m obstáculos?",
+      "it": "Quante riviere affronta ogni atleta nei 3.000 m siepi?",
+      "ru": "Сколько раз бегун преодолевает яму с водой на дистанции 3000 м с препятствиями?"
+    },
+    "o": {
+      "en": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ],
+      "de": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ],
+      "pt-BR": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ],
+      "fr": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ],
+      "es": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ],
+      "it": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ],
+      "ru": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ]
+    },
+    "a": 1,
+    "src": "https://worldathletics.org/disciplines/running-event/3000-metres-steeplechase"
+  },
+  {
+    "id": "field-041",
+    "c": 0,
+    "q": {
+      "en": "How many events decide a decathlon?",
+      "de": "Wie viele Disziplinen entscheiden einen Zehnkampf?",
+      "pt-BR": "Quantas provas compõem um decatlo?",
+      "fr": "Combien d’épreuves composent un décathlon ?",
+      "es": "¿Cuántas pruebas componen un decatlón?",
+      "it": "Quante prove compongono il decathlon?",
+      "ru": "Из скольких видов состоит легкоатлетическое десятиборье?"
+    },
+    "o": {
+      "en": [
+        "12",
+        "10",
+        "7",
+        "8"
+      ],
+      "de": [
+        "12",
+        "10",
+        "7",
+        "8"
+      ],
+      "pt-BR": [
+        "12",
+        "10",
+        "7",
+        "8"
+      ],
+      "fr": [
+        "12",
+        "10",
+        "7",
+        "8"
+      ],
+      "es": [
+        "12",
+        "10",
+        "7",
+        "8"
+      ],
+      "it": [
+        "12",
+        "10",
+        "7",
+        "8"
+      ],
+      "ru": [
+        "12",
+        "10",
+        "7",
+        "8"
+      ]
+    },
+    "a": 1,
+    "src": "https://worldathletics.org/disciplines/combined-events/decathlon"
+  },
+  {
+    "id": "field-042",
+    "c": 0,
+    "q": {
+      "en": "Which race ends a men’s outdoor decathlon?",
+      "de": "Welcher Lauf beschließt einen Zehnkampf der Männer im Freien?",
+      "pt-BR": "Qual corrida encerra o decatlo masculino ao ar livre?",
+      "fr": "Quelle course termine le décathlon masculin en plein air ?",
+      "es": "¿Qué carrera cierra el decatlón masculino al aire libre?",
+      "it": "Quale gara conclude il decathlon maschile all’aperto?",
+      "ru": "Каким беговым видом заканчивается мужское десятиборье на стадионе?"
+    },
+    "o": {
+      "en": [
+        "800 m",
+        "400 m",
+        "1500 m",
+        "5000 m"
+      ],
+      "de": [
+        "800 m",
+        "400 m",
+        "1500 m",
+        "5000 m"
+      ],
+      "pt-BR": [
+        "800 m",
+        "400 m",
+        "1500 m",
+        "5000 m"
+      ],
+      "fr": [
+        "800 m",
+        "400 m",
+        "1500 m",
+        "5000 m"
+      ],
+      "es": [
+        "800 m",
+        "400 m",
+        "1500 m",
+        "5000 m"
+      ],
+      "it": [
+        "800 m",
+        "400 m",
+        "1500 m",
+        "5000 m"
+      ],
+      "ru": [
+        "800 m",
+        "400 m",
+        "1500 m",
+        "5000 m"
+      ]
+    },
+    "a": 2,
+    "src": "https://worldathletics.org/disciplines/combined-events/decathlon"
+  },
+  {
+    "id": "field-043",
+    "c": 0,
+    "q": {
+      "en": "Over how many days is a standard outdoor decathlon held?",
+      "de": "An wie vielen Tagen findet ein regulärer Freiluft-Zehnkampf statt?",
+      "pt-BR": "Em quantos dias ocorre um decatlo ao ar livre?",
+      "fr": "Sur combien de jours se déroule un décathlon de plein air ?",
+      "es": "¿En cuántos días se desarrolla un decatlón al aire libre?",
+      "it": "In quanti giorni si svolge un decathlon all’aperto?",
+      "ru": "Сколько дней длится стандартное десятиборье на стадионе?"
+    },
+    "o": {
+      "en": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "de": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "pt-BR": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "fr": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "es": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "it": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "ru": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ]
+    },
+    "a": 3,
+    "src": "https://worldathletics.org/disciplines/combined-events/decathlon"
+  },
+  {
+    "id": "field-044",
+    "c": 0,
+    "q": {
+      "en": "What is the radius of the quarter-circle at each corner of a football pitch?",
+      "de": "Welchen Radius hat der Viertelkreis an der Eckfahne?",
+      "pt-BR": "Qual é o raio do quarto de círculo na bandeira de escanteio?",
+      "fr": "Quel est le rayon du quart de cercle tracé au poteau de corner ?",
+      "es": "¿Cuál es el radio del cuarto de círculo en la esquina del campo de fútbol?",
+      "it": "Qual è il raggio del quarto di cerchio presso la bandierina del calcio d’angolo?",
+      "ru": "Чему равен радиус угловой дуги на футбольном поле?"
+    },
+    "o": {
+      "en": [
+        "2 m",
+        "1 m",
+        "0.5 m",
+        "1.5 m"
+      ],
+      "de": [
+        "2 m",
+        "1 m",
+        "0,5 m",
+        "1,5 m"
+      ],
+      "pt-BR": [
+        "2 m",
+        "1 m",
+        "0,5 m",
+        "1,5 m"
+      ],
+      "fr": [
+        "2 m",
+        "1 m",
+        "0,5 m",
+        "1,5 m"
+      ],
+      "es": [
+        "2 m",
+        "1 m",
+        "0,5 m",
+        "1,5 m"
+      ],
+      "it": [
+        "2 m",
+        "1 m",
+        "0,5 m",
+        "1,5 m"
+      ],
+      "ru": [
+        "2 m",
+        "1 m",
+        "0,5 m",
+        "1,5 m"
+      ]
+    },
+    "a": 1,
+    "src": "https://www.theifab.com/laws/latest/the-field-of-play/"
+  },
+  {
+    "id": "field-045",
+    "c": 1,
+    "q": {
+      "en": "Which city staged the first full outdoor World Athletics Championships in 1983?",
+      "de": "Welche Stadt war 1983 Gastgeberin der ersten umfassenden Leichtathletik-WM?",
+      "pt-BR": "Que cidade recebeu o primeiro Mundial completo de atletismo ao ar livre, em 1983?",
+      "fr": "Quelle ville a accueilli en 1983 les premiers Mondiaux complets d’athlétisme en plein air ?",
+      "es": "¿Qué ciudad acogió en 1983 los primeros Mundiales completos de atletismo al aire libre?",
+      "it": "Quale città ospitò nel 1983 i primi Mondiali completi di atletica all’aperto?",
+      "ru": "Где в 1983 году прошёл первый полноценный чемпионат мира по лёгкой атлетике?"
+    },
+    "o": {
+      "en": [
+        "Paris",
+        "London",
+        "Helsinki",
+        "Tokyo"
+      ],
+      "de": [
+        "Paris",
+        "London",
+        "Helsinki",
+        "Tokio"
+      ],
+      "pt-BR": [
+        "Paris",
+        "Londres",
+        "Helsinque",
+        "Tóquio"
+      ],
+      "fr": [
+        "Paris",
+        "Londres",
+        "Helsinki",
+        "Tokyo"
+      ],
+      "es": [
+        "París",
+        "Londres",
+        "Helsinki",
+        "Tokio"
+      ],
+      "it": [
+        "Parigi",
+        "Londra",
+        "Helsinki",
+        "Tokyo"
+      ],
+      "ru": [
+        "Париж",
+        "Лондон",
+        "Хельсинки",
+        "Токио"
+      ]
+    },
+    "a": 2,
+    "src": "https://worldathletics.org/results/world-athletics-championships"
+  },
+  {
+    "id": "field-046",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the 1991 world final where the men’s long jump reached 8.95 m?",
+      "de": "In welcher Stadt wurden 1991 im WM-Finale der Männer 8,95 m weit gesprungen?",
+      "pt-BR": "Em que cidade ocorreu a final mundial de 1991 com o salto em distância de 8,95 m?",
+      "fr": "Dans quelle ville le saut en longueur masculin a-t-il atteint 8,95 m en finale mondiale en 1991 ?",
+      "es": "¿Qué ciudad albergó la final mundial de longitud masculina de 1991 con un salto de 8,95 m?",
+      "it": "In quale città la finale mondiale maschile di lungo nel 1991 vide un salto di 8,95 m?",
+      "ru": "В каком городе на чемпионате мира 1991 года был показан прыжок в длину на 8,95 м?"
+    },
+    "o": {
+      "en": [
+        "Tokyo",
+        "Osaka",
+        "Moscow",
+        "Berlin"
+      ],
+      "de": [
+        "Tokio",
+        "Osaka",
+        "Moskau",
+        "Berlin"
+      ],
+      "pt-BR": [
+        "Tóquio",
+        "Osaka",
+        "Moscou",
+        "Berlim"
+      ],
+      "fr": [
+        "Tokyo",
+        "Osaka",
+        "Moscou",
+        "Berlin"
+      ],
+      "es": [
+        "Tokio",
+        "Osaka",
+        "Moscú",
+        "Berlín"
+      ],
+      "it": [
+        "Tokyo",
+        "Osaka",
+        "Mosca",
+        "Berlino"
+      ],
+      "ru": [
+        "Токио",
+        "Осака",
+        "Москва",
+        "Берлин"
+      ]
+    },
+    "a": 0,
+    "src": "https://worldathletics.org/competition/calendar-results/results/6987209?eventId=10229617"
+  },
+  {
+    "id": "field-047",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the outdoor World Athletics Championships in 2017 after staging the 2012 Olympics?",
+      "de": "Welche Stadt richtete nach Olympia 2012 auch die Leichtathletik-WM 2017 aus?",
+      "pt-BR": "Que cidade sediou os Jogos de 2012 e depois o Mundial de Atletismo de 2017?",
+      "fr": "Quelle ville a organisé les Jeux de 2012 puis les Mondiaux d’athlétisme de 2017 ?",
+      "es": "¿Qué ciudad acogió los Juegos de 2012 y los Mundiales de Atletismo de 2017?",
+      "it": "Quale città ospitò i Giochi del 2012 e i Mondiali di atletica del 2017?",
+      "ru": "Какой город принимал Олимпиаду 2012 года и чемпионат мира по лёгкой атлетике 2017 года?"
+    },
+    "o": {
+      "en": [
+        "Athens",
+        "Paris",
+        "Seville",
+        "London"
+      ],
+      "de": [
+        "Athen",
+        "Paris",
+        "Sevilla",
+        "London"
+      ],
+      "pt-BR": [
+        "Atenas",
+        "Paris",
+        "Sevilha",
+        "Londres"
+      ],
+      "fr": [
+        "Athènes",
+        "Paris",
+        "Séville",
+        "Londres"
+      ],
+      "es": [
+        "Atenas",
+        "París",
+        "Sevilla",
+        "Londres"
+      ],
+      "it": [
+        "Atene",
+        "Parigi",
+        "Siviglia",
+        "Londra"
+      ],
+      "ru": [
+        "Афины",
+        "Париж",
+        "Севилья",
+        "Лондон"
+      ]
+    },
+    "a": 3,
+    "src": "https://worldathletics.org/results/world-athletics-championships"
+  },
+  {
+    "id": "field-048",
+    "c": 1,
+    "q": {
+      "en": "Where were the 2023 outdoor World Athletics Championships held on the banks of the Danube?",
+      "de": "Wo fand die Leichtathletik-WM 2023 am Ufer der Donau statt?",
+      "pt-BR": "Onde ocorreu o Mundial de Atletismo de 2023 às margens do Danúbio?",
+      "fr": "Quelle ville du Danube a accueilli les Mondiaux d’athlétisme de 2023 ?",
+      "es": "¿Qué ciudad del Danubio albergó los Mundiales de Atletismo de 2023?",
+      "it": "Quale città sul Danubio ha ospitato i Mondiali di atletica del 2023?",
+      "ru": "Какой город на Дунае принимал чемпионат мира по лёгкой атлетике 2023 года?"
+    },
+    "o": {
+      "en": [
+        "Berlin",
+        "Budapest",
+        "Moscow",
+        "Helsinki"
+      ],
+      "de": [
+        "Berlin",
+        "Budapest",
+        "Moskau",
+        "Helsinki"
+      ],
+      "pt-BR": [
+        "Berlim",
+        "Budapeste",
+        "Moscou",
+        "Helsinque"
+      ],
+      "fr": [
+        "Berlin",
+        "Budapest",
+        "Moscou",
+        "Helsinki"
+      ],
+      "es": [
+        "Berlín",
+        "Budapest",
+        "Moscú",
+        "Helsinki"
+      ],
+      "it": [
+        "Berlino",
+        "Budapest",
+        "Mosca",
+        "Helsinki"
+      ],
+      "ru": [
+        "Берлин",
+        "Будапешт",
+        "Москва",
+        "Хельсинки"
+      ]
+    },
+    "a": 1,
+    "src": "https://worldathletics.org/results/world-athletics-championships"
+  },
+  {
+    "id": "field-049",
+    "c": 2,
+    "q": {
+      "en": "Who jumped 8.95 metres in the 1991 Tokyo world final?",
+      "de": "Wer sprang im WM-Finale 1991 in Tokio 8,95 Meter weit?",
+      "pt-BR": "Quem saltou 8,95 metros na final mundial de Tóquio em 1991?",
+      "fr": "Qui a sauté 8,95 m en finale mondiale à Tokyo en 1991 ?",
+      "es": "¿Quién saltó 8,95 m en la final mundial de Tokio 1991?",
+      "it": "Chi saltò 8,95 metri nella finale mondiale di Tokyo del 1991?",
+      "ru": "Кто прыгнул на 8,95 м в финале чемпионата мира в Токио в 1991 году?"
+    },
+    "o": {
+      "en": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Iván Pedroso",
+        "Larry Myricks"
+      ],
+      "de": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Iván Pedroso",
+        "Larry Myricks"
+      ],
+      "pt-BR": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Iván Pedroso",
+        "Larry Myricks"
+      ],
+      "fr": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Iván Pedroso",
+        "Larry Myricks"
+      ],
+      "es": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Iván Pedroso",
+        "Larry Myricks"
+      ],
+      "it": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Iván Pedroso",
+        "Larry Myricks"
+      ],
+      "ru": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Iván Pedroso",
+        "Larry Myricks"
+      ]
+    },
+    "a": 1,
+    "src": "https://worldathletics.org/competition/calendar-results/results/6987209?eventId=10229617"
+  },
+  {
+    "id": "field-050",
+    "c": 2,
+    "q": {
+      "en": "Which athlete took silver with an 8.91 m wind-assisted jump in the 1991 Tokyo final?",
+      "de": "Wer gewann 1991 in Tokio mit windunterstützten 8,91 m Silber?",
+      "pt-BR": "Quem ficou com a prata em Tóquio em 1991 ao saltar 8,91 m com vento acima do limite?",
+      "fr": "Qui a remporté l’argent à Tokyo en 1991 avec 8,91 m et un vent trop favorable ?",
+      "es": "¿Quién ganó la plata en Tokio 1991 con 8,91 m y viento superior al permitido para récords?",
+      "it": "Chi vinse l’argento a Tokyo nel 1991 con 8,91 m e vento oltre il limite per i record?",
+      "ru": "Кто взял серебро в Токио в 1991 году с прыжком 8,91 м при сильном попутном ветре?"
+    },
+    "o": {
+      "en": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Bob Beamon",
+        "Larry Myricks"
+      ],
+      "de": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Bob Beamon",
+        "Larry Myricks"
+      ],
+      "pt-BR": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Bob Beamon",
+        "Larry Myricks"
+      ],
+      "fr": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Bob Beamon",
+        "Larry Myricks"
+      ],
+      "es": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Bob Beamon",
+        "Larry Myricks"
+      ],
+      "it": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Bob Beamon",
+        "Larry Myricks"
+      ],
+      "ru": [
+        "Carl Lewis",
+        "Mike Powell",
+        "Bob Beamon",
+        "Larry Myricks"
+      ]
+    },
+    "a": 0,
+    "src": "https://worldathletics.org/competition/calendar-results/results/6987209?eventId=10229617"
+  },
+  {
+    "id": "field-051",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the outdoor World Athletics Championships in 2007?",
+      "de": "Welche Stadt richtete die Leichtathletik-WM 2007 aus?",
+      "pt-BR": "Que cidade sediou o Mundial de Atletismo ao ar livre em 2007?",
+      "fr": "Quelle ville a accueilli les Mondiaux d’athlétisme en plein air en 2007 ?",
+      "es": "¿Qué ciudad albergó los Mundiales de Atletismo al aire libre de 2007?",
+      "it": "Quale città ospitò i Mondiali di atletica all’aperto del 2007?",
+      "ru": "Какой город принимал чемпионат мира по лёгкой атлетике в 2007 году?"
+    },
+    "o": {
+      "en": [
+        "Budapest",
+        "Moscow",
+        "Osaka",
+        "Paris"
+      ],
+      "de": [
+        "Budapest",
+        "Moskau",
+        "Osaka",
+        "Paris"
+      ],
+      "pt-BR": [
+        "Budapeste",
+        "Moscou",
+        "Osaka",
+        "Paris"
+      ],
+      "fr": [
+        "Budapest",
+        "Moscou",
+        "Osaka",
+        "Paris"
+      ],
+      "es": [
+        "Budapest",
+        "Moscú",
+        "Osaka",
+        "París"
+      ],
+      "it": [
+        "Budapest",
+        "Mosca",
+        "Osaka",
+        "Parigi"
+      ],
+      "ru": [
+        "Будапешт",
+        "Москва",
+        "Осака",
+        "Париж"
+      ]
+    },
+    "a": 2,
+    "src": "https://worldathletics.org/results/world-athletics-championships"
+  },
+  {
+    "id": "field-052",
+    "c": 1,
+    "q": {
+      "en": "Which city hosted the outdoor World Athletics Championships in 2009?",
+      "de": "Welche Stadt richtete die Leichtathletik-WM 2009 aus?",
+      "pt-BR": "Que cidade sediou o Mundial de Atletismo ao ar livre em 2009?",
+      "fr": "Quelle ville a accueilli les Mondiaux d’athlétisme en plein air en 2009 ?",
+      "es": "¿Qué ciudad albergó los Mundiales de Atletismo al aire libre de 2009?",
+      "it": "Quale città ospitò i Mondiali di atletica all’aperto del 2009?",
+      "ru": "Какой город принимал чемпионат мира по лёгкой атлетике в 2009 году?"
+    },
+    "o": {
+      "en": [
+        "Moscow",
+        "Paris",
+        "Berlin",
+        "Budapest"
+      ],
+      "de": [
+        "Moskau",
+        "Paris",
+        "Berlin",
+        "Budapest"
+      ],
+      "pt-BR": [
+        "Moscou",
+        "Paris",
+        "Berlim",
+        "Budapeste"
+      ],
+      "fr": [
+        "Moscou",
+        "Paris",
+        "Berlin",
+        "Budapest"
+      ],
+      "es": [
+        "Moscú",
+        "París",
+        "Berlín",
+        "Budapest"
+      ],
+      "it": [
+        "Mosca",
+        "Parigi",
+        "Berlino",
+        "Budapest"
+      ],
+      "ru": [
+        "Москва",
+        "Париж",
+        "Берлин",
+        "Будапешт"
+      ]
+    },
+    "a": 2,
+    "src": "https://worldathletics.org/results/world-athletics-championships"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "product": "Sports Trivia 10.2",
+  "completed_utc": "2026-11-15T14:47:17Z",
+  "archive": "Deliverables/SportsTrivia.xcarchive",
+  "source_zip": "Deliverables/SportsTrivia-source.zip",
+  "report": "REPORT.txt",
+  "iPhone": "phone.xcresult: 6/6, exit 0",
+  "iPad": "ipad-retry1.xcresult: 6/6, exit 0",
+  "AppGroup": "app-group-proof.json: PASS",
+  "visual_review": "Phone screens and all six widget renders inspected; small title fully visible.",
+  "scope": "Only this app directory; no additional chats or agents.",
+  "remaining": [],
+  "limits": [
+    "Two-account Game Center and server leaderboard need own developer setup/test accounts.",
+    "Physical devices, installed Home/Lock Screen widgets and actual background delivery unverified.",
+    "Unsigned release archive; no upload/publication."
+  ]
+}
