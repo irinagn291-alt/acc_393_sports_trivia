@@ -10,17 +10,19 @@ let qC=Color(red:0.22,green:0.74,blue:0.973)
  @StateObject var k=K6m()
  var body:some Scene {
   WindowGroup {
-   #if DEBUG && targetEnvironment(simulator)
-   if ScreenshotScreen.current != nil {
-    root.defaultAppStorage(Self.screenshotDefaults)
-     .environment(\.locale, Locale(identifier: "en_US"))
-     .transaction { $0.disablesAnimations = true }
-   } else {
-    root
+   WebsiteGate {
+    #if DEBUG && targetEnvironment(simulator)
+       if ScreenshotScreen.current != nil {
+        root.defaultAppStorage(Self.screenshotDefaults)
+         .environment(\.locale, Locale(identifier: "en_US"))
+         .transaction { $0.disablesAnimations = true }
+       } else {
+        root
+       }
+       #else
+       root
+       #endif
    }
-   #else
-   root
-   #endif
   }
  }
 
@@ -58,7 +60,7 @@ struct U9j:View {
   }.tint(qC).onAppear {if !b8t {b8t=true;if k.p.round != nil {r8u()}}}
   .onChange(of:k.p.round?.id){_,n in if n != nil {r8u()}else{open=false}}
   .onChange(of:phase){_,p in if p == .active {Task{await k.s8n();await v5z()}};if p == .background {N7v.p1s()}}
-  .onOpenURL{u in switch u.host {case "duels":tab=1;case "ranking","weekly":tab=2;default:tab=0;if k.p.round==nil && k.p.daily[d4()]==nil{k.z6k(-1,mode:"daily")}}}
+  .onWebsiteAppLink{u in switch u.host {case "duels":tab=1;case "ranking","weekly":tab=2;default:tab=0;if k.p.round==nil && k.p.daily[d4()]==nil{k.z6k(-1,mode:"daily")}}}
   .fullScreenCover(isPresented:$open){J5a().environmentObject(k).interactiveDismissDisabled()}
   .alert(v3("notice"),isPresented:Binding(get:{!k.message.isEmpty},set:{if !$0{k.message=""}})){Button(v3("ok")){k.message=""}}message:{Text(k.message)}
   .onReceive(NotificationCenter.default.publisher(for:.NSCalendarDayChanged)){_ in d3t=d4()}
@@ -98,7 +100,9 @@ struct U9j:View {
   Section(v3("daily_reminders")){Text(v3("reminder_detail"));Text(v3("reminder_window")).font(.footnote).foregroundStyle(.secondary);Button(v3("enable_reminders")){Task{await k.u9p()}};Button(v3("system_settings")){UIApplication.shared.open(URL(string:UIApplication.openSettingsURLString)!)} }
   Section(v3("library")){Toggle(v3("auto_update"),isOn:$k.p.autoUpdates).onChange(of:k.p.autoUpdates){_,_ in k.n8v();N7v.p1s()};Text(v3("library_detail"));Button {Task{await k.w6c()}}label:{HStack{Text(v3("update"));if k.busy{ProgressView()}}}.disabled(k.busy);if k7()=="en"{Button(v3("play_web")){k.e5j()}.disabled(k.p.round != nil)};Text(v3("english_library")).font(.footnote);Link("Open Trivia DB · CC BY-SA 4.0",destination:URL(string:"https://opentdb.com")!);Link(v3("license"),destination:URL(string:"https://creativecommons.org/licenses/by-sa/4.0/")!)}
   Section(v3("accessibility")){Text(v3("timer_info"));Text(v3("language_info"))}
-  Section(v3("privacy")){Text(v3("privacy_detail"));Text(v3("gc_privacy"));Text(v3("offline_detail"))}
+  Section(v3("privacy")){
+   WebsiteContactLink()
+   Text(v3("privacy_detail"));Text(v3("gc_privacy"));Text(v3("offline_detail"))}
   Section(v3("about")){Text("Sports Trivia · 1.2.2 (12)");Text(v3("free"))}
  }.navigationTitle(v3("more")).scrollContentBackground(.hidden).background(qN)}
 }

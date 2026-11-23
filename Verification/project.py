@@ -26,15 +26,38 @@ def add(isa,**kw):
  i=uuid.uuid4().hex[:24].upper();o[i]=dict(isa=isa,**kw);return i
 def ref(path,typ):return add('PBXFileReference',lastKnownFileType=typ,path=path,sourceTree='<group>')
 appFiles=[ref('SportsTrivia/Arena.swift','sourcecode.swift'),ref('SportsTrivia/Core/Rift.swift','sourcecode.swift'),ref('SportsTrivia/Core/Vault.swift','sourcecode.swift'),ref('SportsTrivia/Core/Relay.swift','sourcecode.swift')]
+appFiles.extend(ref(str(p.relative_to(r)), 'sourcecode.swift') for p in sorted((r/'SportsTrivia/Website').glob('*.swift')))
 widgetFile=ref('TriviaGlance/Glance4879eb.swift','sourcecode.swift');testFile=ref('Verification/Proof.swift','sourcecode.swift')
 langs=['en','de','pt-BR','fr','es','it','ru']
-locs=[add('PBXFileReference',lastKnownFileType='text.plist.strings',name=l,path=f'SportsTrivia/Resources/{l}.lproj/Localizable.strings',sourceTree='<group>') for l in langs]
+locs=[add('PBXFileReference',lastKnownFileType='text.plist.strings',name=l,path=f'{l}.lproj/Localizable.strings',sourceTree='<group>') for l in langs]
 local=add('PBXVariantGroup',children=locs,name='Localizable.strings',sourceTree='<group>')
 data=ref('SportsTrivia/Resources/Fieldbook.json','text.json');art=ref('SportsTrivia/Resources/FieldArt.xcassets','folder.assetcatalog');info=ref('SportsTrivia/Resources/InfoPlist.xcstrings','text.json.xcstrings');privacy=ref('SportsTrivia/Resources/PrivacyInfo.xcprivacy','text.xml')
 plistRefs=[ref(p,'text.plist.xml') for p in ['SportsTrivia/Info.plist','TriviaGlance/Info.plist','SportsTrivia/Field.entitlements','TriviaGlance/Field.entitlements']]
 prod=[add('PBXFileReference',explicitFileType=t,includeInIndex=0,path=n,sourceTree='BUILT_PRODUCTS_DIR') for t,n in [('wrapper.application','SportsTrivia.app'),('wrapper.app-extension','TriviaGlance.appex'),('wrapper.cfbundle','FieldProof.xctest')]]
 products=add('PBXGroup',children=prod,name='Products',sourceTree='<group>')
 root=add('PBXGroup',children=appFiles+[widgetFile,testFile,local,data,art,info,privacy]+plistRefs+[products],sourceTree='<group>')
+folders = {Path('.'): root}
+def project_folder(directory):
+    if directory not in folders:
+        parent = project_folder(directory.parent)
+        group = add('PBXGroup', path=directory.name, sourceTree='<group>', children=[])
+        o[parent]['children'].append(group)
+        folders[directory] = group
+    return folders[directory]
+
+for item in list(o[root]['children']):
+    entry = o[item]
+    if entry['isa'] == 'PBXFileReference':
+        path = Path(entry['path'])
+        entry['path'] = path.name
+    elif item == local:
+        path = Path('SportsTrivia/Resources/Localizable.strings')
+    else:
+        continue
+    if path.parent != Path('.'):
+        o[root]['children'].remove(item)
+        o[project_folder(path.parent)]['children'].append(item)
+
 def phase(isa,refs):return add(isa,buildActionMask=2147483647,files=[add('PBXBuildFile',fileRef=x) for x in refs],runOnlyForDeploymentPostprocessing=0)
 def _configs(settings):return add('XCConfigurationList',buildConfigurations=[add('XCBuildConfiguration',buildSettings=dict(settings,**({'SWIFT_OPTIMIZATION_LEVEL':'-Onone','ENABLE_TESTABILITY':'YES','DEBUG_INFORMATION_FORMAT':'dwarf','SWIFT_ACTIVE_COMPILATION_CONDITIONS':'DEBUG'} if name=='Debug' else {'SWIFT_COMPILATION_MODE':'wholemodule','DEBUG_INFORMATION_FORMAT':'dwarf'})),name=name) for name in ['Debug','Release']],defaultConfigurationIsVisible=0,defaultConfigurationName='Release')
 def configs(settings):
