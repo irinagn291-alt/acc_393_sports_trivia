@@ -1,26 +1,704 @@
 // !$*UTF8*$!
-{classes = {};objectVersion = "56";archiveVersion = "1";objects = {
-		E3D1224186503D56BB80C89C = { isa = "PBXGroup"; children = (1947231F9A4B91A2FD009C61, B159248D60014BAA81175C3F, 1B500BDAB10C64E21131D9C5, F7505741795BDC22F25126CF, 42F4B990D9CE4B878F610370, 4B095451EC76466A83A2B36B); path = "SportsTrivia"; sourceTree = "<group>"; };
-		1B500BDAB10C64E21131D9C5 = { isa = "PBXGroup"; children = (F95BFC1B03E84F89A09D3281, 9C13F07C7AA146B39C406E20, 23029741E5B645F6A8275B4B); path = "Core"; sourceTree = "<group>"; };
-		50C1A28A65F4ED476E735093 = { isa = "PBXGroup"; children = (B20C24A9F38E4E468CEFF9E2, 376DA42CB6734812A93D012D, 5C9B16FDEEEF4FCAAE120F58); path = "TriviaGlance"; sourceTree = "<group>"; };
-		6EE68BC8C83C37584221D51E = { isa = "PBXGroup"; children = (46CE615DC94845A0812C9471); path = "Verification"; sourceTree = "<group>"; };
-		F7505741795BDC22F25126CF = { isa = "PBXGroup"; children = (BE85BEC76CEB4402B675870E, A8CD10B62C4D411CB06C59CC, C8FF868166D74912B3914B07, 0AE9DB251BF3463FB75B4A85, 0CAD793EC7C2420BAD493EFA); path = "Resources"; sourceTree = "<group>"; };
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
 
-		1947231F9A4B91A2FD009C61 = { path = "Website"; isa = "PBXGroup"; sourceTree = "<group>"; children = (DCD1F45552D2D6CE12D0871A, E721E1EAF9A05BEFA7D06F34, 0DDF0B5BF40C398B7ACE2BB3, 5B31E9B38074F6B2563E077E, 4355B3FCB96D0C2F0F9D4A17, 2946C2FC7765F7B4F81921D9, 2C4BAD1A78EBD240D2289DB0, B45EE062AA1018198EC4DFD6); };
-		DCD1F45552D2D6CE12D0871A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppConfiguration.swift"; sourceTree = "<group>";};
-		8EB05CE7E2E11F510F66E599 = {isa = PBXBuildFile; fileRef = DCD1F45552D2D6CE12D0871A;};
-		E721E1EAF9A05BEFA7D06F34 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkService.swift"; sourceTree = "<group>";};
-		5A637DFE4A4F6FA27AA526DB = {isa = PBXBuildFile; fileRef = E721E1EAF9A05BEFA7D06F34;};
-		0DDF0B5BF40C398B7ACE2BB3 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SessionVault.swift"; sourceTree = "<group>";};
-		C41F3689E4DC166E10985010 = {isa = PBXBuildFile; fileRef = 0DDF0B5BF40C398B7ACE2BB3;};
-		5B31E9B38074F6B2563E077E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataCache.swift"; sourceTree = "<group>";};
-		A2DE1026AC8B7850D81C4ED5 = {isa = PBXBuildFile; fileRef = 5B31E9B38074F6B2563E077E;};
-		4355B3FCB96D0C2F0F9D4A17 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DisplayMode.swift"; sourceTree = "<group>";};
-		677A4958719AD06021CB48CD = {isa = PBXBuildFile; fileRef = 4355B3FCB96D0C2F0F9D4A17;};
-		2946C2FC7765F7B4F81921D9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebsiteBrowser.swift"; sourceTree = "<group>";};
-		EFC5FF40FC1C2A2C5688A829 = {isa = PBXBuildFile; fileRef = 2946C2FC7765F7B4F81921D9;};
-		2C4BAD1A78EBD240D2289DB0 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebsiteGate.swift"; sourceTree = "<group>";};
-		417D8F52CFB84EFB5EE90D68 = {isa = PBXBuildFile; fileRef = 2C4BAD1A78EBD240D2289DB0;};
-		B45EE062AA1018198EC4DFD6 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebsiteNavigation.swift"; sourceTree = "<group>";};
-		C8EB4F2D5482BF925CDC43F7 = {isa = PBXBuildFile; fileRef = B45EE062AA1018198EC4DFD6;};
-1D7DFFC95644454B9FD5D715 = {isa = "PBXResourcesBuildPhase";buildActionMask = "2147483647";files = ("9128A0319C234A83860A35BC",);runOnlyForDeploymentPostprocessing = "0";};7A2E68535172465AAC1D2EB4 = {isa = "PBXBuildFile";fileRef = "B159248D60014BAA81175C3F";};D5629F56CAB34549BD7AE31C = {isa = "XCBuildConfiguration";buildSettings = { INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;CODE_SIGN_ENTITLEMENTS = "SportsTrivia/Field.entitlements";MARKETING_VERSION = "1.2.2";SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";CLANG_ENABLE_MODULES = "YES";SWIFT_SERIALIZE_DEBUGGING_OPTIONS = "NO";PRODUCT_BUNDLE_IDENTIFIER = "org.cobaltfield.triviaq82";CURRENT_PROJECT_VERSION = "12";ENABLE_USER_SCRIPT_SANDBOXING = "YES";DEBUG_INFORMATION_FORMAT = "dwarf";TARGETED_DEVICE_FAMILY = "1,2";CODE_SIGN_STYLE = "Automatic";ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";SDKROOT = "iphoneos";LD_RUNPATH_SEARCH_PATHS = ("$(inherited)","@executable_path/Frameworks",);SWIFT_VERSION = "5.0";PRODUCT_NAME = "SportsTrivia";IPHONEOS_DEPLOYMENT_TARGET = "17.4";OTHER_SWIFT_FLAGS = ("$(inherited)","-debug-prefix-map","$(SRCROOT)=.","-file-prefix-map","$(SRCROOT)=.",);SWIFT_EMIT_LOC_STRINGS = "NO";INFOPLIST_FILE = "SportsTrivia/Info.plist";SWIFT_COMPILATION_MODE = "wholemodule";};name = "Release";};180996732F264FF0AD90AA00 = { path = "pt-BR.lproj/Localizable.strings"; isa = "PBXFileReference"; name = "pt-BR"; lastKnownFileType = "text.plist.strings"; sourceTree = "<group>"; };A8CD10B62C4D411CB06C59CC = { path = "Fieldbook.json"; isa = "PBXFileReference"; lastKnownFileType = "text.json"; sourceTree = "<group>"; };F8FA3BC890C44E748883B9BF = {buildConfigurationList = "267546C887DA4E2EAD9D4837";targets = ("7B831D508EFE4289B8B18027","87076B4A6204474F8F6048C1","16BE373181F147B28FD819B5",);developmentRegion = "en";knownRegions = ("en","de","pt-BR","fr","es","it","ru",);isa = "PBXProject";compatibilityVersion = "Xcode 14.0";productRefGroup = "A776C419C1DF49FD931ADA2B";projectDirPath = "";attributes = {BuildIndependentTargetsInParallel = "YES";LastUpgradeCheck = "2720";ORGANIZATIONNAME = "Cobalt Field Studio";TargetAttributes = {7B831D508EFE4289B8B18027 = {SystemCapabilities = {com.apple.ApplicationGroups.iOS = {enabled = "1";};com.apple.Push = {enabled = "1";};com.apple.BackgroundModes = {enabled = "1";};};};16BE373181F147B28FD819B5 = {TestTargetID = "7B831D508EFE4289B8B18027";};};};hasScannedForEncodings = "0";projectRoot = "";mainGroup = "EF8F3A4CE9E34D488E8D25E1";};002A2FC5599E4334A916FC22 = {isa = "PBXBuildFile";fileRef = "9C13F07C7AA146B39C406E20";};76A4E9C3A77543538C0947D2 = {isa = "PBXTargetDependency";target = "7B831D508EFE4289B8B18027";targetProxy = "CE396739DC06469CBF2DF733";};0CAD793EC7C2420BAD493EFA = { path = "PrivacyInfo.xcprivacy"; isa = "PBXFileReference"; lastKnownFileType = "text.xml"; sourceTree = "<group>"; };AF3C6C289AE448AAAD1AF2D8 = {isa = "PBXBuildFile";fileRef = "B20C24A9F38E4E468CEFF9E2";};632405F9E05C480089C0C4C6 = {isa = "PBXFrameworksBuildPhase";buildActionMask = "2147483647";files = ();runOnlyForDeploymentPostprocessing = "0";};4B095451EC76466A83A2B36B = { path = "Field.entitlements"; isa = "PBXFileReference"; lastKnownFileType = "text.plist.xml"; sourceTree = "<group>"; };376DA42CB6734812A93D012D = { path = "Info.plist"; isa = "PBXFileReference"; lastKnownFileType = "text.plist.xml"; sourceTree = "<group>"; };C857FE2E679343FE90575B50 = {isa = "XCBuildConfiguration";buildSettings = {CURRENT_PROJECT_VERSION = "12";SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";DEBUG_INFORMATION_FORMAT = "dwarf";MARKETING_VERSION = "1.2.2";CLANG_ENABLE_MODULES = "YES";TARGETED_DEVICE_FAMILY = "1,2";ENABLE_TESTABILITY = "YES";ENABLE_USER_SCRIPT_SANDBOXING = "YES";SWIFT_OPTIMIZATION_LEVEL = "-Onone";SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";OTHER_SWIFT_FLAGS = ("$(inherited)","-debug-prefix-map","$(SRCROOT)=.","-file-prefix-map","$(SRCROOT)=.",);SWIFT_EMIT_LOC_STRINGS = "NO";SDKROOT = "iphoneos";SWIFT_SERIALIZE_DEBUGGING_OPTIONS = "NO";SWIFT_VERSION = "5.0";IPHONEOS_DEPLOYMENT_TARGET = "17.4";CODE_SIGN_STYLE = "Automatic";};name = "Debug";};16BE373181F147B28FD819B5 = {productType = "com.apple.product-type.bundle.ui-testing";productReference = "84927F3004D04CC7BE0334F9";buildConfigurationList = "C63A94AE9A8649CF8127DB92";productName = "FieldProof";isa = "PBXNativeTarget";buildPhases = ("D212C17A707546D0995915E2","1D7DFFC95644454B9FD5D715","EA402B485990471D80E05E97",);dependencies = ("76A4E9C3A77543538C0947D2",);name = "FieldProof";buildRules = ();};B494F4E909A54370ABFA37DE = {isa = "XCBuildConfiguration";buildSettings = {CODE_SIGN_ENTITLEMENTS = "TriviaGlance/Field.entitlements";MARKETING_VERSION = "1.2.2";SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";CLANG_ENABLE_MODULES = "YES";SWIFT_SERIALIZE_DEBUGGING_OPTIONS = "NO";PRODUCT_BUNDLE_IDENTIFIER = "org.cobaltfield.triviaq82.glance";CURRENT_PROJECT_VERSION = "12";ENABLE_USER_SCRIPT_SANDBOXING = "YES";DEBUG_INFORMATION_FORMAT = "dwarf";TARGETED_DEVICE_FAMILY = "1,2";CODE_SIGN_STYLE = "Automatic";SDKROOT = "iphoneos";LD_RUNPATH_SEARCH_PATHS = ("$(inherited)","@executable_path/Frameworks","@executable_path/../../Frameworks",);SWIFT_VERSION = "5.0";PRODUCT_NAME = "TriviaGlance";APPLICATION_EXTENSION_API_ONLY = "YES";OTHER_SWIFT_FLAGS = ("$(inherited)","-debug-prefix-map","$(SRCROOT)=.","-file-prefix-map","$(SRCROOT)=.",);SKIP_INSTALL = "YES";IPHONEOS_DEPLOYMENT_TARGET = "17.4";SWIFT_EMIT_LOC_STRINGS = "NO";INFOPLIST_FILE = "TriviaGlance/Info.plist";SWIFT_COMPILATION_MODE = "wholemodule";};name = "Release";};C4309B5374A64A94A64EFD17 = {isa = "XCBuildConfiguration";buildSettings = { INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;CODE_SIGN_ENTITLEMENTS = "SportsTrivia/Field.entitlements";MARKETING_VERSION = "1.2.2";SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";CLANG_ENABLE_MODULES = "YES";SWIFT_SERIALIZE_DEBUGGING_OPTIONS = "NO";PRODUCT_BUNDLE_IDENTIFIER = "org.cobaltfield.triviaq82";CURRENT_PROJECT_VERSION = "12";ENABLE_USER_SCRIPT_SANDBOXING = "YES";SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";DEBUG_INFORMATION_FORMAT = "dwarf";TARGETED_DEVICE_FAMILY = "1,2";CODE_SIGN_STYLE = "Automatic";SWIFT_OPTIMIZATION_LEVEL = "-Onone";ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";ENABLE_TESTABILITY = "YES";LD_RUNPATH_SEARCH_PATHS = ("$(inherited)","@executable_path/Frameworks",);SDKROOT = "iphoneos";SWIFT_VERSION = "5.0";PRODUCT_NAME = "SportsTrivia";IPHONEOS_DEPLOYMENT_TARGET = "17.4";OTHER_SWIFT_FLAGS = ("$(inherited)","-debug-prefix-map","$(SRCROOT)=.","-file-prefix-map","$(SRCROOT)=.",);SWIFT_EMIT_LOC_STRINGS = "NO";INFOPLIST_FILE = "SportsTrivia/Info.plist";};name = "Debug";};0203180486CE4898A92A22B1 = {isa = "PBXSourcesBuildPhase";buildActionMask = "2147483647";files = ("D26114CA4E7540729F4C6535","404D007DC6B34E01A4FBEFE3",);runOnlyForDeploymentPostprocessing = "0";};E7D2A981E08C465AA29F3941 = { path = "es.lproj/Localizable.strings"; isa = "PBXFileReference"; name = "es"; lastKnownFileType = "text.plist.strings"; sourceTree = "<group>"; };CE396739DC06469CBF2DF733 = {isa = "PBXContainerItemProxy";containerPortal = "F8FA3BC890C44E748883B9BF";remoteGlobalIDString = "7B831D508EFE4289B8B18027";remoteInfo = "FieldArena";proxyType = "1";};57BE9E61378A4CDB9F120022 = {buildActionMask = "2147483647";dstSubfolderSpec = "13";isa = "PBXCopyFilesBuildPhase";runOnlyForDeploymentPostprocessing = "0";dstPath = "";name = "Embed Glance";files = ("CA205BBB737946DEB94B256A",);};965509027C9F43A3B8DD325A = { path = "fr.lproj/Localizable.strings"; isa = "PBXFileReference"; name = "fr"; lastKnownFileType = "text.plist.strings"; sourceTree = "<group>"; };0F9CC05A49AC4D37BFE2234A = {isa = "PBXBuildFile";fileRef = "BE85BEC76CEB4402B675870E";};F616A239E8744DBCB26BBCD0 = {isa = "PBXBuildFile";fileRef = "23029741E5B645F6A8275B4B";};069A7DE2CCCD4343BEB02983 = {isa = "PBXResourcesBuildPhase";buildActionMask = "2147483647";files = ("0F9CC05A49AC4D37BFE2234A","B5E8A72F76D8403E855BD3B3","2B7B22A43666414EB413F780","319AFD1B6FAE415197962C67","7A71DA6B7C4745C59EA58F95",);runOnlyForDeploymentPostprocessing = "0";};D3134A03130D49E5AA68090A = {path = "SportsTrivia.app";isa = "PBXFileReference";includeInIndex = "0";explicitFileType = "wrapper.application";sourceTree = "BUILT_PRODUCTS_DIR";};F95BFC1B03E84F89A09D3281 = { path = "Rift.swift"; isa = "PBXFileReference"; lastKnownFileType = "sourcecode.swift"; sourceTree = "<group>"; };651845446AD94136A5A16583 = {isa = "PBXFrameworksBuildPhase";buildActionMask = "2147483647";files = ();runOnlyForDeploymentPostprocessing = "0";};C96BE5224D77420B99C3B965 = {isa = "XCBuildConfiguration";buildSettings = {CURRENT_PROJECT_VERSION = "12";DEBUG_INFORMATION_FORMAT = "dwarf";MARKETING_VERSION = "1.2.2";CLANG_ENABLE_MODULES = "YES";TARGETED_DEVICE_FAMILY = "1,2";SWIFT_COMPILATION_MODE = "wholemodule";ENABLE_USER_SCRIPT_SANDBOXING = "YES";SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";OTHER_SWIFT_FLAGS = ("$(inherited)","-debug-prefix-map","$(SRCROOT)=.","-file-prefix-map","$(SRCROOT)=.",);SDKROOT = "iphoneos";SWIFT_EMIT_LOC_STRINGS = "NO";SWIFT_SERIALIZE_DEBUGGING_OPTIONS = "NO";SWIFT_VERSION = "5.0";IPHONEOS_DEPLOYMENT_TARGET = "17.4";CODE_SIGN_STYLE = "Automatic";};name = "Release";};503293F6E6D84B53A2D0375C = {isa = "PBXResourcesBuildPhase";buildActionMask = "2147483647";files = ("1CA8C920E3DE48FC969CFBB3","0F2C793D322A4994906A0F1F","50B9256910CD49C6A6FB826A",);runOnlyForDeploymentPostprocessing = "0";};5C9B16FDEEEF4FCAAE120F58 = { path = "Field.entitlements"; isa = "PBXFileReference"; lastKnownFileType = "text.plist.xml"; sourceTree = "<group>"; };990E1B8FE1E04732869A987C = {isa = "XCBuildConfiguration";buildSettings = {MARKETING_VERSION = "1.2.2";SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";CLANG_ENABLE_MODULES = "YES";SWIFT_SERIALIZE_DEBUGGING_OPTIONS = "NO";PRODUCT_BUNDLE_IDENTIFIER = "org.cobaltfield.triviaq82.proof";CURRENT_PROJECT_VERSION = "12";ENABLE_USER_SCRIPT_SANDBOXING = "YES";SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG WIDGET_PROOF";TEST_TARGET_NAME = "FieldArena";DEBUG_INFORMATION_FORMAT = "dwarf";TARGETED_DEVICE_FAMILY = "1,2";CODE_SIGN_STYLE = "Automatic";SWIFT_OPTIMIZATION_LEVEL = "-Onone";ENABLE_TESTABILITY = "YES";SDKROOT = "iphoneos";SWIFT_VERSION = "5.0";PRODUCT_NAME = "FieldProof";IPHONEOS_DEPLOYMENT_TARGET = "17.4";OTHER_SWIFT_FLAGS = ("$(inherited)","-debug-prefix-map","$(SRCROOT)=.","-file-prefix-map","$(SRCROOT)=.",);SWIFT_EMIT_LOC_STRINGS = "NO";GENERATE_INFOPLIST_FILE = "YES";};name = "Debug";};4D4FE9DA910340CAA1F18661 = {isa = "PBXSourcesBuildPhase";buildActionMask = "2147483647";files = (8EB05CE7E2E11F510F66E599, 5A637DFE4A4F6FA27AA526DB, C41F3689E4DC166E10985010, A2DE1026AC8B7850D81C4ED5, 677A4958719AD06021CB48CD, EFC5FF40FC1C2A2C5688A829, 417D8F52CFB84EFB5EE90D68, C8EB4F2D5482BF925CDC43F7, "7A2E68535172465AAC1D2EB4","F89DB54C20874AC28E3091C8","002A2FC5599E4334A916FC22","F616A239E8744DBCB26BBCD0",);runOnlyForDeploymentPostprocessing = "0";};B159248D60014BAA81175C3F = { path = "Arena.swift"; isa = "PBXFileReference"; lastKnownFileType = "sourcecode.swift"; sourceTree = "<group>"; };EA402B485990471D80E05E97 = {isa = "PBXFrameworksBuildPhase";buildActionMask = "2147483647";files = ();runOnlyForDeploymentPostprocessing = "0";};4A9216B12922450D8112CC93 = {path = "TriviaGlance.appex";isa = "PBXFileReference";includeInIndex = "0";explicitFileType = "wrapper.app-extension";sourceTree = "BUILT_PRODUCTS_DIR";};7A71DA6B7C4745C59EA58F95 = {isa = "PBXBuildFile";fileRef = "0CAD793EC7C2420BAD493EFA";};87076B4A6204474F8F6048C1 = {productType = "com.apple.product-type.app-extension";productReference = "4A9216B12922450D8112CC93";buildConfigurationList = "ED7A6A78E0D3462D803CC016";productName = "TriviaGlance";isa = "PBXNativeTarget";buildPhases = ("0203180486CE4898A92A22B1","503293F6E6D84B53A2D0375C","651845446AD94136A5A16583",);dependencies = ();name = "TriviaGlance";buildRules = ();};1CA8C920E3DE48FC969CFBB3 = {isa = "PBXBuildFile";fileRef = "BE85BEC76CEB4402B675870E";};46CE615DC94845A0812C9471 = { path = "Proof.swift"; isa = "PBXFileReference"; lastKnownFileType = "sourcecode.swift"; sourceTree = "<group>"; };CA205BBB737946DEB94B256A = {isa = "PBXBuildFile";fileRef = "4A9216B12922450D8112CC93";settings = {ATTRIBUTES = ("RemoveHeadersOnCopy",);};};C03A868D440A436A868A5FBB = { path = "de.lproj/Localizable.strings"; isa = "PBXFileReference"; name = "de"; lastKnownFileType = "text.plist.strings"; sourceTree = "<group>"; };2BB10D7E165348EFA8418668 = {isa = "XCBuildConfiguration";buildSettings = {CODE_SIGN_ENTITLEMENTS = "TriviaGlance/Field.entitlements";MARKETING_VERSION = "1.2.2";SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";CLANG_ENABLE_MODULES = "YES";SWIFT_SERIALIZE_DEBUGGING_OPTIONS = "NO";PRODUCT_BUNDLE_IDENTIFIER = "org.cobaltfield.triviaq82.glance";CURRENT_PROJECT_VERSION = "12";ENABLE_USER_SCRIPT_SANDBOXING = "YES";SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";DEBUG_INFORMATION_FORMAT = "dwarf";TARGETED_DEVICE_FAMILY = "1,2";CODE_SIGN_STYLE = "Automatic";SWIFT_OPTIMIZATION_LEVEL = "-Onone";ENABLE_TESTABILITY = "YES";LD_RUNPATH_SEARCH_PATHS = ("$(inherited)","@executable_path/Frameworks","@executable_path/../../Frameworks",);SDKROOT = "iphoneos";SWIFT_VERSION = "5.0";PRODUCT_NAME = "TriviaGlance";APPLICATION_EXTENSION_API_ONLY = "YES";OTHER_SWIFT_FLAGS = ("$(inherited)","-debug-prefix-map","$(SRCROOT)=.","-file-prefix-map","$(SRCROOT)=.",);SKIP_INSTALL = "YES";IPHONEOS_DEPLOYMENT_TARGET = "17.4";SWIFT_EMIT_LOC_STRINGS = "NO";INFOPLIST_FILE = "TriviaGlance/Info.plist";};name = "Debug";};BA09E58625E04C62879991C0 = { path = "ru.lproj/Localizable.strings"; isa = "PBXFileReference"; name = "ru"; lastKnownFileType = "text.plist.strings"; sourceTree = "<group>"; };50B9256910CD49C6A6FB826A = {isa = "PBXBuildFile";fileRef = "0CAD793EC7C2420BAD493EFA";};2B7B22A43666414EB413F780 = {isa = "PBXBuildFile";fileRef = "C8FF868166D74912B3914B07";};84927F3004D04CC7BE0334F9 = {path = "FieldProof.xctest";isa = "PBXFileReference";includeInIndex = "0";explicitFileType = "wrapper.cfbundle";sourceTree = "BUILT_PRODUCTS_DIR";};BE85BEC76CEB4402B675870E = {isa = "PBXVariantGroup";name = "Localizable.strings";children = ("C730ED7C05004CC2A734FD85","C03A868D440A436A868A5FBB","180996732F264FF0AD90AA00","965509027C9F43A3B8DD325A","E7D2A981E08C465AA29F3941","150103E76F7F4A89A5F32544","BA09E58625E04C62879991C0",);sourceTree = "<group>";};7B831D508EFE4289B8B18027 = {productType = "com.apple.product-type.application";productReference = "D3134A03130D49E5AA68090A";buildConfigurationList = "CF68E7E4AFAE40C3B69CD37B";productName = "SportsTrivia";isa = "PBXNativeTarget";buildPhases = ("4D4FE9DA910340CAA1F18661","069A7DE2CCCD4343BEB02983","632405F9E05C480089C0C4C6","57BE9E61378A4CDB9F120022",);dependencies = ("FA1728A52B88418CBB42F7E7",);name = "FieldArena";buildRules = ();};FA1728A52B88418CBB42F7E7 = {isa = "PBXTargetDependency";target = "87076B4A6204474F8F6048C1";targetProxy = "E40F4167ABBA4618B4B7305C";};42F4B990D9CE4B878F610370 = { path = "Info.plist"; isa = "PBXFileReference"; lastKnownFileType = "text.plist.xml"; sourceTree = "<group>"; };D212C17A707546D0995915E2 = {isa = "PBXSourcesBuildPhase";buildActionMask = "2147483647";files = ("0C170FDABDEE4D51991ABC05","4ABDE479BDEA4039AB58B7E0","AF3C6C289AE448AAAD1AF2D8",);runOnlyForDeploymentPostprocessing = "0";};D26114CA4E7540729F4C6535 = {isa = "PBXBuildFile";fileRef = "F95BFC1B03E84F89A09D3281";};EF8F3A4CE9E34D488E8D25E1 = { isa = "PBXGroup"; sourceTree = "<group>"; children = (E3D1224186503D56BB80C89C, 50C1A28A65F4ED476E735093, 6EE68BC8C83C37584221D51E, A776C419C1DF49FD931ADA2B); };ED7A6A78E0D3462D803CC016 = {isa = "XCConfigurationList";defaultConfigurationIsVisible = "0";defaultConfigurationName = "Release";buildConfigurations = ("2BB10D7E165348EFA8418668","B494F4E909A54370ABFA37DE",);};319AFD1B6FAE415197962C67 = {isa = "PBXBuildFile";fileRef = "0AE9DB251BF3463FB75B4A85";};0F2C793D322A4994906A0F1F = {isa = "PBXBuildFile";fileRef = "0AE9DB251BF3463FB75B4A85";};9C13F07C7AA146B39C406E20 = { path = "Vault.swift"; isa = "PBXFileReference"; lastKnownFileType = "sourcecode.swift"; sourceTree = "<group>"; };B5E8A72F76D8403E855BD3B3 = {isa = "PBXBuildFile";fileRef = "A8CD10B62C4D411CB06C59CC";};150103E76F7F4A89A5F32544 = { path = "it.lproj/Localizable.strings"; isa = "PBXFileReference"; name = "it"; lastKnownFileType = "text.plist.strings"; sourceTree = "<group>"; };C8FF868166D74912B3914B07 = { path = "FieldArt.xcassets"; isa = "PBXFileReference"; lastKnownFileType = "folder.assetcatalog"; sourceTree = "<group>"; };404D007DC6B34E01A4FBEFE3 = {isa = "PBXBuildFile";fileRef = "B20C24A9F38E4E468CEFF9E2";};CF68E7E4AFAE40C3B69CD37B = {isa = "XCConfigurationList";defaultConfigurationIsVisible = "0";defaultConfigurationName = "Release";buildConfigurations = ("C4309B5374A64A94A64EFD17","D5629F56CAB34549BD7AE31C",);};C730ED7C05004CC2A734FD85 = { path = "en.lproj/Localizable.strings"; isa = "PBXFileReference"; name = "en"; lastKnownFileType = "text.plist.strings"; sourceTree = "<group>"; };0C170FDABDEE4D51991ABC05 = {isa = "PBXBuildFile";fileRef = "46CE615DC94845A0812C9471";};F89DB54C20874AC28E3091C8 = {isa = "PBXBuildFile";fileRef = "F95BFC1B03E84F89A09D3281";};23029741E5B645F6A8275B4B = { path = "Relay.swift"; isa = "PBXFileReference"; lastKnownFileType = "sourcecode.swift"; sourceTree = "<group>"; };669736EB8B2D4BF388C5EA60 = {isa = "XCBuildConfiguration";buildSettings = {SWIFT_COMPILATION_MODE = "wholemodule";MARKETING_VERSION = "1.2.2";CURRENT_PROJECT_VERSION = "12";CLANG_ENABLE_MODULES = "YES";SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";PRODUCT_BUNDLE_IDENTIFIER = "org.cobaltfield.triviaq82.proof";SWIFT_SERIALIZE_DEBUGGING_OPTIONS = "NO";ENABLE_USER_SCRIPT_SANDBOXING = "YES";TEST_TARGET_NAME = "FieldArena";SWIFT_ACTIVE_COMPILATION_CONDITIONS = "WIDGET_PROOF";DEBUG_INFORMATION_FORMAT = "dwarf";TARGETED_DEVICE_FAMILY = "1,2";CODE_SIGN_STYLE = "Automatic";SDKROOT = "iphoneos";SWIFT_VERSION = "5.0";PRODUCT_NAME = "FieldProof";IPHONEOS_DEPLOYMENT_TARGET = "17.4";OTHER_SWIFT_FLAGS = ("$(inherited)","-debug-prefix-map","$(SRCROOT)=.","-file-prefix-map","$(SRCROOT)=.",);SWIFT_EMIT_LOC_STRINGS = "NO";GENERATE_INFOPLIST_FILE = "YES";};name = "Release";};4ABDE479BDEA4039AB58B7E0 = {isa = "PBXBuildFile";fileRef = "F95BFC1B03E84F89A09D3281";};E40F4167ABBA4618B4B7305C = {isa = "PBXContainerItemProxy";containerPortal = "F8FA3BC890C44E748883B9BF";remoteGlobalIDString = "87076B4A6204474F8F6048C1";remoteInfo = "TriviaGlance";proxyType = "1";};A776C419C1DF49FD931ADA2B = {isa = "PBXGroup";name = "Products";children = ("D3134A03130D49E5AA68090A","4A9216B12922450D8112CC93","84927F3004D04CC7BE0334F9",);sourceTree = "<group>";};B20C24A9F38E4E468CEFF9E2 = { path = "Glance4879eb.swift"; isa = "PBXFileReference"; lastKnownFileType = "sourcecode.swift"; sourceTree = "<group>"; };0AE9DB251BF3463FB75B4A85 = { path = "InfoPlist.xcstrings"; isa = "PBXFileReference"; lastKnownFileType = "text.json.xcstrings"; sourceTree = "<group>"; };C63A94AE9A8649CF8127DB92 = {isa = "XCConfigurationList";defaultConfigurationIsVisible = "0";defaultConfigurationName = "Release";buildConfigurations = ("990E1B8FE1E04732869A987C","669736EB8B2D4BF388C5EA60",);};267546C887DA4E2EAD9D4837 = {isa = "XCConfigurationList";defaultConfigurationIsVisible = "0";defaultConfigurationName = "Release";buildConfigurations = ("C857FE2E679343FE90575B50","C96BE5224D77420B99C3B965",);};9128A0319C234A83860A35BC = {isa = "PBXBuildFile";fileRef = "BE85BEC76CEB4402B675870E";};};rootObject = "F8FA3BC890C44E748883B9BF";}
+/* Begin PBXBuildFile section */
+		002A2FC5599E4334A916FC22 /* Vault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C13F07C7AA146B39C406E20 /* Vault.swift */; };
+		0C170FDABDEE4D51991ABC05 /* Proof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE615DC94845A0812C9471 /* Proof.swift */; };
+		0F2C793D322A4994906A0F1F /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 0AE9DB251BF3463FB75B4A85 /* InfoPlist.xcstrings */; };
+		0F9CC05A49AC4D37BFE2234A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE85BEC76CEB4402B675870E /* Localizable.strings */; };
+		1CA8C920E3DE48FC969CFBB3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE85BEC76CEB4402B675870E /* Localizable.strings */; };
+		2B7B22A43666414EB413F780 /* FieldArt.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8FF868166D74912B3914B07 /* FieldArt.xcassets */; };
+		319AFD1B6FAE415197962C67 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 0AE9DB251BF3463FB75B4A85 /* InfoPlist.xcstrings */; };
+		404D007DC6B34E01A4FBEFE3 /* Glance4879eb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20C24A9F38E4E468CEFF9E2 /* Glance4879eb.swift */; };
+		417D8F52CFB84EFB5EE90D68 /* WebsiteGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BAD1A78EBD240D2289DB0 /* WebsiteGate.swift */; };
+		4ABDE479BDEA4039AB58B7E0 /* Rift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95BFC1B03E84F89A09D3281 /* Rift.swift */; };
+		50B9256910CD49C6A6FB826A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD793EC7C2420BAD493EFA /* PrivacyInfo.xcprivacy */; };
+		5A637DFE4A4F6FA27AA526DB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E721E1EAF9A05BEFA7D06F34 /* NetworkService.swift */; };
+		677A4958719AD06021CB48CD /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355B3FCB96D0C2F0F9D4A17 /* DisplayMode.swift */; };
+		7A2E68535172465AAC1D2EB4 /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159248D60014BAA81175C3F /* Arena.swift */; };
+		7A71DA6B7C4745C59EA58F95 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD793EC7C2420BAD493EFA /* PrivacyInfo.xcprivacy */; };
+		8EB05CE7E2E11F510F66E599 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD1F45552D2D6CE12D0871A /* AppConfiguration.swift */; };
+		9128A0319C234A83860A35BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE85BEC76CEB4402B675870E /* Localizable.strings */; };
+		A2DE1026AC8B7850D81C4ED5 /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B31E9B38074F6B2563E077E /* DataCache.swift */; };
+		AF3C6C289AE448AAAD1AF2D8 /* Glance4879eb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20C24A9F38E4E468CEFF9E2 /* Glance4879eb.swift */; };
+		B5E8A72F76D8403E855BD3B3 /* Fieldbook.json in Resources */ = {isa = PBXBuildFile; fileRef = A8CD10B62C4D411CB06C59CC /* Fieldbook.json */; };
+		C41F3689E4DC166E10985010 /* SessionVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF0B5BF40C398B7ACE2BB3 /* SessionVault.swift */; };
+		C8EB4F2D5482BF925CDC43F7 /* WebsiteNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45EE062AA1018198EC4DFD6 /* WebsiteNavigation.swift */; };
+		CA205BBB737946DEB94B256A /* TriviaGlance.appex in Embed Glance */ = {isa = PBXBuildFile; fileRef = 4A9216B12922450D8112CC93 /* TriviaGlance.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D26114CA4E7540729F4C6535 /* Rift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95BFC1B03E84F89A09D3281 /* Rift.swift */; };
+		EFC5FF40FC1C2A2C5688A829 /* WebsiteBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2946C2FC7765F7B4F81921D9 /* WebsiteBrowser.swift */; };
+		F616A239E8744DBCB26BBCD0 /* Relay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23029741E5B645F6A8275B4B /* Relay.swift */; };
+		F89DB54C20874AC28E3091C8 /* Rift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95BFC1B03E84F89A09D3281 /* Rift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE396739DC06469CBF2DF733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8FA3BC890C44E748883B9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B831D508EFE4289B8B18027;
+			remoteInfo = FieldArena;
+		};
+		E40F4167ABBA4618B4B7305C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8FA3BC890C44E748883B9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87076B4A6204474F8F6048C1;
+			remoteInfo = TriviaGlance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57BE9E61378A4CDB9F120022 /* Embed Glance */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA205BBB737946DEB94B256A /* TriviaGlance.appex in Embed Glance */,
+			);
+			name = "Embed Glance";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AE9DB251BF3463FB75B4A85 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		0CAD793EC7C2420BAD493EFA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0DDF0B5BF40C398B7ACE2BB3 /* SessionVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionVault.swift; sourceTree = "<group>"; };
+		150103E76F7F4A89A5F32544 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		180996732F264FF0AD90AA00 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		23029741E5B645F6A8275B4B /* Relay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relay.swift; sourceTree = "<group>"; };
+		2946C2FC7765F7B4F81921D9 /* WebsiteBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteBrowser.swift; sourceTree = "<group>"; };
+		2C4BAD1A78EBD240D2289DB0 /* WebsiteGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteGate.swift; sourceTree = "<group>"; };
+		376DA42CB6734812A93D012D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F4B990D9CE4B878F610370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4355B3FCB96D0C2F0F9D4A17 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
+		46CE615DC94845A0812C9471 /* Proof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proof.swift; sourceTree = "<group>"; };
+		4A9216B12922450D8112CC93 /* TriviaGlance.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TriviaGlance.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B095451EC76466A83A2B36B /* Field.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Field.entitlements; sourceTree = "<group>"; };
+		5B31E9B38074F6B2563E077E /* DataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCache.swift; sourceTree = "<group>"; };
+		5C9B16FDEEEF4FCAAE120F58 /* Field.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Field.entitlements; sourceTree = "<group>"; };
+		84927F3004D04CC7BE0334F9 /* FieldProof.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldProof.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		965509027C9F43A3B8DD325A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9C13F07C7AA146B39C406E20 /* Vault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vault.swift; sourceTree = "<group>"; };
+		A8CD10B62C4D411CB06C59CC /* Fieldbook.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Fieldbook.json; sourceTree = "<group>"; };
+		B159248D60014BAA81175C3F /* Arena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arena.swift; sourceTree = "<group>"; };
+		B20C24A9F38E4E468CEFF9E2 /* Glance4879eb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glance4879eb.swift; sourceTree = "<group>"; };
+		B45EE062AA1018198EC4DFD6 /* WebsiteNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteNavigation.swift; sourceTree = "<group>"; };
+		BA09E58625E04C62879991C0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C03A868D440A436A868A5FBB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C730ED7C05004CC2A734FD85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C8FF868166D74912B3914B07 /* FieldArt.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FieldArt.xcassets; sourceTree = "<group>"; };
+		D3134A03130D49E5AA68090A /* SportsTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD1F45552D2D6CE12D0871A /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		E721E1EAF9A05BEFA7D06F34 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E7D2A981E08C465AA29F3941 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F95BFC1B03E84F89A09D3281 /* Rift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rift.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632405F9E05C480089C0C4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651845446AD94136A5A16583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA402B485990471D80E05E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1947231F9A4B91A2FD009C61 /* Website */ = {
+			isa = PBXGroup;
+			children = (
+				DCD1F45552D2D6CE12D0871A /* AppConfiguration.swift */,
+				E721E1EAF9A05BEFA7D06F34 /* NetworkService.swift */,
+				0DDF0B5BF40C398B7ACE2BB3 /* SessionVault.swift */,
+				5B31E9B38074F6B2563E077E /* DataCache.swift */,
+				4355B3FCB96D0C2F0F9D4A17 /* DisplayMode.swift */,
+				2946C2FC7765F7B4F81921D9 /* WebsiteBrowser.swift */,
+				2C4BAD1A78EBD240D2289DB0 /* WebsiteGate.swift */,
+				B45EE062AA1018198EC4DFD6 /* WebsiteNavigation.swift */,
+			);
+			path = Website;
+			sourceTree = "<group>";
+		};
+		1B500BDAB10C64E21131D9C5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F95BFC1B03E84F89A09D3281 /* Rift.swift */,
+				9C13F07C7AA146B39C406E20 /* Vault.swift */,
+				23029741E5B645F6A8275B4B /* Relay.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		50C1A28A65F4ED476E735093 /* TriviaGlance */ = {
+			isa = PBXGroup;
+			children = (
+				B20C24A9F38E4E468CEFF9E2 /* Glance4879eb.swift */,
+				376DA42CB6734812A93D012D /* Info.plist */,
+				5C9B16FDEEEF4FCAAE120F58 /* Field.entitlements */,
+			);
+			path = TriviaGlance;
+			sourceTree = "<group>";
+		};
+		6EE68BC8C83C37584221D51E /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				46CE615DC94845A0812C9471 /* Proof.swift */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		A776C419C1DF49FD931ADA2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3134A03130D49E5AA68090A /* SportsTrivia.app */,
+				4A9216B12922450D8112CC93 /* TriviaGlance.appex */,
+				84927F3004D04CC7BE0334F9 /* FieldProof.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3D1224186503D56BB80C89C /* SportsTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				1947231F9A4B91A2FD009C61 /* Website */,
+				B159248D60014BAA81175C3F /* Arena.swift */,
+				1B500BDAB10C64E21131D9C5 /* Core */,
+				F7505741795BDC22F25126CF /* Resources */,
+				42F4B990D9CE4B878F610370 /* Info.plist */,
+				4B095451EC76466A83A2B36B /* Field.entitlements */,
+			);
+			path = SportsTrivia;
+			sourceTree = "<group>";
+		};
+		EF8F3A4CE9E34D488E8D25E1 = {
+			isa = PBXGroup;
+			children = (
+				E3D1224186503D56BB80C89C /* SportsTrivia */,
+				50C1A28A65F4ED476E735093 /* TriviaGlance */,
+				6EE68BC8C83C37584221D51E /* Verification */,
+				A776C419C1DF49FD931ADA2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7505741795BDC22F25126CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE85BEC76CEB4402B675870E /* Localizable.strings */,
+				A8CD10B62C4D411CB06C59CC /* Fieldbook.json */,
+				C8FF868166D74912B3914B07 /* FieldArt.xcassets */,
+				0AE9DB251BF3463FB75B4A85 /* InfoPlist.xcstrings */,
+				0CAD793EC7C2420BAD493EFA /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16BE373181F147B28FD819B5 /* FieldProof */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63A94AE9A8649CF8127DB92 /* Build configuration list for PBXNativeTarget "FieldProof" */;
+			buildPhases = (
+				D212C17A707546D0995915E2 /* Sources */,
+				1D7DFFC95644454B9FD5D715 /* Resources */,
+				EA402B485990471D80E05E97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A4E9C3A77543538C0947D2 /* PBXTargetDependency */,
+			);
+			name = FieldProof;
+			productName = FieldProof;
+			productReference = 84927F3004D04CC7BE0334F9 /* FieldProof.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7B831D508EFE4289B8B18027 /* FieldArena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF68E7E4AFAE40C3B69CD37B /* Build configuration list for PBXNativeTarget "FieldArena" */;
+			buildPhases = (
+				4D4FE9DA910340CAA1F18661 /* Sources */,
+				069A7DE2CCCD4343BEB02983 /* Resources */,
+				632405F9E05C480089C0C4C6 /* Frameworks */,
+				57BE9E61378A4CDB9F120022 /* Embed Glance */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1728A52B88418CBB42F7E7 /* PBXTargetDependency */,
+			);
+			name = FieldArena;
+			productName = SportsTrivia;
+			productReference = D3134A03130D49E5AA68090A /* SportsTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87076B4A6204474F8F6048C1 /* TriviaGlance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7A6A78E0D3462D803CC016 /* Build configuration list for PBXNativeTarget "TriviaGlance" */;
+			buildPhases = (
+				0203180486CE4898A92A22B1 /* Sources */,
+				503293F6E6D84B53A2D0375C /* Resources */,
+				651845446AD94136A5A16583 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriviaGlance;
+			productName = TriviaGlance;
+			productReference = 4A9216B12922450D8112CC93 /* TriviaGlance.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8FA3BC890C44E748883B9BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2720;
+				ORGANIZATIONNAME = "Cobalt Field Studio";
+				TargetAttributes = {
+					16BE373181F147B28FD819B5 = {
+						TestTargetID = 7B831D508EFE4289B8B18027;
+					};
+					7B831D508EFE4289B8B18027 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 267546C887DA4E2EAD9D4837 /* Build configuration list for PBXProject "SportsTrivia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				"pt-BR",
+				fr,
+				es,
+				it,
+				ru,
+			);
+			mainGroup = EF8F3A4CE9E34D488E8D25E1;
+			productRefGroup = A776C419C1DF49FD931ADA2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B831D508EFE4289B8B18027 /* FieldArena */,
+				87076B4A6204474F8F6048C1 /* TriviaGlance */,
+				16BE373181F147B28FD819B5 /* FieldProof */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		069A7DE2CCCD4343BEB02983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9CC05A49AC4D37BFE2234A /* Localizable.strings in Resources */,
+				B5E8A72F76D8403E855BD3B3 /* Fieldbook.json in Resources */,
+				2B7B22A43666414EB413F780 /* FieldArt.xcassets in Resources */,
+				319AFD1B6FAE415197962C67 /* InfoPlist.xcstrings in Resources */,
+				7A71DA6B7C4745C59EA58F95 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7DFFC95644454B9FD5D715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9128A0319C234A83860A35BC /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503293F6E6D84B53A2D0375C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA8C920E3DE48FC969CFBB3 /* Localizable.strings in Resources */,
+				0F2C793D322A4994906A0F1F /* InfoPlist.xcstrings in Resources */,
+				50B9256910CD49C6A6FB826A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0203180486CE4898A92A22B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26114CA4E7540729F4C6535 /* Rift.swift in Sources */,
+				404D007DC6B34E01A4FBEFE3 /* Glance4879eb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4FE9DA910340CAA1F18661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB05CE7E2E11F510F66E599 /* AppConfiguration.swift in Sources */,
+				5A637DFE4A4F6FA27AA526DB /* NetworkService.swift in Sources */,
+				C41F3689E4DC166E10985010 /* SessionVault.swift in Sources */,
+				A2DE1026AC8B7850D81C4ED5 /* DataCache.swift in Sources */,
+				677A4958719AD06021CB48CD /* DisplayMode.swift in Sources */,
+				EFC5FF40FC1C2A2C5688A829 /* WebsiteBrowser.swift in Sources */,
+				417D8F52CFB84EFB5EE90D68 /* WebsiteGate.swift in Sources */,
+				C8EB4F2D5482BF925CDC43F7 /* WebsiteNavigation.swift in Sources */,
+				7A2E68535172465AAC1D2EB4 /* Arena.swift in Sources */,
+				F89DB54C20874AC28E3091C8 /* Rift.swift in Sources */,
+				002A2FC5599E4334A916FC22 /* Vault.swift in Sources */,
+				F616A239E8744DBCB26BBCD0 /* Relay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D212C17A707546D0995915E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C170FDABDEE4D51991ABC05 /* Proof.swift in Sources */,
+				4ABDE479BDEA4039AB58B7E0 /* Rift.swift in Sources */,
+				AF3C6C289AE448AAAD1AF2D8 /* Glance4879eb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A4E9C3A77543538C0947D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B831D508EFE4289B8B18027 /* FieldArena */;
+			targetProxy = CE396739DC06469CBF2DF733 /* PBXContainerItemProxy */;
+		};
+		FA1728A52B88418CBB42F7E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87076B4A6204474F8F6048C1 /* TriviaGlance */;
+			targetProxy = E40F4167ABBA4618B4B7305C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE85BEC76CEB4402B675870E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C730ED7C05004CC2A734FD85 /* en */,
+				C03A868D440A436A868A5FBB /* de */,
+				180996732F264FF0AD90AA00 /* pt-BR */,
+				965509027C9F43A3B8DD325A /* fr */,
+				E7D2A981E08C465AA29F3941 /* es */,
+				150103E76F7F4A89A5F32544 /* it */,
+				BA09E58625E04C62879991C0 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB10D7E165348EFA8418668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TriviaGlance/Field.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = TriviaGlance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82.glance;
+				PRODUCT_NAME = TriviaGlance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		669736EB8B2D4BF388C5EA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.3;
+				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82.proof;
+				PRODUCT_NAME = FieldProof;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_PROOF;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FieldArena;
+			};
+			name = Release;
+		};
+		990E1B8FE1E04732869A987C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.3;
+				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82.proof;
+				PRODUCT_NAME = FieldProof;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG WIDGET_PROOF";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FieldArena;
+			};
+			name = Debug;
+		};
+		B494F4E909A54370ABFA37DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TriviaGlance/Field.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = TriviaGlance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82.glance;
+				PRODUCT_NAME = TriviaGlance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4309B5374A64A94A64EFD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SportsTrivia/Field.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = SportsTrivia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sports Trivia";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82;
+				PRODUCT_NAME = SportsTrivia;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C857FE2E679343FE90575B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.3;
+				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C96BE5224D77420B99C3B965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.3;
+				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5629F56CAB34549BD7AE31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SportsTrivia/Field.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = SportsTrivia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sports Trivia";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82;
+				PRODUCT_NAME = SportsTrivia;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267546C887DA4E2EAD9D4837 /* Build configuration list for PBXProject "SportsTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C857FE2E679343FE90575B50 /* Debug */,
+				C96BE5224D77420B99C3B965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63A94AE9A8649CF8127DB92 /* Build configuration list for PBXNativeTarget "FieldProof" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990E1B8FE1E04732869A987C /* Debug */,
+				669736EB8B2D4BF388C5EA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF68E7E4AFAE40C3B69CD37B /* Build configuration list for PBXNativeTarget "FieldArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4309B5374A64A94A64EFD17 /* Debug */,
+				D5629F56CAB34549BD7AE31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7A6A78E0D3462D803CC016 /* Build configuration list for PBXNativeTarget "TriviaGlance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB10D7E165348EFA8418668 /* Debug */,
+				B494F4E909A54370ABFA37DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8FA3BC890C44E748883B9BF /* Project object */;
+}
