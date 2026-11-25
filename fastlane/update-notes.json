@@ -1,0 +1,14 @@
+{
+  "locales": [
+    "en-US",
+    "en-GB",
+    "zh-Hant",
+    "ar-SA"
+  ],
+  "files": {
+    "metadata/en-US/release_notes.txt": "f394945460571bdb2ff3ecdaa89dad5f81622d9200ba4a406acfed607b55ab0d",
+    "metadata/en-GB/release_notes.txt": "ee21c1151e4c9d897ebdca699a700993df224bfd6d4e96673d428097b1a0f240",
+    "metadata/zh-Hant/release_notes.txt": "ec6b89213bbc9d0e6eff2888d88b0553cb10a21bce34a6b1ecc66aa476d70968",
+    "metadata/ar-SA/release_notes.txt": "0a18a212f5bd14d739c7bdfabddaf9027bd796813b953834ab4f8933293cf964"
+  }
+}

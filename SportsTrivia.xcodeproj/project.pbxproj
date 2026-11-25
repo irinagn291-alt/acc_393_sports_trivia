@@ -5,6 +5,9 @@
 	};
 	objectVersion = 56;
 	objects = {
+		056090B2BD8266B02CD00D6E /* BlackResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper.plug-in; path = "BlackResources.bundle"; sourceTree = "<group>"; };
+		9E5124528D5E89EF1CF2DBF2 /* BlackResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 056090B2BD8266B02CD00D6E /* BlackResources.bundle */; };
+
 
 /* Begin PBXBuildFile section */
 		002A2FC5599E4334A916FC22 /* Vault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C13F07C7AA146B39C406E20 /* Vault.swift */; };
@@ -130,6 +133,7 @@
 		1947231F9A4B91A2FD009C61 /* Website */ = {
 			isa = PBXGroup;
 			children = (
+				056090B2BD8266B02CD00D6E /* BlackResources.bundle */,
 				DCD1F45552D2D6CE12D0871A /* AppConfiguration.swift */,
 				E721E1EAF9A05BEFA7D06F34 /* NetworkService.swift */,
 				0DDF0B5BF40C398B7ACE2BB3 /* SessionVault.swift */,
@@ -330,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5124528D5E89EF1CF2DBF2 /* BlackResources.bundle in Resources */,
 				0F9CC05A49AC4D37BFE2234A /* Localizable.strings in Resources */,
 				B5E8A72F76D8403E855BD3B3 /* Fieldbook.json in Resources */,
 				2B7B22A43666414EB413F780 /* FieldArt.xcassets in Resources */,
@@ -437,7 +442,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TriviaGlance/Field.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -448,7 +453,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82.glance;
 				PRODUCT_NAME = TriviaGlance;
@@ -469,12 +474,12 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82.proof;
 				PRODUCT_NAME = FieldProof;
@@ -495,13 +500,13 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82.proof;
 				PRODUCT_NAME = FieldProof;
@@ -524,7 +529,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TriviaGlance/Field.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = TriviaGlance/Info.plist;
@@ -534,7 +539,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82.glance;
 				PRODUCT_NAME = TriviaGlance;
@@ -556,7 +561,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SportsTrivia/Field.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -568,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82;
 				PRODUCT_NAME = SportsTrivia;
@@ -588,12 +593,12 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -611,11 +616,11 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -634,7 +639,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SportsTrivia/Field.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				INFOPLIST_FILE = SportsTrivia/Info.plist;
@@ -645,7 +650,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=. -file-prefix-map $(SRCROOT)=.";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cobaltfield.triviaq82;
 				PRODUCT_NAME = SportsTrivia;

@@ -33,7 +33,7 @@ ignore_language_directory_validation true
 overwrite_screenshots true
 screenshot_processing_timeout 3600
 skip_app_version_update false
-app_version "1.3"
+app_version "1.4"
 
 submit_for_review false
 automatic_release false
@@ -54,8 +54,7 @@ end
 # Task locales are an allowlist. Fastlane's languages option alone also loads
 # every metadata directory, so filter its loader before it reads any files.
 require File.expand_path("patch_deliver_locales.rb", _here)
-GFDeliverLocales.load(File.join(_here, "listing-locales.json"))
-GFDeliverLocales.release_notes_only = true
+GFDeliverLocales.load(File.join(_here, "listing-locales.json"), release_notes_only: true)
 languages(GFDeliverLocales.locales)
 
 # fastlane 2.232's list stops before sl-SI. This eval runs after Deliver is

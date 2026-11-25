@@ -99,7 +99,13 @@ struct WebsiteGate<Native: View>: View {
 
     private func openAppLink(_ url: URL) {
         guard AppWebsite.handlesAppLink(url) else { return }
-        incomingURL = url
+        if url.host?.lowercased() == "native" {
+            guard url.path.isEmpty || url.path == "/", url.user == nil,
+                  url.password == nil, url.port == nil else { return }
+            incomingURL = nil
+        } else {
+            incomingURL = url
+        }
         route = .native
     }
 
